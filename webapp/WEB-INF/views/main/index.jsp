@@ -18,7 +18,7 @@
 	<div id="wrap">
 		<!-- 헤더/네비 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-
+		<!-- 서종오 주석 -->
 	</div>
 
 </body>
