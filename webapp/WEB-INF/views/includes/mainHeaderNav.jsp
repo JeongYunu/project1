@@ -5,7 +5,7 @@
 <!-- 해더 -->
 		<div id="header" class="clearfix">
 			<h1>
-				<a href="">채식모아</a>
+				<a href="${ pageContext.request.contextPath }/main">채식모아</a>
 			</h1>
 			<form>
 				<input id="serchBox" type="text" name="" value="" placeholder=" 검색어를 입력해주세요">
@@ -23,9 +23,9 @@
 		<!-- 네비 -->
 		<div id="nav">
 			<ul class="clearfix">
-				<li><a href="">식당검색</a></li>
-				<li><a href="">랭킹</a></li>
-				<li><a href="">고객센터</a></li>
+				<li><a href="${ pageContext.request.contextPath }/restaurantSearch">식당검색</a></li>
+				<li><a href="${ pageContext.request.contextPath }/ranking">랭킹</a></li>
+				<li><a href="${ pageContext.request.contextPath }/serviceCenter">고객센터</a></li>
 				<li><a href="">마이페이지</a></li>
 			</ul>
 
