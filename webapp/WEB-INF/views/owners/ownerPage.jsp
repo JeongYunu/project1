@@ -17,8 +17,10 @@
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 
 		<!-- aside -->
-		<c:import url="/WEB-INF/views/includes/serviceCenterAside.jsp"></c:import>
-
+		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
+		
+		
+		
 	</div>
 </body>
 </html>

@@ -16,6 +16,15 @@
 				<li><a href="">로그인</a></li>
 				<li><a href="">회원가입</a></li>
 			</ul>
+			<!-- 
+			<ul>
+				가게관리는 사장이 로그인할시 출력
+				<li><a href="${ pageContext.request.contextPath }/ownerPage">가계관리</a><li>
+				<li><a href="">닉네임(비건)</a></li>
+				<li><a href="">로그아웃</a></li>
+			</ul>
+			 -->
+			 
 		</div>
 
 		<!-- //해더 -->
@@ -26,7 +35,7 @@
 				<li><a href="${ pageContext.request.contextPath }/restaurantSearch">식당검색</a></li>
 				<li><a href="${ pageContext.request.contextPath }/ranking">랭킹</a></li>
 				<li><a href="${ pageContext.request.contextPath }/serviceCenter">고객센터</a></li>
-				<li><a href="">마이페이지</a></li>
+				<li><a href="${ pageContext.request.contextPath }/mypage">마이페이지</a></li>
 			</ul>
 
 		</div>
