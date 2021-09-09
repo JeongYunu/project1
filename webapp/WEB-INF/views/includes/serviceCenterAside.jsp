@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!-- aside -->
-<div id="serviceCenter_aside">
+<div id="aside">
 	<table>
 		<thead>
 			<tr>
@@ -10,10 +10,10 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>자주묻는질문</td>
+				<td class="serviceCenter_category"><a href="">자주묻는질문</a></td>
 			</tr>
 			<tr class="clear_border">
-				<td>문의</td>
+				<td class="serviceCenter_category"><a href="">문의</a></td>
 			</tr>
 		</tbody>
 	</table>

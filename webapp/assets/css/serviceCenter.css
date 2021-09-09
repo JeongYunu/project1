@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-#serviceCenter_aside>table {margin: 10px 50px 0 0; width: 250px;}
-/*tbody>tr {border-bottom: 1px solid #A6A6A6;}*/
-thead>tr {background: #ff6001; color: #fff; border-top: none; width: 250px; height: 100px;}
-thead>tr>th { text-align: center;}
-.clear_border {border-bottom: none;}
-thead>tr>th {font-size: 20px;}
-tbody>tr>td {padding: 15px 15px; text-align: left; font-size: 15px;}
