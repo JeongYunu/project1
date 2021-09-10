@@ -7,6 +7,12 @@
 	padding: 30px 10px 30px 10px;
 }
 
+
+#wrap2 h2{
+	text-align: center;
+} 
+
+
 #wrap2  .button-area button {
 	width: 100px;
 	height: 40px;
