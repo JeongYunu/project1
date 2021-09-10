@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#wrap2 {
+	width: 700px;
+	
+	margin: 0px auto;
+	padding: 30px 10px 30px 10px;
+}
+
+#wrap2  .button-area button {
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	cursor: pointer;
+
+}
+
+
+
+
+#wrap2 .s-listpo {
+	margin: 0px auto;
+	padding: 15px 10px 15px 10px;
+	text-align: center;
+}
+
+#detailAddres {
+	
+	width: 250px;
+}
+
+
+#platform{
+	padding: 10px 10px 10px 10px;
+}
+
+#wrap2 .s-listpo textarea{
+	resize:none;
+	width: 400px;
+	height: 300px; 
+}
+
+#wrap2  input{
+	
+	margin: 10px, 15px, 10px, 15px;
+	text-align: center;
+	
+	
+}
+
+/*메뉴 추가 버튼 오른쪽*/
+#wrap2  .s-listpo input{
+	margin : 10px, 15px, 10px, 15px;
+	text-align: right;
+}
+
+
+/*****************테이블 정리******************/
+#wrap2 table.type01 {
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 1.5;
+  margin : 20px 10px;
+}
+#wrap2 table.type01 th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+#wrap2 table.type01 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+
+
+
+
