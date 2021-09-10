@@ -1,52 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html lang="ko">
-<link rel="stylesheet" href="../css/test.css">
-
-<style>
-span {
-	color: coral;
-	font-size: 10px;
-}
-
-div {
-	text-align: center;
-}
-
-textarea {
-	margin-top: 5px;
-	height: 100px;
-	width: 500px;
-}
-
-button {
-	width: 70px;
-	height: 35px;
-}
-
-.up {
-	text-align: center;
-	font-size: 20px;
-}
-
-.outer {
-	text-align: center;
-}
-
-.inner {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-	display: inline-block;
-	text-align: center;
-	border: 1px solid gray;
-	border-radius: 5px;
-}
-
-.in {
-	text-align: left;
-}
-</style>
+<meta charset="UTF-8">
+<link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
 
 <head>
 <meta charset="UTF-8">
@@ -55,13 +14,16 @@ button {
 
 <body>
 
+	<div id="wrap">
+		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
+
+	<div id="checkTerm">
 	<div class="up">
 		<strong>약관동의</strong> <br>
 		<br> <input type="checkbox"> <strong>이용약관에 모두 동의합니다.</strong>
 	</div>
 
-	<div class=outer>
-		<form action="" method="">
+	<div class="outer">
 			<div class="inner">
 				<div class="left">
 					<div class="in">
@@ -451,12 +413,14 @@ button {
 			</div>
 	</div>
 	<div>
-		<button type="submit" style="background-color: #1da4c5;">확인</button>
-		<button type="button" onclick="location.href='main.jsp'">취소</button>
+		<button class="btn blue" type="button"><a href="${pageContext.request.contextPath}/user/joinForm">확인</a></button>
+		<button class="btn" type="button" onclick="location.href='main.jsp'">취소</button>
 	</div>
 
-	</form>
+	
+	</div>
 
+	</div>
 </body>
 
 </html>

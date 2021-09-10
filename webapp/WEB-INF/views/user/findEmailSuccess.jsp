@@ -1,7 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html lang="ko">
-<link href="${ pageContext.request.contextPath }/assets/css/find.css" rel="stylesheet" type="text/css">
+
+<meta charset="UTF-8">
+<link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
 
 <head>
 <meta charset="UTF-8">
@@ -10,18 +15,26 @@
 
 <body>
 
-	<strong>이메일 찾기</strong>
-	<hr>
+	<div id="wrap">
+		<!-- 헤더/네비 -->
+		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 
-	<div>
-		<h2>이메일 찾기</h2>
-		<strong>이메일 </strong> <br>
-		<textarea style="resize: none;">UserE****@naver.com</textarea>
-		<br>
-		<button type="submit" onclick="location.href='login.jsp'">로그인</button>
-		<button type="submit" onclick="location.href='findpassword.jsp'">비밀번호찾기</button>
+		<div id="find">
+
+			<strong>이메일 찾기</strong>
+			<hr>
+
+			<div>
+				<h2>이메일 찾기</h2>
+				<strong>이메일 </strong> <br>
+				<textarea style="resize: none;">UserE****@naver.com</textarea>
+				<br>
+				<button class="btn blue" type="button" onclick="location.href='login.jsp'">로그인</button>
+				<button class="btn" type="button" onclick="location.href='findpassword.jsp'">비밀번호찾기</button>
+			</div>
+		</div>
 	</div>
-	
+
 </body>
 
 </html>

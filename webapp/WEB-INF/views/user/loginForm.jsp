@@ -3,10 +3,8 @@
 
 <!DOCTYPE html>
 <html lang="ko">
-
-
-
 <head>
+
 <meta charset="UTF-8">
 <link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
@@ -32,7 +30,11 @@
 				<br>
 			</form>
 
-			<a href="">이메일찾기</a> | <a href="">비밀번호찾기</a> | <a href="">회원가입</a>
+			<ul class="epj">
+				<li><a href="">이메일찾기</a></li>
+				<li><a href="">비밀번호찾기</a></li>
+				<li><a href="">회원가입</a></li>
+			</ul>
 		</div>
 	</div>
 </body>
