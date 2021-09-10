@@ -12,4 +12,32 @@ public class OwnersController {
 		
 		return "owners/ownerPage";
 	}
+	
+	@RequestMapping(value="/ownerMinsert", method = { RequestMethod.GET, RequestMethod.POST })
+	public String ownerMinsert() {
+		System.out.println("[OwnersController.ownerMinsert]");
+		
+		return "owners/ownerMinsert";
+	}
+	
+	@RequestMapping(value="/ownerMlist", method = { RequestMethod.GET, RequestMethod.POST })
+	public String ownerMlist() {
+		System.out.println("[OwnersController.ownerMlist]");
+		
+		return "owners/ownerMlist";
+	}
+	
+	@RequestMapping(value="/ownerLivew", method = { RequestMethod.GET, RequestMethod.POST })
+	public String ownerLivew() {
+		System.out.println("[OwnersController.ownerLivew]");
+		
+		return "owners/ownerLivew";
+	}
+	
+	@RequestMapping(value="/ownerStar", method = { RequestMethod.GET, RequestMethod.POST })
+	public String ownerStar() {
+		System.out.println("[OwnersController.ownerStar]");
+		
+		return "owners/ownerStar";
+	}
 }
