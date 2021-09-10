@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+
+#content{
+   width: 1200px;
+   text-align: center;
+}
+#content_top{
+    border: 1px solid #a6a6a6;
+   
+}
+
+.shopInfo {
+    /* border: 1px solid #000; */
+    width: 369px;
+    height: 360px;
+    float: left;
+    padding: 15px 15px;
+    text-align: left;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+#btn{
+    margin: 15px 0;
+}
+
+.viewList{
+    width: 1200px;
+}
+.viewpro{
+    width: 350px;
+    float: left;
+    
+}
+
+#proImg{
+    float: left;
+}
+
+#reviewInfo{
+    margin: 0 0 0 60px;
+}
+
+#reviewInfo>ul>li{
+    margin: 0px 0 10px 0;
+}
+
+.viewImg{
+    width: 400px;
+    float: left;
+}
+
+
+
+.paging>li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.modi{
+    float: right;
+    margin-left: 300px;
+}
+
+.modi>ul>li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.btn_sin{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+ul{margin: 0 0;}
