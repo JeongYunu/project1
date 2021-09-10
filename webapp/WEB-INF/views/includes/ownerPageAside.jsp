@@ -2,12 +2,12 @@
 
 <div id="aside">
 	<table>
-		<thead>
+		<thead id="ownerPage-aside-thead">
 			<tr>
 				<th>가게관리</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="ownerPage-aside-tbody">
 			<tr>
 				<th>가게</th>
 			</tr>

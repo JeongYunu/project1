@@ -10,6 +10,14 @@ public class ServiceCenterController {
 	public String serviceCenter() {
 		System.out.println("[ServiceCenterController.serviceCenter]");
 		
-		return "serviceCenter/serviceCenter";
+		return "serviceCenter/qna";
 	}
+	
+	@RequestMapping(value="/question", method = { RequestMethod.GET, RequestMethod.POST })
+	public String question() {
+		System.out.println("[ServiceCenterController.question]");
+		
+		return "serviceCenter/question";
+	}
+	
 }

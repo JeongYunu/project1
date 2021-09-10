@@ -10,10 +10,10 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td class="serviceCenter_category"><a href="">자주묻는질문</a></td>
+				<td class="serviceCenter_category"><a href="${ pageContext.request.contextPath }/serviceCenter">자주묻는질문</a></td>
 			</tr>
 			<tr class="clear_border">
-				<td class="serviceCenter_category"><a href="">문의</a></td>
+				<td class="serviceCenter_category"><a href="${ pageContext.request.contextPath }/question">문의</a></td>
 			</tr>
 		</tbody>
 	</table>

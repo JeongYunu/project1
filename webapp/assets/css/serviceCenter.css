@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#content h3 {border-bottom: 1px solid #a6a6a6;}
+textarea {vertical-align: top; width: 876px; height: 200px; margin: 0 0 10px 0; padding: 5px 10px;}
+#input-zone { margin: 10px 0 20px 0;}
+#input-zone input[type="text"]{width: 876px; margin: 0 0 10px 0; padding: 0 10px;}
+input[type="file"]{margin:0 0 0 24px;}
+#historyTable tr {border-bottom: 1px solid #a6a6a6;}
+#t-head {background-color: #ff6001; color: #fff; height: 40px; /* border: 1px solid #a6a6a6; */ }
+#q-title {width: 300px;}
+#q-content {width: 500px; padding: 0 0 0 10px;}
+#q-status {width: 100px;}
+.t-body {height: 40px;}
+.t-body td {padding: 0 0 0 10px;}
+.qna-q, .qna-a { width: 300px; height: 40px; font-weight: bold; font-size: 20px;}
+.qna-q-content, .qna-a-content { width: 600px; height: 40px;}

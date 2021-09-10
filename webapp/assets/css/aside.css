@@ -7,8 +7,8 @@ thead>tr {background: #ff6001; color: #fff; border-top: none; width: 250px; heig
 thead>tr>th { text-align: center;}
 thead>tr>th {font-size: 20px;}
 
-tbody>tr {display: block; margin: 10px 0 0 0;}
+#ownerPage-aside-tbody>tr {display: block; margin: 10px 0 0 0;}
 .serviceCenter_category {padding: 10px 0 0 10px; text-align: left; font-size: 15px;}
 
-tbody>tr>th {font-size: 20px; padding: 0 30px;}
+#ownerPage-aside-tbody>tr>th {font-size: 20px; padding: 0 30px;}
 .ownerPage_category {padding: 0 0 0 95px; text-align: center; font-size: 15px;} /*텍스트얼라인 왜안먹힘?*/

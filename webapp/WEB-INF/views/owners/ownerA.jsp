@@ -8,6 +8,7 @@
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/aside.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/ownerMain.css" rel="stylesheet" type="text/css">
 
 <title>Insert title here</title>
 </head>
@@ -17,8 +18,9 @@
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 
 		<!-- aside -->
-		<c:import url="/WEB-INF/views/includes/serviceCenterAside.jsp"></c:import>
+		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 
+		
 	</div>
 </body>
 </html>
