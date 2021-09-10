@@ -25,6 +25,7 @@ a:hover {text-decoration: none; color: #000000; }
 /* 폼 관련 */
 input[type="text"]{height: 40px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
 input[type="password"]{height: 40px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
+input[type="file"]{height: 40px;}
 textarea{font-family: "맑은 고딕", 돋움, 굴림;}
 
 
@@ -49,6 +50,7 @@ textarea{font-family: "맑은 고딕", 돋움, 굴림;}
 	border: 1px solid #808080; 
 	background-color: #DDDDDD; 
 	padding: 5px 15px 5px 15px; 
+	height: 40px;
 }
 
 /* 레이아웃 */
