@@ -16,6 +16,41 @@ a:visited {text-decoration: none; color: #000000; }
 a:active {text-decoration: none; color: #000000; }
 a:hover {text-decoration: none; color: #000000; }
 
+/****************** 공통 ************************/
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* 폼 관련 */
+input[type="text"]{height: 40px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
+input[type="password"]{height: 40px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
+textarea{font-family: "맑은 고딕", 돋움, 굴림;}
+
+
+/* font *(기본값 12px) */
+.bold {font-weight: bold; }
+.text-xlarge {font-size: 18px; }
+.text-large {font-size: 15px; }
+.text-small {font-size: 10px; }
+
+.text-right {text-align: right !important;}
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+
+
+/* 위치 */
+.float-r {float: right; }
+.float-l {float: left; }
+.clear{clear: both; }
+
+/* 버튼 공통*/
+.btn {
+	border: 1px solid #808080; 
+	background-color: #DDDDDD; 
+	padding: 5px 15px 5px 15px; 
+}
+
 /* 레이아웃 */
 #wrap {margin: 0px auto; width: 1200px; background-color: #FFFFFF; }
 #header {width: 1200px; padding: 5px 0px 0px 0px; background-color: #FFFFFF; }
@@ -30,9 +65,9 @@ a:hover {text-decoration: none; color: #000000; }
 #header ul {float: right;  }
 #header ul>li {float: left; margin: 25px 0px 0px 10px;}
 #header ul>li .btn_s {padding: 4px 6px 4px 6px; border: 1px solid #bfbfbf; border-radius: 2px; font-size: 10px; }
-#header form {float: left; margin: 10px 0px 0px 0px;}
-#header input {width: 300px; height: 40px; border: 2px solid #ff6001; border-radius: 0px;}
-#header button {padding: 0px 15px 3px 15px; margin: 0px 0px 0px -5px; height: 40px; background-color: #ff6001; border: 2px solid #ff6001;
+#header>form {float: left; margin: 5px 0px 0px 0px;}
+#searchBox {box-sizing: border-box; width: 300px; height: 40px !important; border: 2px solid #ff6001; border-radius: 0px;}
+#searchBox-btn {padding: 0px 15px 0px 15px; margin: 0px 0px 0px -5px; width: 55px; height: 40px !important; background-color: #ff6001; border: 2px solid #ff6001;
 				border-radius: 0px; color: #ffffff;}
 
 /* 네비(nav: 메인메뉴) */
@@ -59,40 +94,7 @@ a:hover {text-decoration: none; color: #000000; }
 
 
 
-/****************** 공통 ************************/
-/* clearfix */
-.clearfix{*zoom:1;}
-.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
-.clearfix:after {clear: both;}
 
-/* 폼 관련 */
-input[type="text"]{height: 25px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
-input[type="password"]{height: 25px; font-size:12px; font-family: "맑은 고딕", 돋움, 굴림;}
-textarea{font-family: "맑은 고딕", 돋움, 굴림;}
-
-
-/* font *(기본값 12px) */
-.bold {font-weight: bold; }
-.text-xlarge {font-size: 18px; }
-.text-large {font-size: 15px; }
-.text-small {font-size: 10px; }
-
-.text-right {text-align: right !important;}
-.text-left {text-align: left !important;}
-.text-center {text-align: center !important;}
-
-
-/* 위치 */
-.float-r {float: right; }
-.float-l {float: left; }
-.clear{clear: both; }
-
-/* 버튼 공통*/
-.btn {
-	border: 1px solid #808080; 
-	background-color: #DDDDDD; 
-	padding: 5px 15px 5px 15px; 
-}
 
 
 

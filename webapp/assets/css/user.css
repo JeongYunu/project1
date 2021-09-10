@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#loginForm {
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+#loginForm>form>button {
+	margin: 10px 0;
+	width: 80px;
+	height: 40px;
+}
+
+#loginForm>form>input {
+	margin-top: 10px;
+	width: 250px;
+	height: 40px;
+}
+
+a {
+	text-decoration: none;
+}
