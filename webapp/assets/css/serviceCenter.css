@@ -12,5 +12,6 @@ input[type="file"]{margin:0 0 0 24px;}
 #q-status {width: 100px;}
 .t-body {height: 40px;}
 .t-body td {padding: 0 0 0 10px;}
+.t-body td[class="text-center"] {color: #ff6001;}
 .qna-q, .qna-a { width: 300px; height: 40px; font-weight: bold; font-size: 20px;}
 .qna-q-content, .qna-a-content { width: 600px; height: 40px;}
