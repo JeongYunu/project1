@@ -36,7 +36,7 @@
 		<div id="wrap2">
 			<h2>별점통계</h2>
 			<hr>
-			<div>
+				<div class="s-listpo">
 				<select id="shop" name="shop">
 					<option value="shop1">샐러디 낙성대점</option>
 					<option value="shop2">샐러디 신림점</option>
@@ -44,8 +44,9 @@
 					<option value="shop-add">+매장추가+</option>
 				</select>
 			</div>
-			<h3>샐러디 낙성대점</h3>
-			<div>
+			<div class="s-listpo">
+				<h3>샐러디 낙성대점</h3>
+			</div>
 				<table class="type01">
 					<tr>
 						<td>별점</td>

@@ -8,9 +8,6 @@
 }
 
 
-#wrap2 h2{
-	text-align: center;
-} 
 
 
 #wrap2  .button-area button {
@@ -30,9 +27,13 @@
 	text-align: center;
 }
 
+#wrap2 .in-width input{
+	width:300px;
+}
+
 #detailAddres {
 	
-	width: 250px;
+	width: 410px;
 }
 
 
@@ -50,6 +51,7 @@
 	
 	margin: 10px, 15px, 10px, 15px;
 	text-align: center;
+
 	
 	
 }
