@@ -3,19 +3,19 @@
 
 <!DOCTYPE html>
 <html lang="ko">
+<head>
 <meta charset="UTF-8">
+<title>회원가입</title>
 
 <link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="${pageContext.request.contextPath }/assets/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.12.4.js"></script>
-
-<head>
-<title>회원가입</title>
+<script type="text/javascript" src="${pageContext.request.contextPath }/assets/bootstrap/js/bootstrap.js"></script>
 </head>
+
 
 <body>
 
@@ -46,14 +46,14 @@
 				<input class="margin-bottom" type="text" placeholder="핸드폰 번호를 입력해주세요"> <br>
 				
 				<span style="margin-right: 45px">채식타입    </span> <br>
-				<select class="select" name="type">
-					<option value="">선택</option>
-					<option value="">비건</option>
-					<option value="">락토</option>
-					<option value="">오보</option>
-					<option value="">락토-오보</option>
-					<option value="">페스코</option>
-					<option id="select" value="">잘모르겠어요</option>
+				<select id="vegan-select" class="select" name="type">
+					<option value="select" selected disabled>선택</option>
+					<option value="vegan">비건</option>
+					<option value="lacto">락토</option>
+					<option value="ovo">오보</option>
+					<option value="lacto-ovo">락토-오보</option>
+					<option value="pesco">페스코</option>
+					<option value="idk">잘모르겠어요</option>
 				</select> <br>
 
 				<button class="btn blue" type="submit"><a href="${pageContext.request.contextPath }/user/loginForm">회원가입</a></button>
@@ -70,20 +70,20 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title">이미지등록</h4>
+					<h4 class="modal-title">채식타입조사</h4>
 				</div>
 
 				<form method="post" action="${pageContext.request.contextPath }/gallery/upload" enctype="multipart/form-data">
 					<div class="modal-body">
 						<div class="form-group">
-							<label class="form-text">글작성</label> <input id="addModalContent" type="text" name="content" value="">
+							<span>반갑습니다! 채식타입설문조사를 시작하겠습니다.</span>
 						</div>
 						<div class="form-group">
-							<label class="form-text">이미지선택</label> <input id="file" type="file" name="file" value="">
+							
 						</div>
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" id="btnUpload">등록</button>
+						<button type="submit" class="btn" id="btnUpload">확인</button>
 					</div>
 				</form>
 			</div>
@@ -96,28 +96,13 @@
 </body>
 
 <script type="text/javascript">
-
-
-
-// 이미지 등록 버튼 클릭
-	$("#select").selectpicker("click", function() {
+$('#vegan-select').change(function() {
+	var opv = $(this).val();
+	console.log(opv);
+	if(opv=="idk"){
 		$("#addModal").modal();
-	});
-// 이미지 보기
-	$("#viewArea").on("click", ".view", function() {
-		$("#galleryNo").val("");
-		
-		
-		var no = $(this).data("no");
-		$("#galleryNo").val(no);
-		
-		$("#viewModal").modal();
-		
-	});
-// 모달 삭제 버튼
-	$("#btnDel").on("click", function() {
-		console.log($("#galleryNo").val());
-	})
+	}
+});
 </script>
 
 </html>
