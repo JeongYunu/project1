@@ -84,18 +84,19 @@
   text-align: center;
   line-height: 1.5;
   margin : 20px 10px;
-	width: 800px;
+	width: 600px;
 	table-layout: fixed;
 }
 #wrap2 table.type01 th {
-  width: 150px;
+  width: 100px;
+  height: 80px;
   padding: 10px;
   font-weight: bold;
   vertical-align: middle;
   border: 1px solid #ccc;
 }
 #wrap2 table.type01 td {
-  width: 350px;
+  width: 100px;
   height: 60px;
   padding: 10px;
   vertical-align: middle;

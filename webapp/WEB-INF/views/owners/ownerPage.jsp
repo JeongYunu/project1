@@ -64,7 +64,7 @@
 							src="${ pageContext.request.contextPath }/assets/imges/가게로고.jpeg"
 						>
 
-						<input type="file">
+						<input type="file" style="margin-left: 400px">
 
 					</div>
 				</div>

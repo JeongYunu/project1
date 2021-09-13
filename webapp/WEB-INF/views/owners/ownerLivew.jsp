@@ -69,7 +69,7 @@
 			</div>
 			<div class="contetnt">
 			
-				<div style="margin-left: 300px;" class="s-listpo">
+				<div  class="s-listpo">
 					<p>
 						<b>리뷰 기간 검색</b>
 					</p>
@@ -83,7 +83,7 @@
 				</div>
 				<div class="s-listpo">
 					<table class="type01">
-						<caption>댓글 리스트</caption>
+						<caption style="text-align : center"><b>댓글 리스트</b></caption>
 						<thead>
 							<tr>
 								<th>날짜</th>

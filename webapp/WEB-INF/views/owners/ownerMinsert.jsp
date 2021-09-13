@@ -60,7 +60,7 @@
 					<img alt=""
 						src="${ pageContext.request.contextPath }/assets/imges/단호박두부(비건).png"
 					>
-					<input type="file">
+					<input type="file" style="margin-left: 400px">
 				</div>
 
 
