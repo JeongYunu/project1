@@ -8,7 +8,14 @@
 }
 
 
+#wrap2 .head2{
+	margin-right: 400px;
+}
 
+ .content{
+	margin-left:35px;
+	
+}
 
 #wrap2  .button-area button {
 	width: 100px;
@@ -25,6 +32,12 @@
 	margin: 0px auto;
 	padding: 15px 10px 15px 10px;
 	text-align: center;
+}
+
+#wrap2 .s-listpo #shop {
+	width: 200px;
+	height: 30px;
+	text-align: left;
 }
 
 #wrap2 .in-width input{
@@ -45,6 +58,10 @@
 	resize:none;
 	width: 400px;
 	height: 300px; 
+}
+
+ #gray{
+	color: #808080;
 }
 
 #wrap2  input{

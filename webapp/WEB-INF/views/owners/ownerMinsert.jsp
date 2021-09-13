@@ -33,15 +33,19 @@
 		<!-- aside -->
 		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 		<div id="wrap2">
-			<h2>메뉴추가</h2>
+			<div class="head2">
+				<h2>메뉴추가</h2>
+			</div>
 			<hr>
-			<div class="s-listpo">
-				<select id="shop" name="shop">
-					<option value="shop1">샐러디 낙성대점</option>
-					<option value="shop2">샐러디 신림점</option>
-					<option value="shop3">샐러디 봉천점</option>
-					<option value="shop-add">+매장추가+</option>
-				</select>
+			<div class="head2">
+				<div class="s-listpo">
+					<select id="shop" name="shop">
+						<option value="shop1">샐러디 낙성대점</option>
+						<option value="shop2">샐러디 신림점</option>
+						<option value="shop3">샐러디 봉천점</option>
+						<option value="shop-add">+매장추가+</option>
+					</select>
+				</div>
 			</div>
 			<div class="s-listpo">
 				<h3>샐러디 낙성대점</h3>
@@ -53,7 +57,9 @@
 					<p>
 						<b>메뉴이미지</b>
 					</p>
-					<img alt="" src="./디폴트.png">
+					<img alt=""
+						src="${ pageContext.request.contextPath }/assets/imges/단호박두부(비건).png"
+					>
 					<input type="file">
 				</div>
 				<div class="s-listpo in-width">
@@ -74,9 +80,10 @@
 					</p>
 					<br>
 					<textarea rows="" cols=""></textarea>
-					<p>재료에 민감한 채식 고객을 위해 상세 재료입력은 필수입니다. 포함재료를 상세히 입력 부탁드립니다! ex)
-						단호박, 두부, 칙피로 만든 맛있는 사라다</p>
-
+					<div id="gray">
+						<p>재료에 민감한 채식 고객을 위해 상세 재료입력은 필수입니다. 포함재료를 상세히 입력 부탁드립니다! ex)
+							단호박, 두부, 칙피로 만든 맛있는 사라다</p>
+					</div>
 				</div>
 				<div class="button-area s-listpo">
 					<button>취소</button>

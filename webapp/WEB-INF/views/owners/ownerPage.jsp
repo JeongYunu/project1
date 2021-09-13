@@ -33,21 +33,26 @@
 		<!-- aside -->
 		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 		<div id="wrap2">
-
-			<h2>기본정보</h2>
-			<hr>
-			<div class="s-listpo">
-				<select id="shop" name="shop">
-					<option value="shop1">샐러디 낙성대점</option>
-					<option value="shop2">샐러디 신림점</option>
-					<option value="shop3">샐러디 봉천점</option>
-					<option value="shop-add">+매장추가+</option>
-				</select>
+			<div class="head2">
+				<h2>기본정보</h2>
 			</div>
-			<div class="s-listpo">
-				<h3>샐러디 낙성대점</h3>
+				<hr>
+			<div class="head2">
+				<div class="s-listpo">
+					<select id="shop" name="shop">
+						<option value="shop1">샐러디 낙성대점</option>
+						<option value="shop2">샐러디 신림점</option>
+						<option value="shop3">샐러디 봉천점</option>
+						<option value="shop-add">+매장추가+</option>
+					</select>
+				</div>
+				</div>
+				<div class="s-listpo">
+					<h3>샐러디 낙성대점</h3>
+				
 			</div>
 			<form>
+				
 				<div class="s-listpo">
 					<div>
 						<p>
@@ -55,10 +60,13 @@
 						</p>
 					</div>
 					<div class="button-area s-listpo ">
-						<img alt="가게로고" src="${ pageContext.request.contextPath }/assets/imges/가게로고.jpeg">
+						<img alt="가게로고"
+							src="${ pageContext.request.contextPath }/assets/imges/가게로고.jpeg"
+						>
 						<input type="file">
 					</div>
 				</div>
+				<div class="content">
 				<div class="s-listpo in-width">
 					<label for="s-name"><b>상호명</b></label> <br>
 					<input type="text" id="shopName" name="s-name">
@@ -656,26 +664,34 @@
 					</p>
 					<div class="platform s-listpo">
 
-						<img alt="유튜브" src="${ pageContext.request.contextPath }/assets/imges/유튜브아이콘.png">
+						<img alt="유튜브"
+							src="${ pageContext.request.contextPath }/assets/imges/유튜브아이콘.png"
+						>
 						<input type="text" id="youtube" name="l-youtube">
 					</div>
 
 					<div class="platform s-listpo">
 
-						<img alt="트위치" src="${ pageContext.request.contextPath }/assets/imges/트위터아이콘.png">
+						<img alt="트위치"
+							src="${ pageContext.request.contextPath }/assets/imges/트위터아이콘.png"
+						>
 						<input type="text" id="twich" name="l-twich">
 					</div>
 
 					<div class="platform s-listpo">
 
-						<img alt="인스타" src="${ pageContext.request.contextPath }/assets/imges/인스타아이콘.png">
+						<img alt="인스타"
+							src="${ pageContext.request.contextPath }/assets/imges/인스타아이콘.png"
+						>
 						<input type="text" id="twich" name="l-insta">
 					</div>
 				</div>
 				<div class="button-area s-listpo">
 					<button>취소</button>
+
 					<button>저장</button>
 				</div>
+			</div>
 			</form>
 		</div>
 

@@ -33,20 +33,26 @@
 		<!-- aside -->
 		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 		<div id="wrap2">
-			<h2>리뷰관리</h2>
+			<div class="head2">
+				<h2>리뷰관리</h2>
+			</div>
 			<hr>
-			<div class="s-listpo">
-				<select id="shop" name="shop">
-					<option value="shop1">샐러디 낙성대점</option>
-					<option value="shop2">샐러디 신림점</option>
-					<option value="shop3">샐러디 봉천점</option>
-					<option value="shop-add">+매장추가+</option>
-				</select>
+			<div class="head2">
+				<div class="s-listpo">
+					<select id="shop" name="shop">
+						<option value="shop1">샐러디 낙성대점</option>
+						<option value="shop2">샐러디 신림점</option>
+						<option value="shop3">샐러디 봉천점</option>
+						<option value="shop-add">+매장추가+</option>
+					</select>
+				</div>
 			</div>
 			<div class="s-listpo">
 				<h3>샐러디 낙성대점</h3>
 			</div>
+			
 			<div class="s-listpo">
+
 				<table class="type01">
 					<tr>
 						<td>별점</td>
@@ -74,6 +80,7 @@
 			</div>
 
 			<div class="s-listpo">
+
 				<p>
 					<b>리뷰 기간 검색</b>
 				</p>
@@ -104,10 +111,16 @@
 							<td>2021.08.29</td>
 							<td>★★★★★</td>
 							<td>청하</td>
-							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
+							<td>
+								<img alt="이미지"
+									src="${ pageContext.request.contextPath }/assets/imges/리뷰디폴트.png"
+								>
+							</td>
 							<td>개노맛</td>
 							<td>
-								<a href="main_test.css">[수정]</a>
+								<a href="main_test.css"><img alt="이미지"
+									src="${ pageContext.request.contextPath }/assets/imges/작성아이콘.png"
+								></a>
 							</td>
 						</tr>
 
@@ -115,7 +128,7 @@
 							<td>2021.08.30</td>
 							<td>★★★★★</td>
 							<td>아이유</td>
-							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
+							<td></td>
 							<td>마시써용</td>
 							<td>
 								<a href="main_test.css">[수정]</a>
@@ -126,7 +139,11 @@
 							<td>2021.08.31</td>
 							<td>★★★★★</td>
 							<td>비비</td>
-							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
+							<td>
+								<img alt="이미지"
+									src="${ pageContext.request.contextPath }/assets/imges/리뷰디폴트.png"
+								>
+							</td>
 							<td>다이어트중 최고의 선택</td>
 							<td>
 								<a href="main_test.css">[수정]</a>
@@ -137,7 +154,8 @@
 				</table>
 			</div>
 		</div>
-
 	</div>
+
+
 </body>
 </html>
