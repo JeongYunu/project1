@@ -109,13 +109,13 @@
 				</tbody>
 			</table>
 			<div class="button-area m-listpo">
-				<button>메뉴 추가</button>
+				<button style= " border: 0; outline:0; ">메뉴 추가</button>
 			</div>
 
-
+	
 		</div>
 	</div>
 
-	</div>
+	
 </body>
 </html>

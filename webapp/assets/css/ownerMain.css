@@ -12,10 +12,7 @@
 	margin-right: 400px;
 }
 
- .content{
-	margin-left:35px;
-	
-}
+
 
 #wrap2  .button-area button {
 	width: 100px;
@@ -24,6 +21,7 @@
 	cursor: pointer;
 
 }
+
 
 
 
@@ -86,6 +84,7 @@
   text-align: center;
   line-height: 1.5;
   margin : 20px 10px;
+	width: 800px;
 }
 #wrap2 table.type01 th {
   width: 150px;

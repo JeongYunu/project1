@@ -59,28 +59,18 @@
 				</tr>
 
 				<tr>
-					<td>
-						<div class="star-ratings">
-							<div class="star-ratings-fill space-x-2 text-lg"
-								:style="{ width: ratingToPercent + '%' }"
-							>
-								<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-							</div>
-							<div class="star-ratings-base space-x-2 text-lg">
-								<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-							</div>
-						</div>
-					</td>
+					<td>★★★★★</td>
 					<td>150개</td>
 					<td>♥+300</td>
 				</tr>
 			</table>
-		</div>
-		<div>
-			<p>별점평균 기반 꺾은선그래프(x: 별점평균, y: 기간(월별))
-			<p>
+
+			<div>
+				<p>별점평균 기반 꺾은선그래프(x: 별점평균, y: 기간(월별))
+				<p>
+			</div>
 		</div>
 	</div>
-	</div>
+
 </body>
 </html>
