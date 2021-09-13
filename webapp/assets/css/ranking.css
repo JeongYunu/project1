@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#content {width: 1200px; text-align: left;}
+#content h3 {border-bottom: 1px solid #a6a6a6; margin: 0 0 40px 0;}
+
+#ranking-group {float: left;}
+#ranking-img {width: 200px; height: 200px; margin: 10px 20px 10px 20px; background-color: #000;}
+#ranking-info { width: 200px; margin: 10px 20px;}
