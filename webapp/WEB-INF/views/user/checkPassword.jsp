@@ -3,15 +3,14 @@
 
 <!DOCTYPE html>
 <html lang="ko">
-
 <meta charset="UTF-8">
-<link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/aside.css" rel="stylesheet" type="text/css">
 
+<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
 <head>
-<meta charset="UTF-8">
 <title>회원정보수정</title>
 </head>
 
@@ -23,17 +22,20 @@
 		<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
 
 		<div id="find">
+			<div class="wrap2">
+				<h2 style="margin-right: 700px">회원정보수정</h2>
+				<hr>
 
-			<h2 style="margin-right: 790px">회원정보수정</h2>
-			<hr>
+				<div>
 
-			<div>
-				<h2>회원정보수정</h2>
-				<form action="" method="">
-					<strong>비밀번호</strong> <br> <input type="text" placeholder="비밀번호를 입력해주세요"><br>
-					<button class="btn blue" type="submit"><a href="${pageContext.request.contextPath}/user/modifyForm">확인</a></button>
-					<button class="btn" type="button">돌아가기</button>
-				</form>
+					<form action="" method="">
+						<h2 style="margin-top: 20px;">비밀번호</h2>
+						<br> <input type="text" placeholder="비밀번호를 입력해주세요"><br>
+						<button class="btn blue" type="button">
+							<a href="${pageContext.request.contextPath}/user/modifyForm">확인</a>
+						</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>

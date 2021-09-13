@@ -23,27 +23,6 @@
 			<tr class="clear_border">
 				<td class="ownerPage_category"><a href="${pageContext.request.contextPath}/user/addShop">가게등록</a></td>
 			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
-			<tr>
-				<td>　</td>
-			</tr>
 		</tbody>
 	</table>
 </div>

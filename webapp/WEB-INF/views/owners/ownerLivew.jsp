@@ -68,25 +68,18 @@
 				</table>
 			</div>
 			<div class="contetnt">
-				<div class="s-listpo">
-
+			
+				<div style="margin-left: 300px;" class="s-listpo">
 					<p>
 						<b>리뷰 기간 검색</b>
 					</p>
-				</div>
-
-
-				<div class="s-listpo">
 					<p>2019년 5월 10일 ~ 2021 8월 29일(145개)</p>
-				</div>
-				<div class="s-listpo">
 					<input type='date' name='userBirthday' />
 
 					<input type='date' name='userBirthday' />
-					<button type="submit"
-						style="margin: 0px 0px 0px 20px; width: 50px; height: 30px"
-					>검색</button>
+					<button type="submit" style="margin: 0px 0px 0px 20px; width: 50px; height: 30px">검색</button>
 				</div>
+				
 				</div>
 				<div class="s-listpo">
 					<table class="type01">
@@ -139,7 +132,7 @@
 										src="${ pageContext.request.contextPath }/assets/imges/리뷰디폴트.png"
 									>
 								</td>
-								<td>다이어트중 최고의 선택</td>
+								<td>다이어트중최고의선택</td>
 								<td>
 									<a href="main_test.css">[수정]</a>
 								</td>

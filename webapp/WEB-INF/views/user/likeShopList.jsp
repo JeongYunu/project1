@@ -3,14 +3,14 @@
 
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-
 <meta charset="UTF-8">
-<link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/aside.css" rel="stylesheet" type="text/css">
 
+<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
+<head>
 <title>단골가게리스트</title>
 </head>
 
@@ -22,59 +22,60 @@
 		<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
 
 		<div id="likeShopList">
+			<div class="wrap2">
 
-			<h2 style="margin-right: 823px">단골가게</h2>
-			<hr>
+				<h2 style="margin-right: 770px">단골가게</h2>
+				<hr>
 
-			<div>
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+				<div>
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
+
+					<div class="shop">
+						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					</div>
 				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
-				<div class="shop">
-					<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-				</div>
-
 			</div>
 		</div>
 	</div>
