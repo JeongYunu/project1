@@ -22,16 +22,17 @@
 <div id="wrap2">
 	<h2>메뉴관리</h2>
 		<hr>
-		<div>
-			<select id="shop" name="shop">
-				<option value="shop1">샐러디 낙성대점</option>
-				<option value="shop2">샐러디 신림점</option>
-				<option value="shop3">샐러디 봉천점</option>
-				<option value="shop-add">+매장추가+</option>
-			</select>
-		</div>
-		<h3>샐러디 낙성대점</h3>
-		<div>
+		<div class="s-listpo">
+				<select id="shop" name="shop">
+					<option value="shop1">샐러디 낙성대점</option>
+					<option value="shop2">샐러디 신림점</option>
+					<option value="shop3">샐러디 봉천점</option>
+					<option value="shop-add">+매장추가+</option>
+				</select>
+			</div>
+			<div class="s-listpo">
+				<h3>샐러디 낙성대점</h3>
+			</div>
 			<table class="type01">
 				<caption><b>메뉴 리스트</b></caption>
 				<thead>

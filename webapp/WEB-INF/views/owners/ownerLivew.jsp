@@ -35,7 +35,7 @@
 		<div id="wrap2">
 			<h2>리뷰관리</h2>
 			<hr>
-			<div>
+			<div class="s-listpo">
 				<select id="shop" name="shop">
 					<option value="shop1">샐러디 낙성대점</option>
 					<option value="shop2">샐러디 신림점</option>
@@ -43,7 +43,9 @@
 					<option value="shop-add">+매장추가+</option>
 				</select>
 			</div>
-			<h3>샐러디 낙성대점</h3>
+			<div class="s-listpo">
+				<h3>샐러디 낙성대점</h3>
+			</div>
 			<div class="s-listpo">
 				<table class="type01">
 					<tr>
@@ -100,7 +102,7 @@
 					<tbody>
 						<tr>
 							<td>2021.08.29</td>
-							<td>별 이미지</td>
+							<td>★★★★★</td>
 							<td>청하</td>
 							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
 							<td>개노맛</td>
@@ -111,7 +113,7 @@
 
 						<tr>
 							<td>2021.08.30</td>
-							<td>별 이미지</td>
+							<td>★★★★★</td>
 							<td>아이유</td>
 							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
 							<td>마시써용</td>
@@ -122,7 +124,7 @@
 
 						<tr>
 							<td>2021.08.31</td>
-							<td>별 이미지</td>
+							<td>★★★★★</td>
 							<td>비비</td>
 							<td>사진 있으면 아이콘, 없으면 안 넣어줄꺼</td>
 							<td>다이어트중 최고의 선택</td>

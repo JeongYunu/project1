@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/aside.css" rel="stylesheet" type="text/css">
 
 <title>회원정보수정</title>
 </head>
@@ -17,10 +18,11 @@
 	<div id="wrap">
 		<!-- 헤더/네비 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
+		<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
 
 		<div id="modifyForm">
 
-			<strong>회원정보수정</strong>
+			<h2 style="margin-right: 790px">회원정보수정</h2>
 			<hr>
 
 			<div class="out">

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping(value="/owners")
 public class OwnersController {
 	@RequestMapping(value="/ownerPage", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerPage() {

@@ -35,7 +35,7 @@
 		<div id="wrap2">
 			<h2>메뉴추가</h2>
 			<hr>
-			<div>
+			<div class="s-listpo">
 				<select id="shop" name="shop">
 					<option value="shop1">샐러디 낙성대점</option>
 					<option value="shop2">샐러디 신림점</option>
@@ -43,8 +43,12 @@
 					<option value="shop-add">+매장추가+</option>
 				</select>
 			</div>
-			<h3>샐러디 낙성대점</h3>
+			<div class="s-listpo">
+				<h3>샐러디 낙성대점</h3>
+			</div>
+
 			<form>
+
 				<div class="s-listpo">
 					<p>
 						<b>메뉴이미지</b>
@@ -52,15 +56,15 @@
 					<img alt="" src="./디폴트.png">
 					<input type="file">
 				</div>
-				<div class="s-listpo">
+				<div class="s-listpo in-width">
 					<label for="m-name"><b>메뉴 이름</b></label> <br>
 					<input type="text" id="menuName" name="m-name">
 				</div>
-				<div class="s-listpo">
+				<div class="s-listpo in-width">
 					<label for="m-price"><b>메뉴 가격</b></label> <br>
 					<input type="text" id="menuPrice" name="m-price">
 				</div>
-				<div class="s-listpo">
+				<div class="s-listpo in-width">
 					<label for="m-type"><b>채식종류</b></label> <br>
 					<input type="text" id="menuType" name="m-type">
 				</div>

@@ -14,7 +14,7 @@
 
 			<ul>
 				<li><a href="${ pageContext.request.contextPath }/user/loginForm">로그인</a></li>
-				<li><a href="${ pageContext.request.contextPath }/user/joinForm">회원가입</a></li>
+				<li><a href="${ pageContext.request.contextPath }/user/checkTerm">회원가입</a></li>
 			</ul>
 			<!-- 
 			<ul>
@@ -35,7 +35,7 @@
 				<li><a href="${ pageContext.request.contextPath }/restaurantSearch">식당검색</a></li>
 				<li><a href="${ pageContext.request.contextPath }/ranking">랭킹</a></li>
 				<li><a href="${ pageContext.request.contextPath }/serviceCenter">고객센터</a></li>
-				<li><a href="${ pageContext.request.contextPath }/mypage">마이페이지</a></li>
+				<li><a href="${ pageContext.request.contextPath }/user/checkPassword">마이페이지</a></li>
 			</ul>
 
 		</div>
