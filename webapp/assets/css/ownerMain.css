@@ -8,6 +8,10 @@
 }
 
 
+#wrap2 .head2{
+	margin-right: 400px;
+}
+
 
 
 #wrap2  .button-area button {
@@ -21,10 +25,17 @@
 
 
 
+
 #wrap2 .s-listpo {
 	margin: 0px auto;
 	padding: 15px 10px 15px 10px;
 	text-align: center;
+}
+
+#wrap2 .s-listpo #shop {
+	width: 200px;
+	height: 30px;
+	text-align: left;
 }
 
 #wrap2 .in-width input{
@@ -45,6 +56,10 @@
 	resize:none;
 	width: 400px;
 	height: 300px; 
+}
+
+ #gray{
+	color: #808080;
 }
 
 #wrap2  input{
@@ -69,19 +84,26 @@
   text-align: center;
   line-height: 1.5;
   margin : 20px 10px;
+	width: 800px;
+	table-layout: fixed;
 }
 #wrap2 table.type01 th {
   width: 150px;
   padding: 10px;
   font-weight: bold;
-  vertical-align: top;
+  vertical-align: middle;
   border: 1px solid #ccc;
 }
 #wrap2 table.type01 td {
   width: 350px;
+  height: 60px;
   padding: 10px;
-  vertical-align: top;
+  vertical-align: middle;
   border: 1px solid #ccc;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: keep-all
 }
 
 
