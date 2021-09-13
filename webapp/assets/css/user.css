@@ -5,6 +5,15 @@
 	background-color: #50BCDF;
 }
 
+h2{
+	margin-right: 823px;
+}
+
+hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /******************** 로그인 폼 ********************/
 #loginForm {
 	text-align: center;

@@ -34,48 +34,43 @@
 		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 
 		<div id="wrap2">
-			<h2>별점통계</h2>
+			<div class="head2">
+				<h2>별점통계</h2>
+			</div>
 			<hr>
-			<div>
-				<select id="shop" name="shop">
-					<option value="shop1">샐러디 낙성대점</option>
-					<option value="shop2">샐러디 신림점</option>
-					<option value="shop3">샐러디 봉천점</option>
-					<option value="shop-add">+매장추가+</option>
-				</select>
+			<div class="head2">
+				<div class="s-listpo">
+					<select id="shop" name="shop">
+						<option value="shop1">샐러디 낙성대점</option>
+						<option value="shop2">샐러디 신림점</option>
+						<option value="shop3">샐러디 봉천점</option>
+						<option value="shop-add">+매장추가+</option>
+					</select>
+				</div>
 			</div>
-			<h3>샐러디 낙성대점</h3>
-			<div>
-				<table class="type01">
-					<tr>
-						<td>별점</td>
-						<td>댓글수</td>
-						<td>찜하기수</td>
-					</tr>
+			<div class="s-listpo">
+				<h3>샐러디 낙성대점</h3>
+			</div>
+			<table class="type01">
+				<tr>
+					<td>별점</td>
+					<td>댓글수</td>
+					<td>찜하기수</td>
+				</tr>
 
-					<tr>
-						<td>
-							<div class="star-ratings">
-								<div class="star-ratings-fill space-x-2 text-lg"
-									:style="{ width: ratingToPercent + '%' }"
-								>
-									<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-								</div>
-								<div class="star-ratings-base space-x-2 text-lg">
-									<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-								</div>
-							</div>
-						</td>
-						<td>150개</td>
-						<td>♥+300</td>
-					</tr>
-				</table>
-			</div>
+				<tr>
+					<td>★★★★★</td>
+					<td>150개</td>
+					<td>♥+300</td>
+				</tr>
+			</table>
+
 			<div>
 				<p>별점평균 기반 꺾은선그래프(x: 별점평균, y: 기간(월별))
 				<p>
 			</div>
 		</div>
 	</div>
+
 </body>
 </html>

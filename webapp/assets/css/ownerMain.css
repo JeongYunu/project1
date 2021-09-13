@@ -8,9 +8,10 @@
 }
 
 
-#wrap2 h2{
-	text-align: center;
-} 
+#wrap2 .head2{
+	margin-right: 400px;
+}
+
 
 
 #wrap2  .button-area button {
@@ -24,15 +25,26 @@
 
 
 
+
 #wrap2 .s-listpo {
 	margin: 0px auto;
 	padding: 15px 10px 15px 10px;
 	text-align: center;
 }
 
+#wrap2 .s-listpo #shop {
+	width: 200px;
+	height: 30px;
+	text-align: left;
+}
+
+#wrap2 .in-width input{
+	width:300px;
+}
+
 #detailAddres {
 	
-	width: 250px;
+	width: 410px;
 }
 
 
@@ -46,10 +58,15 @@
 	height: 300px; 
 }
 
+ #gray{
+	color: #808080;
+}
+
 #wrap2  input{
 	
 	margin: 10px, 15px, 10px, 15px;
 	text-align: center;
+
 	
 	
 }
@@ -67,6 +84,7 @@
   text-align: center;
   line-height: 1.5;
   margin : 20px 10px;
+	width: 800px;
 }
 #wrap2 table.type01 th {
   width: 150px;
