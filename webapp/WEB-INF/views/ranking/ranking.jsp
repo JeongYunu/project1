@@ -17,100 +17,101 @@
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 		
 		<div id="content">
-			<h3>전국랭킹</h3>
+			<h2>전국랭킹</h2>
 			
-			<!-- 반복구간 -->
-			<div id="ranking-group" class="clearfix">
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
+			<div id="ranking" class="clearfix">
+				<!-- 반복구간 -->
+				<div id="ranking-group" class="clearfix">
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
 				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
+				</div>
+				<div id="ranking-group" class="clearfix">	
+					<div id="ranking-img">
+						<img src="" alt="대표이미지">
+					</div>
+					<div id="ranking-info">
+						<p>러빙헛 역삼점</p>
+						<p>★★★★★</p>
+					</div>
 				</div>
 			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-			<div id="ranking-group" class="clearfix">	
-				<div id="ranking-img">
-					<img src="" alt="대표이미지">
-				</div>
-				<div id="ranknig-info">
-					<p>러빙헛 역삼점</p>
-					<p>★★★★★</p>
-				</div>
-			</div>
-		
 		</div>
 
 	</div>
