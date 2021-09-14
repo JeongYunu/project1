@@ -9,9 +9,6 @@
 		</thead>
 		<tbody id="ownerPage-aside-tbody">
 			<tr>
-				<th>마이페이지</th>
-			</tr>
-			<tr>
 				<td class="ownerPage_category"><a href="${pageContext.request.contextPath}/user/checkPassword">회원정보수정</a></td>
 			</tr>
 			<tr>

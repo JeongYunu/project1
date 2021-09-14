@@ -4,40 +4,25 @@
 <!DOCTYPE html>
 <html lang="ko">
 <meta charset="UTF-8">
-
-<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-
+<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
 <head>
 <title>비밀번호 찾기</title>
 </head>
-
 <body>
-
 	<div id="wrap">
-		<!-- 헤더/네비 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
-
 		<div id="find">
-
-			<strong>비밀번호 찾기</strong>
-			<hr>
-
-			<div>
-				<h2>비밀번호 찾기</h2>
-
-				<form action="" method="">
-					<strong>이메일 </strong> <br> <input type="text" placeholder="가입된 이메일을 입력해주세요"><br>
-					<button class="btn blue" type="submit">확인</button>
-				</form>
+			<div class="wrap3">
+				<h3>비밀번호 찾기</h3>
+				<hr>
+				<h4>이메일</h4>
+				<input type="text" placeholder="가입된 이메일을 입력해주세요"><br>
+				<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/user/changePassword'">확인</button>
 			</div>
-
 		</div>
 	</div>
-
 </body>
-
 </html>

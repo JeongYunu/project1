@@ -10,7 +10,6 @@
 <link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
 
 <head>
-<meta charset="UTF-8">
 <title>약관동의</title>
 </head>
 
@@ -19,19 +18,22 @@
 	<div id="wrap">
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 
-	<div id="checkTerm">
-	<div class="up">
-		<strong>약관동의</strong> <br>
-		<br> <input type="checkbox"> <strong>이용약관에 모두 동의합니다.</strong>
-	</div>
+		<div id="checkTerm">
+			<div class="up">
+				<h2>약관동의</h2>
+				<br> <input type="checkbox">
+				<p>이용약관에 모두 동의합니다.</p>
+			</div>
 
-	<div class="outer">
-			<div class="inner">
-				<div class="left">
-					<div class="in">
-						<input type="checkbox" style="text-align: left;"> <strong>이용약관 동의</strong> <span>(필수)</span> <br>
-					</div>
-					<textarea style="resize: none" readonly>제1조(목적) 이 약관은 업체 회사(전자상거래 사업자)가 운영하는 업체 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+			<div class="outer">
+				<div class="inner">
+					<div class="left">
+						<div class="in">
+							<input type="checkbox">
+							<p>이용약관 동의</p>
+							<span>(필수)</span> <br>
+						</div>
+						<textarea readonly>제1조(목적) 이 약관은 업체 회사(전자상거래 사업자)가 운영하는 업체 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
 
                             ※「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다.」
                         
@@ -268,12 +270,14 @@
                         
                             ② “몰”과 이용자 간에 제기된 전자상거래 소송에는 한국법을 적용합니다.
                         </textarea>
-					<br>
+						<br>
 
-					<div class="in">
-						<input type="checkbox" style="text-align: left;"> <strong>개인정보 수집 및 이용 동의</strong> <span>(필수)</span> <br>
-					</div>
-					<textarea style="resize: none" readonly>    개인정보처리방침
+						<div class="in">
+							<input type="checkbox">
+							<p>개인정보 수집 및 이용 동의</p>
+							<span>(필수)</span> <br>
+						</div>
+						<textarea readonly>    개인정보처리방침
 
         [차례]
         1. 총칙
@@ -410,17 +414,17 @@
         1) 공고일자 : 2018년 05월 01일
         2) 시행일자 : 2018년 05월 01일 
                         </textarea>
-					<br>
+						<br>
+					</div>
 				</div>
 			</div>
-	</div>
-	<div>
-		<button class="btn blue" type="button"><a href="${pageContext.request.contextPath}/user/joinForm">확인</a></button>
-		<button class="btn" type="button" onclick="location.href='main.jsp'">취소</button>
-	</div>
+			<div>
+				<button class="btn blue" type="button" onclick="location.href='${pageContext.request.contextPath }/user/joinForm'">확인</button>
+				<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">취소</button>
+			</div>
 
-	
-	</div>
+
+		</div>
 
 	</div>
 </body>

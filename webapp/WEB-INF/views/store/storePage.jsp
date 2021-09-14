@@ -53,7 +53,7 @@
 					채식종류:페스코<br> 생연어와 상추로 만들어진 셀러드 <br> <br> <img class="img float-l"
 						src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> <br>메뉴이름:연어셀러드<br> 가격:8000원<br>
 					채식종류:페스코<br> 생연어와 상추로 만들어진 셀러드 <br> <br>
-					<button id="menuModalList">메뉴더보기+</button>
+					<button id="menuModalList">메뉴더보기</button>
 				</div>
 
 				<div class="shopInfo clearfix">
@@ -97,7 +97,7 @@
 
 					<div class="modi clearfix">
 						<ul>
-							<li id="reviewModi">수정</li>
+							<li id="reviewModi"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></li>
 							<li id="reviewDelete">삭제</li>
 						</ul>
 					</div>
@@ -132,7 +132,7 @@
 
 					<div class="modi clearfix">
 						<ul>
-							<li id="reviewModi">수정</li>
+							<li id="reviewModi"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></li>
 							<li id="reviewDelete">삭제</li>
 						</ul>
 					</div>
@@ -161,7 +161,7 @@
 				</ul>
 			</div>
 
-			<!-- Modal -->
+			<!-- Modal 메뉴더보기 -->
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -268,6 +268,63 @@
 					</div>
 				</div>
 			</div>
+			
+			
+
+	<!-- Modal 리뷰남기기 -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel">비건 1호점 메뉴</h4>
+						</div>
+						<div class="modal-body clearfix">
+						
+							<div id="content_main">
+								<h1 class="text-left">낙성대 1호점</h1>
+								<div id="modi">
+									<form action="" method="">
+										<textarea >ddddd</textarea>
+
+									</form>
+								</div>
+								<div id="reviewFile">
+									<form action="" method="">
+										<input type="file" name="reviewFile" id="imgFile" accept="image/*">
+										<ul class="clearfix">
+											<li class="reviewImg"><img src="img경로"></li>
+											<li class="reviewImg"><img src="img경로"></li>
+											<li class="reviewImg"><img src="img경로"></li>
+										</ul>
+									</form>
+								</div>
+								<div id="star_Btn">
+									<form action="" method="">
+										<ul>
+
+											<li>★★★★★</li>
+
+										</ul>
+										<button class="reviewModiBtn" type="submit">저장</button>
+										
+									</form>
+
+
+								</div>
+
+							</div>
+
+
+						</div>
+						<div class="modal-footer">
+							
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 		</div>
@@ -278,6 +335,7 @@
 
 
 </body>
+<!-- 메뉴더보기 -->
 <script type="text/javascript">
 	//이미지 등록
 	$("#menuModalList").on("click", function() {
@@ -286,7 +344,19 @@
 		$("#myModal").modal();
 		
 	});
-	
+
+</script>
+
+<!-- 리뷰남기기 -->
+<script type="text/javascript">
+	//이미지 등록
+	$(".btn_view").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#myModal2").modal();
+		
+	});
+
 </script>
 
 		
