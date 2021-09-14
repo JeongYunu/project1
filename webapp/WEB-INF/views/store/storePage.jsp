@@ -53,7 +53,7 @@
 					채식종류:페스코<br> 생연어와 상추로 만들어진 셀러드 <br> <br> <img class="img float-l"
 						src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> <br>메뉴이름:연어셀러드<br> 가격:8000원<br>
 					채식종류:페스코<br> 생연어와 상추로 만들어진 셀러드 <br> <br>
-					<button id="menuModalList">메뉴더보기+</button>
+					<button id="menuModalList">메뉴더보기</button>
 				</div>
 
 				<div class="shopInfo clearfix">
@@ -97,7 +97,7 @@
 
 					<div class="modi clearfix">
 						<ul>
-							<li id="reviewModi">수정</li>
+							<li id="reviewModi"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></li>
 							<li id="reviewDelete">삭제</li>
 						</ul>
 					</div>
@@ -309,7 +309,7 @@
 
 										</ul>
 										<button class="reviewModiBtn" type="submit">저장</button>
-										<button class="reviewModiBtn">취소</button>
+										
 									</form>
 
 

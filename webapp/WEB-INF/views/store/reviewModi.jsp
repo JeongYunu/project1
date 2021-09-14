@@ -47,7 +47,7 @@
 								
 							</ul>
 							<button class="reviewModiBtn" type="submit">저장</button>
-							<button class="reviewModiBtn">취소</button>
+							<button class="reviewModiBtn2">취소</button>
 					      </form>
 					    
 					    
