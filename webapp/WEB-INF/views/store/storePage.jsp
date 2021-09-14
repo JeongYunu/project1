@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/menuModal.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/modalDelete.css">
 </head>
-
+<script type="text/javascript" src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.12.4.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/assets/bootstrap/js/bootstrap.js"></script>
 <body>
 
@@ -73,21 +73,60 @@
 
 			<!--*****************************리뷰 쓰기*************************-->
 			<div id="reviews" class="clearfix">
-				<div class="viewList">
+				<div class="viewList clearfix">
 
 					<div class="viewpro float-l clearfix">
-						<img class="img src="C:\java Study\강의자료\mysite_html\views\main\Yang-Se-chan.jpg" alt="프로필사진">
+						<img class="" src="C:/java Study/강의자료/mysite_html/views/main/Yang-Se-chan.jpg" alt="">
 					</div>
-						<ul id="reviewInfo">
+						<ul id="reviewInfo" class="float-l">
 							<li>주형준(비건)</li>
 							<li>★★★★★</li>
 							<li>2021-09-09</li>
 						</ul>
 
 					<div class="viewImg clearfix">
-						<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> <img class="img"
-							src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> <img class="img"
-							src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> <br>
+						
+						<div>
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+						</div>
+						
+						<p>맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요</p>
+					</div>
+
+					<div class="modi clearfix">
+						<ul>
+							<li id="reviewModi">수정</li>
+							<li id="reviewDelete">삭제</li>
+						</ul>
+					</div>
+				</div>
+				<p id="singo" class="float-r clearfix">
+					<a href="">신고하기</a>
+				</p>
+			</div>
+			
+			<div id="reviews" class="clearfix">
+				<div class="viewList clearfix">
+
+					<div class="viewpro float-l clearfix">
+						<img class="" src="C:/java Study/강의자료/mysite_html/views/main/Yang-Se-chan.jpg" alt="">
+					</div>
+						<ul id="reviewInfo" class="float-l">
+							<li>주형준(비건)</li>
+							<li>★★★★★</li>
+							<li>2021-09-09</li>
+						</ul>
+
+					<div class="viewImg clearfix">
+						
+						<div>
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+							<img class="img" src="C:\java Study\강의자료\mysite_html\views\main\pizza.PNG"> 
+						</div>
+						
 						<p>맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요 맛있어요</p>
 					</div>
 
@@ -105,8 +144,8 @@
 
 
 
-			<div id="paging">
-				<ul class="paging">
+			<div id="paging" class="clearfix">
+				<ul class="paging clearfix">
 					<li><a href="">◀</a></li>
 					<li><a href="">1</a></li>
 					<li><a href="">2</a></li>
@@ -119,7 +158,6 @@
 					<li><a href="">9</a></li>
 					<li><a href="">10</a></li>
 					<li><a href="">▶</a></li>
-
 				</ul>
 			</div>
 
@@ -131,9 +169,9 @@
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
-							<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+							<h4 class="modal-title" id="myModalLabel">비건 1호점 메뉴</h4>
 						</div>
-						<div class="modal-body">
+						<div class="modal-body clearfix">
 							<div class="menuInfo">
 
 								<img class="menuImg" src="menuList" alt="음식사진">
@@ -144,10 +182,88 @@
 								<p>연어로이루어진 샐러드인데 맛있음</p>
 
 							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary">Save changes</button>
+							
 						</div>
 					</div>
 				</div>
@@ -162,34 +278,46 @@
 
 
 </body>
+<script type="text/javascript">
+	//이미지 등록
+	$("#menuModalList").on("click", function() {
+		console.log("모달창 클릭")
 
+		$("#myModal").modal();
+		
+	});
+	
+</script>
+
+		
 
 <!-- 자바스크립트 메뉴더보기 클릭시 -->
 
 
 <script>
-	document.getElementById("menuModalList").onclick = function() {
-		document.getElementById("menuModal").style.display = "block";
+	/* document.getElementById("menuModalList").onclick = function() {
+		document.getElementById("myModal").style.display = "block";
 
 	}
 
 	document.getElementById("btn_close").onclick = function() {
 		document.getElementById("menuModal").style.display = "none";
-	}
+	} */
 </script>
 
 <!-- 리뷰삭제 모달 클릭 -->
 
 
 <script>
-	document.getElementById("reviewDelete").onclick = function() {
+
+	/* document.getElementById("reviewDelete").onclick = function() {
 		document.getElementById("menuModal").style.display = "block";
 
 	}
 
 	document.getElementById("btn_close").onclick = function() {
 		document.getElementById("menuModal").style.display = "none";
-	}
+	} */
 </script>
 
 

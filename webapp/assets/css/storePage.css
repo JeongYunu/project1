@@ -22,11 +22,7 @@
     text-align: left;
 }
 
-.img {
-    width: 90px;
-    height: 90px;
-    background-color: #000;
-}
+
 
 img[class="instarimg"] { width: 40px; height: 40px;}
 
@@ -34,30 +30,60 @@ img[class="instarimg"] { width: 40px; height: 40px;}
     margin: 15px 0;
 }
 
-#reviews { margin: 25px 0 25px 0; width: 1200px; border-bottom: 1px solid #a6a6a6;}
+#reviews { 
+	margin: 25px 0 25px 0; 
+	width: 1200px; 
+	border-bottom: 1px solid #a6a6a6;
+	padding-bottom: 10px;
+	}
 
-.viewpro{
-	width: 300px;
+.img {
+	background-color: #000;
+	width: 90px;
+	height: 90px;
 }
-#reviewInfo { width: 100px;}
+
+
+#reviewInfo { 
+	width: 100px;
+	margin-left : 30px;
+	
+}
 
 
 
-
-#singo {margin-bottom: 25px;}
 
 .viewImg{
-    width: 400px;
+    width: 900px;
     float: left;
+    text-align: left;
+    padding-left : 30px;
 }
 
+.viewImg > div {
+	margin-bottom : 10px;
+}
 
-#paging {display: block;}
-.paging {margin: 10px auto; width: 186px;}
+.viewpro img {
+	width: 90px;
+	height: 90px;
+}
+
+#paging {
+	align-items: center;
+	width : 1200px;
+}
+
+.paging {
+	display : inline-block;
+	margin: 10px auto;
+}
+
 .paging>li{
     float: left;
     margin: 0 10px 0 0;
 }
+
 
 .modi{
     float: right;
@@ -71,13 +97,3 @@ img[class="instarimg"] { width: 40px; height: 40px;}
 .btn_sin{
     margin-top: 90px;
 }
-
-
-
-
-
-
-
-
-
-ul{margin: 0 0;}
