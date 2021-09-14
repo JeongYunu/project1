@@ -45,7 +45,7 @@
 }
 
 #star_Btn{
-	width:500px;
+	width:650px;
 	height:150px;
 	
 	margin-left: 310px;
@@ -58,5 +58,21 @@
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 15px;
+    background-color: #ff6001;
+	border:none;
+	border-radius: 3px;
+	height: 30px;
+	width: 50px;
 	}
+.reviewModiBtn2{
+	
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    background-color: gray;
+	border:none;
+	border-radius: 3px;
+	height: 30px;
+	width: 50px;
+}
 	
