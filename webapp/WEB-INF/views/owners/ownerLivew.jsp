@@ -77,7 +77,7 @@
 					<input type='date' name='userBirthday' />
 
 					<input type='date' name='userBirthday' />
-					<button type="submit" style="margin: 0px 0px 0px 20px; width: 50px; height: 30px">검색</button>
+					<button>검색</button>
 				</div>
 				
 				</div>
