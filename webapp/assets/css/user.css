@@ -10,9 +10,18 @@
 	outline: none;
 }
 
+#ex_file{
+	display: none !important;
+}
+
 .wrap2{
 	width: 905px;
 	margin-left:300px;
+	text-align: left !important;
+}
+
+.wrap3 {
+	text-align: center !important;
 }
 
 /******************** 로그인 폼 ********************/
@@ -21,34 +30,37 @@
 	margin: 10px 0 0 0;
 }
 
-#loginForm>form>button {
+#loginForm h2{
+	text-align: center;
+}
+
+#loginForm button {
 	margin: 10px 0;
-	width: 80px;
 	height: 40px;
 }
 
-#loginForm>form>input {
+#loginForm input {
 	margin-top: 10px;
 	width: 250px;
 	height: 40px;
 }
 
-#loginForm ul {
-	margin-left: 470px;
+#loginForm ul{
+	margin-left: 474px;
 }
 
 .epj li {
 	float: left;
-	margin-right: 5px
+	margin-right: 5px;
 }
 
 .epj li::after {
 	padding-left: 5px;
-	content: "|"
+	content: "|";
 }
 
 .epj li:last-child::after {
-	content: ""
+	content: "";
 }
 
 /******************** 회원가입 폼 ********************/
@@ -64,11 +76,13 @@
 	height: 40px;
 }
 
+#joinForm .margin{
+	margin-left: 69.4px;
+}
+
 #joinForm span {
-	width: 100px;
-	position: relative;
-	top: 0px;
-	left: -50px;
+	width: 200px;
+	text-align: left;
 	font-weight: bold;
 }
 
@@ -87,6 +101,11 @@
 	padding-top: 10px;
 }
 
+#checkTerm p{
+	font-weight: bold; 
+	display: inline-block;
+}
+
 #checkTerm span {
 	color: coral;
 	font-size: 10px;
@@ -96,10 +115,11 @@
 	text-align: center;
 }
 
-#checkTerm textarea {
+#checkTerm textarea{
 	margin-top: 5px;
 	height: 100px;
 	width: 500px;
+	resize: none;
 }
 
 #checkTerm button {
@@ -135,18 +155,19 @@
 	padding-top: 10px;
 }
 
-#find div {
-	text-align: center;
+#find h3{
+	text-align: left;
 }
 
 #find button {
+	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 #find input {
 	width: 250px;
-	height: 35px;
+	height: 40px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -161,11 +182,12 @@
 
 #find textarea {
 	width: 250px;
-	height: 35px;
+	height: 40px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	line-height: 35px;
+	resize: none;
 }
 
 /******************** 수정 폼 ********************/
@@ -185,10 +207,6 @@
 }
 
 #modifyForm span {
-	width: 100px;
-	position: relative;
-	top: 0px;
-	left: -47px;
 	font-weight: bold;
 }
 
@@ -203,35 +221,20 @@
 	padding-top: 10px;
 }
 
-#addShop div {
+#addshop wrap2{
 	text-align: left;
 }
 
 #addShop button {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	height: 28px;
-}
-
-#addShop textarea {
-	width: 250px;
-	height: 35px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
-	line-height: 35px;
-}
-
-#addShop a {
-	text-decoration: none;
-}
-
-#addShop strong {
-	margin-right: 215px;
+	height: 40px;
 }
 
 #addShop .button {
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /******************** 단골가게리스트 폼 ********************/
@@ -258,7 +261,7 @@
 	padding-top: 10px;
 }
 
-#review div{
+#review wrap2{
 	text-align: left;
 }
 
@@ -272,7 +275,6 @@
 #review span {
 	float: right;
 	position: relative;
-	left: -200px;
 }
 
 #review a {

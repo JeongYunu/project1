@@ -78,18 +78,18 @@ public class UserController {
 		return "user/findEmailSuccess";
 	}
 	
-	@RequestMapping(value="/findPassword", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/changePassword", method = { RequestMethod.GET, RequestMethod.POST })
 	public String findPassword() {
+		System.out.println("[UserController.changePassword()]");
+		
+		return "user/changePassword";
+	}
+	
+	@RequestMapping(value="/findPassword", method = { RequestMethod.GET, RequestMethod.POST })
+	public String checkAuthNumber() {
 		System.out.println("[UserController.findPassword()]");
 		
 		return "user/findPassword";
-	}
-	
-	@RequestMapping(value="/checkAuthNumber", method = { RequestMethod.GET, RequestMethod.POST })
-	public String checkAuthNumber() {
-		System.out.println("[UserController.checkAuthNumber()]");
-		
-		return "user/checkAuthNumber";
 	}
 	
 }

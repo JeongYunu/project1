@@ -5,10 +5,10 @@
 <html lang="ko">
 <meta charset="UTF-8">
 
-<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
 
 <head>
 <title>이메일 찾기</title>
@@ -17,22 +17,17 @@
 <body>
 
 	<div id="wrap">
-		<!-- 헤더/네비 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-		<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
 
 		<div id="find">
-
-			<strong>이메일 찾기</strong>
-			<hr>
-
-			<div>
-				<h2>이메일 찾기</h2>
-				<strong>이메일 </strong> <br>
-				<textarea style="resize: none;">UserE****@naver.com</textarea>
+			<div class="wrap3">
+				<h3>이메일 찾기</h3>
+				<hr>
+				<h4>이메일</h4>
+				<textarea>UserE****@naver.com</textarea>
 				<br>
-				<button class="btn blue" type="button" onclick="location.href='login.jsp'">로그인</button>
-				<button class="btn" type="button" onclick="location.href='findpassword.jsp'">비밀번호찾기</button>
+				<button class="btn blue" type="button" onclick="location.href='${pageContext.request.contextPath }/user/loginForm'">로그인</button>
+				<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/user/findPassword'">비밀번호찾기</button>
 			</div>
 		</div>
 	</div>
