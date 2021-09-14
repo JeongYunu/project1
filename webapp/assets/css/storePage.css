@@ -129,7 +129,7 @@ img[class="instarimg"] { width: 40px; height: 40px;}
     margin-top: 90px;
 }
 
-/* modal */
+/* modal 리뷰쓰기*/
 
 #content_main > div > form > textarea {
 	width: 570px;
@@ -144,6 +144,17 @@ img[class="instarimg"] { width: 40px; height: 40px;}
 }
 
 .reviewModiBtn{
+	background-color: #ff6001;
+	border:none;
+	border-radius: 3px;
+	height: 30px;
+	width: 50px;
+}
+
+
+/* modal 리뷰삭제*/
+
+#reviewModalDel{
 	background-color: #ff6001;
 	border:none;
 	border-radius: 3px;

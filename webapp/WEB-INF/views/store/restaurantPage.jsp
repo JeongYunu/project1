@@ -10,8 +10,11 @@
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/restaurantPage.css" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/menuModal.css">
 </head>
+
+<script type="text/javascript" src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/assets/bootstrap/js/bootstrap.js"></script>
 <body>
 
 	<div id="wrap">
@@ -32,6 +35,8 @@
 						<span class="timeInfo">금: 06:00 ~ 21:00</span> 
 						<span class="timeInfo">토: 06:00 ~ 21:00</span> 
 						<span class="timeInfo">일: 06:00 ~ 21:00</span>
+						<span>주차가능</span>
+						
 					</p>
 					<p class="restaurantInfo-text">
 						<span><a href=""><img src="" alt="트위터"></a></span> 
@@ -66,7 +71,7 @@
 						</p>
 					</div>
 					<p>
-						<a href="">메뉴더보기+</a>
+						<a id="menuList" >메뉴더보기+</a>
 					</p>
 				</div>
 				<div class="restaurantInfo float-l clearfix text-left">
@@ -247,6 +252,131 @@
 		</div><!-- //content -->
 
 	</div>
+	
+	<!-- ************모달창************** -->
+				<!-- Modal 메뉴더보기 -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel">비건 1호점 메뉴</h4>
+						</div>
+						<div class="modal-body clearfix">
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							<div class="menuInfo">
+
+								<img class="menuImg" src="menuList" alt="음식사진">
+								<p>연어샐러드</p>
+								<p>8000원</p>
+								<p>페스코</p>
+								<br>
+								<p>연어로이루어진 샐러드인데 맛있음</p>
+
+							</div>
+							
+							
+						</div>
+						<div class="modal-footer">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+	<!-- 모달창(메뉴더보기) end -->		
 
 </body>
+ <!-- 메뉴더보기 제이쿼리 -->
+ <script type="text/javascript">
+ 
+	$("#menuList").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#myModal").modal();
+		
+	});
+ 
+ 
+ </script>
+
+
 </html>

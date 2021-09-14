@@ -133,7 +133,7 @@
 					<div class="modi clearfix">
 						<ul>
 							<li id="reviewModi"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></li>
-							<li id="reviewDelete">삭제</li>
+							<li id="reviewDelete"><a>삭제</a></li>
 						</ul>
 					</div>
 				</div>
@@ -327,6 +327,32 @@
 			</div>
 
 
+
+	<!-- Modal 리뷰삭제 -->
+			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel">리뷰를 삭제하시겠습니까?</h4>
+						</div>
+						<div class="modal-body clearfix">
+						
+						<div>
+							<button id="reviewModalDel">삭제</button>
+							<button id="reviewModalDel">취소</button>
+						</div>
+						
+						</div>
+						<div class="modal-footer">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 	</div>
@@ -354,6 +380,18 @@
 		console.log("모달창 클릭")
 
 		$("#myModal2").modal();
+		
+	});
+
+</script>
+
+<!-- 리뷰삭제 -->
+<script type="text/javascript">
+	//이미지 등록
+	$("#reviewDelete").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#myModal3").modal();
 		
 	});
 
