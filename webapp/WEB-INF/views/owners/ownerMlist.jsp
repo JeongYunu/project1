@@ -74,7 +74,7 @@
 						</td>
 						<td>7800</td>
 						<td>
-							<a href="test.html"><img alt="이미지" src="${ pageContext.request.contextPath }/assets/imges/작성아이콘.png"></a>, <a href="test.html">[삭제]</a>
+							<a href="test.html">[수정]</a>, <a href="test.html">[삭제]</a>
 						</td>
 					</tr>
 
@@ -88,7 +88,7 @@
 						</td>
 						<td>7800</td>
 						<td>
-							<a href="test.html"><img alt="이미지" src="${ pageContext.request.contextPath }/assets/imges/작성아이콘.png"></a>, <a href="test.html">[삭제]</a>
+							<a href="test.html">[수정]</a>, <a href="test.html">[삭제]</a>
 						</td>
 					</tr>
 
@@ -98,18 +98,23 @@
 						</td>
 						<td>연어</td>
 						<td>
-							<img alt="" src="${ pageContext.request.contextPath }/assets/imges/페스코.png">
+							<img alt=""
+								src="${ pageContext.request.contextPath }/assets/imges/페스코.png"
+							>
 						</td>
 						<td>7800</td>
 						<td>
-							<a href="test.html"><img alt="이미지" src="${ pageContext.request.contextPath }/assets/imges/작성아이콘.png"></a>, <a href="test.html">[삭제]</a>
+							<a href="test.html">[수정]</a>, <a href="test.html">[삭제]</a>
 						</td>
 					</tr>
 
 				</tbody>
 			</table>
 			<div class="button-area m-listpo">
-				<button style= " border: 0; outline:0; ">메뉴 추가</button>
+				
+						<span class="orange">
+							<button>메뉴 추가</button>
+						</span>
 			</div>
 
 	

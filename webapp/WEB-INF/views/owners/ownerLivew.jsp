@@ -69,7 +69,7 @@
 			</div>
 			<div class="contetnt">
 			
-				<div style="margin-left: 300px;" class="s-listpo">
+				<div  class="s-listpo">
 					<p>
 						<b>리뷰 기간 검색</b>
 					</p>
@@ -77,13 +77,13 @@
 					<input type='date' name='userBirthday' />
 
 					<input type='date' name='userBirthday' />
-					<button type="submit" style="margin: 0px 0px 0px 20px; width: 50px; height: 30px">검색</button>
+					<button>검색</button>
 				</div>
 				
 				</div>
 				<div class="s-listpo">
 					<table class="type01">
-						<caption>댓글 리스트</caption>
+						<caption style="text-align : center"><b>댓글 리스트</b></caption>
 						<thead>
 							<tr>
 								<th>날짜</th>

@@ -63,9 +63,9 @@
 						<img alt="가게로고"
 							src="${ pageContext.request.contextPath }/assets/imges/가게로고.jpeg"
 						>
-
-						<input type="file">
-
+						<div class="serchBtn">
+							<input type="file">
+						</div>
 					</div>
 				</div>
 				<div class="content">
@@ -689,10 +689,10 @@
 						</div>
 					</div>
 					<div class="button-area s-listpo">
-						<button style="border: 0; outline: 0;">취소</button>
-						<button
-							style="background-color: #ff6001; border: 0; outline: 0; color: white;"
-						>저장</button>
+						<button>취소</button>
+						<span class="orange">
+							<button>저장</button>
+						</span>
 					</div>
 				</div>
 			</form>
