@@ -2,16 +2,17 @@
 
 /******************** 공통 ********************/
 .blue {
-	background-color: #50BCDF;
+	background-color: #ff6001;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	height: 40px;
+	border: 0;
+	outline: none;
 }
 
-h2{
-	margin-right: 823px;
-}
-
-hr{
-	margin-top: 20px;
-	margin-bottom: 20px;
+.wrap2{
+	width: 905px;
+	margin-left:300px;
 }
 
 /******************** 로그인 폼 ********************/
@@ -33,7 +34,7 @@ hr{
 }
 
 #loginForm ul {
-	margin-left: 490px;
+	margin-left: 470px;
 }
 
 .epj li {
@@ -60,28 +61,25 @@ hr{
 #joinForm .margin-bottom {
 	margin-bottom: 10px;
 	width: 200px;
-	height: 25px;
+	height: 40px;
 }
 
 #joinForm span {
 	width: 100px;
 	position: relative;
 	top: 0px;
-	left: -60px;
+	left: -50px;
+	font-weight: bold;
 }
 
 #joinForm .select {
 	margin-bottom: 10px;
-	width: 205px;
-	height: 25px;
+	width: 200px;
+	height: 40px;
 }
 
 #joinForm .button {
-	height: 28px;
-}
-
-#joinForm .blue {
-	background-color: #50BCDF;
+	height: 40px;
 }
 
 /******************** 약관동의 폼 ********************/
@@ -130,10 +128,6 @@ hr{
 
 #checkTerm .in {
 	text-align: left;
-}
-
-#checkTerm .blue {
-	background-color: #50BCDF;
 }
 
 /******************** 찾기 폼 ********************/
@@ -187,7 +181,7 @@ hr{
 #modifyForm .margin-bottom {
 	margin-bottom: 10px;
 	width: 200px;
-	height: 25px;
+	height: 40px;
 }
 
 #modifyForm span {
@@ -195,12 +189,13 @@ hr{
 	position: relative;
 	top: 0px;
 	left: -47px;
+	font-weight: bold;
 }
 
 #modifyForm .select {
 	margin-bottom: 10px;
-	width: 205px;
-	height: 25px;
+	width: 200px;
+	height: 40px;
 }
 
 /******************** 가게등록 폼 ********************/
@@ -277,7 +272,7 @@ hr{
 #review span {
 	float: right;
 	position: relative;
-	left: -300px;
+	left: -200px;
 }
 
 #review a {
