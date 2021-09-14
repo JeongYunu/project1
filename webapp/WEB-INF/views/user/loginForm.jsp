@@ -7,7 +7,6 @@
 
 <link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
 
 <head>
