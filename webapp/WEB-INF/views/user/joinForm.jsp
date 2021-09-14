@@ -21,6 +21,14 @@
 	<div id="wrap">
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 
+		<div id="checkTerm">
+			<div class="up">
+				<h2>회원가입</h2>
+			</div>
+		</div>
+		
+		<br>
+
 		<div id="joinForm">
 					<span>이메일 </span><br> <input class="margin-bottom margin" type="text" placeholder="이메일을 입력해주세요">
 					<button class="button" type="button">중복체크</button>
@@ -35,7 +43,7 @@
 						<option value="">선택</option>
 						<option value="male">남자</option>
 						<option value="female">여자</option>
-					</select> <br> <span>핸드폰 </span> <br> <input class="margin-bottom" type="text" placeholder="핸드폰 번호를 입력해주세요"> 
+					</select> <br> <span>핸드폰 </span> <br> <input class="margin-bottom" type="text" placeholder="전화번호를 입력해주세요"> 
 					<br> <span>채식타입 </span> 
 					<br> <select id="vegan-select" class="select" name="type">
 						<option value="select" selected disabled>선택</option>
@@ -52,7 +60,6 @@
 			</div>
 		</div>
 
-	<!-- 이미지등록 팝업(모달)창 -->
 	<div class="modal fade" id="addModal">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -63,7 +70,7 @@
 					<h4 class="modal-title">채식타입조사</h4>
 				</div>
 
-				<form method="post" action="${pageContext.request.contextPath }/gallery/upload" enctype="multipart/form-data">
+				<form method="post" action="" enctype="multipart/form-data">
 					<div class="modal-body">
 						<div class="form-group">
 							<span>반갑습니다! 채식타입설문조사를 시작하겠습니다.</span>
@@ -75,11 +82,8 @@
 					</div>
 				</form>
 			</div>
-			<!-- /.modal-content -->
 		</div>
-		<!-- /.modal-dialog -->
 	</div>
-	<!-- /.modal -->
 
 </body>
 

@@ -22,8 +22,16 @@
 
 		<div id="addShop">
 			<div class="wrap2">
-				<h3>가게등록</h3>
-				<hr>
+				<div id="content-head" class="clearfix">
+					<h3>가게등록</h3>
+					<div id="location">
+						<ul>
+							<li>홈</li>
+							<li>마이페이지</li>
+							<li class="last">가게등록</li>
+						</ul>
+					</div>
+				</div>
 				<div class="wrap3">
 					<form action="" method="">
 						<h4>사업자등록증</h4>

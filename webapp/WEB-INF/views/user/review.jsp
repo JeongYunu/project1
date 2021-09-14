@@ -24,10 +24,17 @@
 
 		<div id="review">
 			<div class="wrap2">
-
-				<h3>리뷰관리</h3>
-				<hr>
-
+				<div id="content-head" class="clearfix">
+					<h3>리뷰관리</h3>
+					<div id="location">
+						<ul>
+							<li>홈</li>
+							<li>마이페이지</li>
+							<li class="last">리뷰관리</li>
+						</ul>
+					</div>
+				</div>
+				
 				<div onclick="location.href='${ pageContext.request.contextPath }/storePage';">
 					<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
 				</div>
