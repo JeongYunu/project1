@@ -17,8 +17,17 @@
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
 		
 		<div id="content">
-			<h2>전국랭킹</h2>
-			
+			<div id="content-top" class="clearfix">
+				<h2 class="float-l">전국랭킹</h2>
+				<select>
+					<option>전체</option>
+					<option>비건</option>
+					<option>락토</option>
+					<option>오보</option>
+					<option>락토오보</option>
+					<option>페스코</option>
+				</select>
+			</div>
 			<div id="ranking" class="clearfix">
 				<!-- 반복구간 -->
 				<div id="ranking-group" class="clearfix">

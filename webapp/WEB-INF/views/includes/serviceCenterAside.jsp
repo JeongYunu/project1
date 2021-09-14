@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!-- aside -->
-<div id="aside">
+<div id="aside" class="clearfix">
 	<table>
 		<thead>
 			<tr>

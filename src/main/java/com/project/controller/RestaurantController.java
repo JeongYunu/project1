@@ -13,4 +13,12 @@ public class RestaurantController {
 		
 		return "restaurantSearch/restaurantSearch";
 	}
+	
+	@RequestMapping(value="/restaurantPage", method = { RequestMethod.GET, RequestMethod.POST })
+	public String restaurantPage() {
+		System.out.println("[RestaurantController.restaurantPage]");
+		
+		return "store/restaurantPage";
+	}
+	
 }

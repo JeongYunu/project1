@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 #content h3 {border-bottom: 1px solid #a6a6a6;}
-textarea {vertical-align: top; width: 876px; height: 200px; margin: 0 0 10px 0; padding: 5px 10px;}
+textarea {vertical-align: top; width: 870px; height: 200px; margin: 0 0 10px 0; padding: 5px 10px;}
 #input-zone { margin: 10px 0 20px 0;}
-#input-zone input[type="text"]{width: 876px; margin: 0 0 10px 0; padding: 0 10px;}
-input[type="file"]{margin:0 0 0 24px;}
+#input-zone input[type="text"]{width: 870px; margin: 0 0 10px 0; padding: 0 10px;}
 #historyTable tr {border-bottom: 1px solid #a6a6a6;}
 #t-head {background-color: #ff6001; color: #fff; height: 40px; /* border: 1px solid #a6a6a6; */ }
+input[type="file"] {margin: 0 0 0 29px;}
 #q-title {width: 300px;}
 #q-content {width: 500px; padding: 0 0 0 10px;}
 #q-status {width: 100px;}

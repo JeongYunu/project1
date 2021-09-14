@@ -61,13 +61,12 @@ textarea{font-family: "맑은 고딕", 돋움, 굴림;}
 #wrap {margin: 0px auto; width: 1200px; background-color: #FFFFFF; }
 #header {width: 1200px; padding: 5px 0px 0px 0px; background-color: #FFFFFF; }
 #nav {width: 1200px; background-color: #FFFFFF; border-bottom: 1px solid #A6A6A6; }
-#aside {float: left; width: 200px; margin: 20px 0px 0px 0px; background-color: #FFFFFF; }
+#aside {float: left; width: 250px; margin: 20px 50px 0px 0px; background-color: #FFFFFF; }
 #content {float: left; width: 900px; margin: 20px 0px 0px 0px; background-color: #FFFFFF; }
 #footer {width: 1200px; height: 50px; background-color: #DDDDDD;}
 
 /* 해더(header: 로고, 로그인관련 버튼) */
-#header	h1 {font-size: 36px; font-weight: bold; line-height: 1.1;}
-#header	h1>a {float: left; margin: 10px 30px 30px 300px; font-size: 35px; color:#000000; }
+#header	h1 {font-size: 36px; font-weight: bold; line-height: 1.1; float:left;  margin: 10px 30px 30px 300px}
 #header ul {float: right;  }
 #header ul>li {float: left; margin: 25px 0px 0px 10px;}
 #header>form {float: left; margin: 5px 0px 0px 0px;}

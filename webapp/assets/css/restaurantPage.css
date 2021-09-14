@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#content { box-sizing: border-box; width: 1200px; }
+#restaurantInfo {  border: 1px solid #a6a6a6; height: 370px;}
+.restaurantInfo { box-sizing: border-box; width: 399px; padding: 15px 30px;}
+
+.restaurantInfo .restaurantInfo-text .timeInfo {display: block;}
+.restaurantInfo .restaurantInfo-text { padding:  0 0 15px 0;}
+.restaurantInfo .restaurantInfo-text .favoritesImg {width: 25px; height: 25px;}
+.restaurantInfo p .favorites {font-weight: bold; font-size: 25px;}
+
+.menu {margin: 0 0 15px 0;}
+.foodImg { width: 90px; height: 90px; margin: 0 15px 0 0;}
+.foodInfo { display: block; padding: 0 0 2px 0; }
+
+#staticMap {border-left: 1px solid #a6a6a6; border-top: 1px solid #a6a6a6; border-right: 1px solid #a6a6a6;}
+#address {border: 1px solid #a6a6a6; width: 340px; height: 70px; background-color: #f5f6f8;}
+#addressText {padding: 15px;}
+#addressType {border: 1px solid #a6a6a6; }
+
+#restaurantPage-btn {margin: 15px auto; }
+#restaurantPage-btn button { margin-right: 20px; width: 100px; height: 40px;}
+
+
+.review { border-top: 1px solid #a6a6a6; padding: 30px 0;}
+.userProfile-img { width: 70px; height: 70px; border: 1px solid #000; margin-right: 10px}
+#userProfile p { text-align: left;}
+#starPoint {font-size: 20px;}
+
+#modify-deleft-btn {position: relative; top: -70px; left: 0;}
+#modify-deleft-btn #modify {margin: 0 15px 0 0;}
+
+#reviewImg-text { text-align: left; position: relative; top: -70px; left: 287px; width: 620px;}
+#review-img-area { margin-bottom: 15px;}
+.review-img { width: 90px; height: 90px; border: 1px solid #000; margin: 0 10px 0 0;}
+
+#paging {border-top: 1px solid #a6a6a6;}
+#paging p {padding: 30px 0;}
+
+/*임시*/
+img{border: 1px solid #000;}
