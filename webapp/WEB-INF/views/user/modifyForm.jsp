@@ -36,20 +36,28 @@
 
 				<div class="out">
 					<div class="wrap3">
-						<span>이메일 </span>
-						 <br> <input class="margin-bottom" type="text" readonly value="UserEmail">
-						  <br> <span>비밀번호 </span>
-						   <br> <input class="margin-bottom" type="text" value="UserPassword" placeholder="비밀번호를 입력해주세요">
-						   <br> <span>닉네임 </span>
-						    <br> <input class="margin-bottom" type="text" value="UserNickName" placeholder="닉네임을 입력해주세요">
-						    <br> <span>성별 </span>
-						     <br> <select class="select" name="gender">
+						<div class="center">
+						<span class="a">이메일 </span>
+						<input class="margin-bottom" type="text" readonly value="UserEmail">
+						<br>
+						<span class="b">비밀번호 </span>
+						<input class="margin-bottom" type="text" value="UserPassword" placeholder="비밀번호를 입력해주세요">
+						<br>
+						<span class="d">닉네임 </span>
+						<input class="margin-bottom" type="text" value="UserNickName" placeholder="닉네임을 입력해주세요">
+						<br>
+						<span class="e">성별 </span>
+						<select class="select" name="gender">
 							<option value="">선택</option>
 							<option value="male">남자</option>
 							<option value="female">여자</option>
-						</select> <br> <span>핸드폰 </span>
-						 <br> <input class="margin-bottom" type="text" value="UserPhoneNumber" placeholder="핸드폰 번호를 입력해주세요">
-						 <br> <span>채식타입 </span> <br> <select class="select" name="type">
+						</select>
+						<br>
+						<span class="d">핸드폰 </span>
+						<input class="margin-bottom" type="text" value="UserPhoneNumber" placeholder="핸드폰 번호를 입력해주세요">
+						<br>
+						<span class="b">채식타입 </span>
+						<select class="select" name="type">
 							<option value="">선택</option>
 							<option value="">비건</option>
 							<option value="">락토</option>
@@ -58,8 +66,9 @@
 							<option value="">페스코</option>
 							<option value="">잘모르겠어요</option>
 						</select> <br>
+						</div>
 						<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/main'">수정</button>
-				</div>
+					</div>
 				</div>
 			</div>
 		</div>

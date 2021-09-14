@@ -10,13 +10,13 @@
 	outline: none;
 }
 
-#ex_file{
+#ex_file {
 	display: none !important;
 }
 
-.wrap2{
+.wrap2 {
 	width: 905px;
-	margin-left:300px;
+	margin-left: 300px;
 	text-align: left !important;
 }
 
@@ -24,12 +24,59 @@
 	text-align: center !important;
 }
 
-#content-head {margin: 0px 0px 14px 0px; border-bottom: 1px solid #A6A6A6; height: 60px;}
-#content-head h3 {float: left; height: 30px; line-height: 30px; margin: 15px 0px 5px 0px; font-size: 20px; font-weight: bold; }
-#content-head #location {float: right; margin: 25px 0px 0px 12px; font-size: 13px; }
-#content-head #location ul>li {float: left; }
-#content-head #location ul>li:after {content: ">"; margin: 0px 5px 0px 5px;}
-#content-head #location ul>li.last:after {content: none; }
+.center {
+	margin-left: 15px;
+}
+
+.b {
+	margin-left: -84px;
+}
+
+.c {
+	margin-left: -134px;
+}
+
+.d {
+	margin-left: -68px;
+}
+
+.e {
+	margin-left: -54px;
+}
+
+#content-head {
+	margin: 0px 0px 14px 0px;
+	border-bottom: 1px solid #A6A6A6;
+	height: 60px;
+}
+
+#content-head h3 {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0px 5px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#content-head #location {
+	float: right;
+	margin: 25px 0px 0px 12px;
+	font-size: 13px;
+}
+
+#content-head #location ul>li {
+	float: left;
+}
+
+#content-head #location ul>li:after {
+	content: ">";
+	margin: 0px 5px 0px 5px;
+}
+
+#content-head #location ul>li.last:after {
+	content: none;
+}
 
 /******************** 로그인 폼 ********************/
 #loginForm {
@@ -37,7 +84,7 @@
 	margin: 10px 0 0 0;
 }
 
-#loginForm h2{
+#loginForm h2 {
 	text-align: center;
 }
 
@@ -52,7 +99,7 @@
 	height: 40px;
 }
 
-#loginForm ul{
+#loginForm ul {
 	margin-left: 474px;
 }
 
@@ -83,7 +130,7 @@
 	height: 40px;
 }
 
-#joinForm .margin{
+#joinForm .margin {
 	margin-left: 69.4px;
 }
 
@@ -108,8 +155,8 @@
 	padding-top: 10px;
 }
 
-#checkTerm p{
-	font-weight: bold; 
+#checkTerm p {
+	font-weight: bold;
 	display: inline-block;
 }
 
@@ -122,7 +169,7 @@
 	text-align: center;
 }
 
-#checkTerm textarea{
+#checkTerm textarea {
 	margin-top: 5px;
 	height: 100px;
 	width: 500px;
@@ -162,7 +209,7 @@
 	padding-top: 10px;
 }
 
-#find h3{
+#find h3 {
 	text-align: left;
 }
 
@@ -224,11 +271,11 @@
 }
 
 /******************** 가게등록 폼 ********************/
-#addShop{
+#addShop {
 	padding-top: 10px;
 }
 
-#addshop wrap2{
+#addshop wrap2 {
 	text-align: left;
 }
 
@@ -245,7 +292,7 @@
 }
 
 /******************** 단골가게리스트 폼 ********************/
-#likeShopList{
+#likeShopList {
 	padding-top: 10px;
 }
 
@@ -264,11 +311,11 @@
 }
 
 /******************** 리뷰 폼 ********************/
-#review{
+#review {
 	padding-top: 10px;
 }
 
-#review wrap2{
+#review wrap2 {
 	text-align: left;
 }
 

@@ -26,39 +26,44 @@
 				<h2>회원가입</h2>
 			</div>
 		</div>
-		
+
 		<br>
 
 		<div id="joinForm">
-					<span>이메일 </span><br> <input class="margin-bottom margin" type="text" placeholder="이메일을 입력해주세요">
-					<button class="button" type="button">중복체크</button>
-					<br>
-					 <span>비밀번호 </span> <br> 
-					 <input class="margin-bottom" type="text" placeholder="비밀번호를 입력해주세요"> 
-					 <br> <span>비밀번호 재확인</span> <br>
-					  <input class="margin-bottom" type="text" placeholder="비밀번호를 입력해주세요">
-					   <br> <span>닉네임 </span> 
-					   <br> <input class="margin-bottom" type="text" placeholder="닉네임을 입력해주세요"> 
-					   <br> <span>성별 </span> <br> <select class="select" name="gender">
-						<option value="">선택</option>
-						<option value="male">남자</option>
-						<option value="female">여자</option>
-					</select> <br> <span>핸드폰 </span> <br> <input class="margin-bottom" type="text" placeholder="전화번호를 입력해주세요"> 
-					<br> <span>채식타입 </span> 
-					<br> <select id="vegan-select" class="select" name="type">
-						<option value="select" selected disabled>선택</option>
-						<option value="vegan">비건</option>
-						<option value="lacto">락토</option>
-						<option value="ovo">오보</option>
-						<option value="lacto-ovo">락토-오보</option>
-						<option value="pesco">페스코</option>
-						<option value="idk">잘모르겠어요</option>
-					</select> <br>
+			<div class="center">
+				<span class="d">이메일 </span> <input class="margin-bottom" type="text" placeholder="이메일을 입력해주세요">
+				<button class="button" type="button">중복체크</button> <br>
+				
+				<span class="b">비밀번호 </span> <input class="margin-bottom" type="text" placeholder="비밀번호를 입력해주세요"> <br>
 
-					<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/user/loginForm'">회원가입</button>
-					<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">돌아가기</button>
+				<span class="c">비밀번호 재확인</span> <input class="margin-bottom" type="text" placeholder="비밀번호를 입력해주세요"> <br>
+
+				<span class="d">닉네임 </span> <input class="margin-bottom" type="text" placeholder="닉네임을 입력해주세요"> <br>
+
+				<span class="e">성별 </span> <select class="select" name="gender">
+					<option value="">선택</option>
+					<option value="male">남자</option>
+					<option value="female">여자</option>
+				</select> <br>
+
+				<span class="d">핸드폰 </span> <input class="margin-bottom" type="text" placeholder="전화번호를 입력해주세요"> <br>
+
+				<span class="b">채식타입 </span> 
+				<select id="vegan-select" class="select" name="type">
+					<option value="select" selected disabled>선택</option>
+					<option value="vegan">비건</option>
+					<option value="lacto">락토</option>
+					<option value="ovo">오보</option>
+					<option value="lacto-ovo">락토-오보</option>
+					<option value="pesco">페스코</option>
+					<option value="idk">잘모르겠어요</option>
+				</select> <br>
 			</div>
+
+			<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/user/loginForm'">회원가입</button>
+			<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">돌아가기</button>
 		</div>
+	</div>
 
 	<div class="modal fade" id="addModal">
 		<div class="modal-dialog">
