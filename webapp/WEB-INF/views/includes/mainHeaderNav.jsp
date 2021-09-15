@@ -33,8 +33,9 @@
 			<li><a href="${ pageContext.request.contextPath }/serviceCenter">고객센터</a></li>
 			<li><a href="${ pageContext.request.contextPath }/user/checkPassword">마이페이지</a></li>
 		</ul>
-
-		<a href="#" class="snb-more"> <span class="glyphicon glyphicon glyphicon-ok"></span> <span>가계등록</span>
+		<!-- 작업편의상 가게관리 노출시킴 -->
+		<%-- <a href="${ pageContext.request.contextPath }/addShop" class="snb-more"> <span class="glyphicon glyphicon glyphicon-ok"></span> <span>가게등록</span> --%>
+		<a href="${ pageContext.request.contextPath }/owners/ownerPage" class="snb-more"> <span class="glyphicon glyphicon glyphicon-ok"></span> <span>가게관리</span>
 		</a>
 
 	</div>
