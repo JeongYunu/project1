@@ -18,10 +18,10 @@
 
 #modi{
 	 width: 50%;
-    height: 250px;
+   
     margin-left: 310px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 	text-align: left;
 	
 }
@@ -33,6 +33,13 @@
 	
 }
 
+input{
+	padding: 0 0 0 0;
+}
+
+ul{
+	
+}
 
 
 .reviewImg{
@@ -47,7 +54,7 @@
 #star_Btn{
 	width:650px;
 	height:150px;
-	
+	font-size:80px;
 	margin-left: 310px;
     margin-top: 20px;
     margin-bottom: 20px;

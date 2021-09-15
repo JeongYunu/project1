@@ -39,3 +39,39 @@
 
 /*임시*/
 img{border: 1px solid #000;}
+
+
+
+/* 리뷰남기기 모달 */
+#content_main > div > form > textarea {
+	width: 570px;
+	height: 250px;
+	float: left;
+}
+
+#reviewFile img {
+	float:left;
+	width: 90px;
+	height: 90px;
+	margin-right: 5px;
+}
+
+.reviewModiBtn{
+	background-color: #ff6001;
+	border:none;
+	border-radius: 3px;
+	height: 30px;
+	width: 50px;
+}
+
+#modal-review {
+	width: 650px;
+}
+
+#imgFile{
+	padding: 0px 0px 0px 0px
+}
+
+#star_Btn > form > ul > li{
+	font-size: 50px;
+}
