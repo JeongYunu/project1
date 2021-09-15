@@ -22,8 +22,16 @@
 
 		<div id="find">
 			<div class="wrap2">
-				<h3>회원정보수정</h3>
-				<hr>
+				<div id="content-head" class="clearfix">
+					<h3>회원정보수정</h3>
+					<div id="location">
+						<ul>
+							<li>홈</li>
+							<li>마이페이지</li>
+							<li class="last">회원정보수정</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div id="wrap3">
 				<form action="" method="">

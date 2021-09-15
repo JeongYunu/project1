@@ -18,7 +18,7 @@
 				<h3>이메일 찾기</h3>
 				<hr>
 				<h4>핸드폰</h4>
-				<input type="text" placeholder="가입된 핸드폰 번호를 입력해주세요"><br>
+				<input type="text" placeholder="가입된 전화번호를 입력해주세요"><br>
 				<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/user/findEmailSuccess'">확인</button>
 			</div>
 		</div>

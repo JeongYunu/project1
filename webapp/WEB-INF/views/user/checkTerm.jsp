@@ -21,7 +21,7 @@
 		<div id="checkTerm">
 			<div class="up">
 				<h2>약관동의</h2>
-				<br> <input type="checkbox">
+				<input type="checkbox">
 				<p>이용약관에 모두 동의합니다.</p>
 			</div>
 
