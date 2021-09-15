@@ -18,7 +18,7 @@
 		
 		<div id="content">
 			<div id="content-top" class="clearfix">
-				<h2 class="float-l">전국랭킹</h2>
+				<h3 class="float-l">전국랭킹</h3>
 				<select>
 					<option>전체</option>
 					<option>비건</option>
