@@ -39,6 +39,7 @@
 			</div>
 			<!-- //페이지타이틀 -->
 
+
 			<!-- 컨텐츠 -->
 			<div id="content-wrap" class="clearfix">
 				<div id="content" class="clearfix">
@@ -133,7 +134,7 @@
 					<!-- //restaurantInfo -->
 					<div id="restaurantPage-btn" class="text-center">
 						<button id="reviewBtn">리뷰남기기</button>
-						<button>신고하기</button>
+						<button id="singoBtn">신고하기</button>
 					</div>
 					<!-- //////////////////////////////////////////////////////////// -->
 					<div id="reviewArea">
@@ -150,7 +151,8 @@
 								</div>
 								<div id="modify-deleft-btn" class=" float-r">
 									<p>
-										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span>
+										<span class="delete">삭제</span>
 									</p>
 								</div>
 								<div id="reviewImg-text" class="float-l">
@@ -186,7 +188,8 @@
 								</div>
 								<div id="modify-deleft-btn" class=" float-r">
 									<p>
-										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span>
+										<span class="delete">삭제</span>
 									</p>
 								</div>
 								<div id="reviewImg-text" class="float-l">
@@ -214,7 +217,8 @@
 								</div>
 								<div id="modify-deleft-btn" class=" float-r">
 									<p>
-										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> 
+										<span class="delete">삭제</span>
 									</p>
 								</div>
 								<div id="reviewImg-text" class="float-l">
@@ -237,7 +241,22 @@
 					</div>
 					<!-- //reviewArea -->
 					<div id="paging" class="text-center">
-						<p>페이징</p>
+						<div id="paging" class="clearfix">
+							<ul class="paging clearfix">
+									<li><a href="">◀</a></li>
+									<li><a href="">1</a></li>
+									<li><a href="">2</a></li>
+									<li><a href="">3</a></li>
+									<li><a href="">4</a></li>
+									<li class="active"><a href="">5</a></li>
+									<li><a href="">6</a></li>
+									<li><a href="">7</a></li>
+									<li><a href="">8</a></li>
+									<li><a href="">9</a></li>
+									<li><a href="">10</a></li>
+									<li><a href="">▶</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<!-- //content -->
@@ -392,8 +411,9 @@
 									<li>★★★★★</li>
 
 								</ul>
-								<button class="reviewModiBtn" type="submit">저장</button>
-
+								<div id="star_Btn_div">
+									<button class="btn" type="submit">저장</button>
+								</div>
 							</form>
 
 
@@ -408,11 +428,88 @@
 			</div>
 		</div>
 	</div>
+	
+	
+	<!-- Modal 삭제 -->
+	<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="modal-review" class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">샐러디 역삼점</h4>
+				</div>
+				<div class="modal-body clearfix">
+					<div>
+						<p id="reviewDeleteModal">리뷰를 삭제하시겠습니까?</p>
+					</div>
+					
+
+
+				</div>
+				<div class="modal-footer">
+					<div id="reviewDeleteModalBtn">
+						<form action="" method="">
+							<button type="submit" class="btn">삭제</button>
+							
+
+						</form>
+		
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Modal 신고하기클릭 -->
+	<div class="modal fade" id="singoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="modal-review" class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">샐러디 역삼점</h4>
+				</div>
+				<div class="modal-body clearfix">
+				 	   <div id="singoModal">
+				 	   		<form action="" method="">
+								
+	                           <label><input type="radio" name="fruit" value="apple"> 메뉴가 상세내용과 달라요</label><br>
+	                           <label><input type="radio" name="fruit" value="apple"> 해당위치에 매장이 없어요</label><br>
+	                           <label><input type="radio" name="fruit" value="apple"> 기타</label><br>
+	                           
+	                           <textarea id="singoText"></textarea>
+	                           
+	                           
+	                           <div id="singoModalBtn">
+		                           <button class="btn" type="submit">보내기</button>
+		                          
+	                           </div>
+							</form>
+                       </div>
+					
+
+
+				</div>
+				<div class="modal-footer">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
 
 </body>
 
-<!-- 메뉴더보기 제이쿼리 -->
+<!-- 제이쿼리 -->
+
+<!-- 메뉴더보기 모달 -->
 <script type="text/javascript">
 	$("#menuList").on("click", function() {
 		console.log("모달창 클릭")
@@ -422,13 +519,35 @@
 	});
 </script>
 
-<!-- 리뷰남기기 -->
+<!-- 리뷰남기기 모달-->
 <script type="text/javascript">
 	//이미지 등록
 	$("#reviewBtn").on("click", function() {
 		console.log("모달창 클릭")
 
 		$("#reviewModal").modal();
+
+	});
+</script>
+
+<!-- 리뷰삭제  모달-->
+<script type="text/javascript">
+	//이미지 등록
+	$(".delete").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#deleteModal").modal();
+
+	});
+</script>
+
+<!-- 신고하기 모달 -->
+<script type="text/javascript">
+	//이미지 등록
+	$("#singoBtn").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#singoModal").modal();
 
 	});
 </script>
