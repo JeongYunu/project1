@@ -5,12 +5,11 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>메인페이지</title>
+<title>1단 레이아웃 샢플</title>
 
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
-
 
 </head>
 <body>
@@ -23,50 +22,62 @@
 
 
 		<!-- container -->
-		<div id="container">
+		<div id="container2">
 
-			<!-- 페이지타이틀 -->
-			<div id="page-title-wrap" class="clearfix">
-				<h2 id="page-title">리뷰관리</h2>
+			<div id="main-wrap" class="clearfix">
+				<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
+				<!-- //aside -->
 
-				<ul class="clearfix text-center">
-					<li><a href="">홈</a></li>
-					<li><a href="">마이페이지</a></li>
-					<li class="last"><a href="">리뷰관리</a></li>
-				</ul>
-			</div>
-			<!-- //페이지타이틀 -->
 
-			<!-- 컨텐츠 -->
-			<div id="content-wrap">
-				<div id="review">
-					<div onclick="location.href='${ pageContext.request.contextPath }/storePage';">
-						<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+				<!-- //메인 -->
+				<div id="main">
+					<!-- 페이지타이틀 -->
+					<div id="page-title-wrap" class="clearfix">
+						<h3 id="page-title">회원정보수정</h3>
+
+						<ul class="clearfix text-center">
+							<li><a href="">홈</a></li>
+							<li><a href="">마이페이지</a></li>
+							<li class="last"><a href="">회원정보수정</a></li>
+						</ul>
 					</div>
-					<div>
-						<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
-					</div>
+					<!-- //페이지타이틀 -->
 
-					<div>
-						<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+					<!-- 컨텐츠 -->
+					<div id="content-wrap">
+						<div id="review">
+							<div class="margin-bottom" onclick="location.href='${ pageContext.request.contextPath }/storePage';">
+								<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+							</div>
+							<div>
+								<img class="margin-bottom" src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+							</div>
+		
+							<div>
+								<img class="margin-bottom" src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+							</div>
+		
+							<div>
+								<img class="margin-bottom" src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+							</div>
+		
+							<div>
+								<img class="margin-bottom" src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
+							</div>
+		
+							<div class="paging">
+								<a href=""><</a> <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">></a>
+							</div>
+						</div>
 					</div>
-
-					<div>
-						<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
 					</div>
-
-					<div>
-						<img src="C:\Users\Main\Desktop\　　　\cursor.png"> 샐러디 ★★★★☆ <br> 인간이 얼마나 쓸쓸하랴? 얼음에 싸인 만물은 얼음이 있을 뿐이다 그들에게 생명을 불어 넣는 것은 따뜻 <br> 한 봄바람이다 풀밭에 속잎나고 가지에 싹이 트고 꽃 <br> <span>YYYY/MM/DD</span> <br>
-					</div>
-
-					<div class="paging">
-						<a href=""><</a> <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">></a>
-					</div>
+					<!-- //컨텐츠 -->
 				</div>
-			</div>
-		</div>
-		<!-- //컨텐츠 -->
+				<!-- //메인 -->
 
+			</div>
+
+		</div>
 		<!-- //container -->
 
 
@@ -74,10 +85,7 @@
 		<div id="footer">
 
 			<!-- 푸터내용 -->
-			<div id="footer-content-wrap">
-				<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
-			</div>
-			<!-- //푸터내용 -->
+			<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 
 		</div>
 		<!-- //footer -->

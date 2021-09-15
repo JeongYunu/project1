@@ -5,12 +5,11 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>메인페이지</title>
+<title>1단 레이아웃 샢플</title>
 
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
-
 
 </head>
 <body>
@@ -23,62 +22,73 @@
 
 
 		<!-- container -->
-		<div id="container">
+		<div id="container2">
 
-			<!-- 페이지타이틀 -->
-			<div id="page-title-wrap" class="clearfix">
-				<h2 id="page-title">단골가게</h2>
+			<div id="main-wrap" class="clearfix">
+				<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
+				<!-- //aside -->
 
-				<ul class="clearfix text-center">
-					<li><a href="">홈</a></li>
-					<li><a href="">마이페이지</a></li>
-					<li class="last"><a href="">단골가게</a></li>
-				</ul>
-			</div>
-			<!-- //페이지타이틀 -->
 
-			<!-- 컨텐츠 -->
-			<div id="content-wrap">
-				<div id="likeShopList">
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+				<!-- //메인 -->
+				<div id="main">
+					<!-- 페이지타이틀 -->
+					<div id="page-title-wrap" class="clearfix">
+						<h3 id="page-title">회원정보수정</h3>
+
+						<ul class="clearfix text-center">
+							<li><a href="">홈</a></li>
+							<li><a href="">마이페이지</a></li>
+							<li class="last"><a href="">회원정보수정</a></li>
+						</ul>
 					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+					<!-- //페이지타이틀 -->
+
+					<!-- 컨텐츠 -->
+					<div id="content-wrap">
+						<div id="likeShopList">
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+							
+							<div class="shop">
+								<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
+							</div>
+								
+						</div>
 					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-					
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-						
+					<!-- //컨텐츠 -->
 				</div>
+				<!-- //메인 -->
+
 			</div>
-			<!-- //컨텐츠 -->
 
 		</div>
 		<!-- //container -->
@@ -88,14 +98,14 @@
 		<div id="footer">
 
 			<!-- 푸터내용 -->
-			<div id="footer-content-wrap">
-				<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
-			</div>
-			<!-- //푸터내용 -->
+			<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 
 		</div>
 		<!-- //footer -->
 
+
 	</div>
+
+
 </body>
 </html>

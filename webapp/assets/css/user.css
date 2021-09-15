@@ -15,6 +15,14 @@
 	outline: none;
 }
 
+.margin-right{
+	margin-right: 15px;
+}
+
+.margin-0px{
+	margin-top: 0px !important;
+}
+
 .cancle-button {
 	padding: 5px 15px 5px 15px;
 	height: 40px;
@@ -22,13 +30,16 @@
 	outline: none;
 }
 
+#button_center {
+	text-align: center;
+	margin-top: 30px;
+}
+
 #ex_file {
 	display: none !important;
 }
 
 .wrap2 {
-	width: 905px;
-	margin-left: 300px;
 	text-align: left !important;
 }
 
@@ -37,23 +48,20 @@
 }
 
 .center {
-	margin-left: 15px;
+	text-align: center;
 }
 
-.b {
-	margin-left: -84px;
+table {
+	margin-left: 28px;
 }
 
-.c {
-	margin-left: -134px;
+td {
+	padding-top: 30px;
+	width: 210px;
 }
 
-.d {
-	margin-left: -68px;
-}
-
-.e {
-	margin-left: -54px;
+.padding_0px{
+	padding-top: 0px !important;
 }
 
 /******************** 로그인 폼 ********************/
@@ -96,34 +104,27 @@
 }
 
 /******************** 회원가입 폼 ********************/
-#joinForm {
-	text-align: center;
-}
-
-#joinForm .margin-bottom {
-	margin-bottom: 10px;
-	width: 200px;
-	height: 40px;
-}
-
-#joinForm .margin {
-	margin-left: 69.4px;
-}
-
-#joinForm span {
-	width: 200px;
+#joinForm td{
 	text-align: left;
-	font-weight: bold;
 }
 
 #joinForm .select {
 	margin-bottom: 10px;
-	width: 200px;
+	width: 210px;
+	height: 40px;
+}
+
+#joinForm input{
+	width: 210px;
 	height: 40px;
 }
 
 #joinForm .button {
 	height: 40px;
+}
+
+#joinForm table{
+	display: inline-block;
 }
 
 /******************** 약관동의 폼 ********************/
@@ -136,7 +137,7 @@
 	display: inline-block;
 }
 
-#checkTerm input{
+#checkTerm input {
 	height: 12px !important;
 }
 
@@ -180,7 +181,7 @@
 }
 
 /******************** 찾기 폼 ********************/
-#find{
+#find {
 	text-align: center;
 }
 
@@ -216,19 +217,17 @@
 	text-align: center;
 }
 
-#modifyForm .margin-bottom {
-	margin-bottom: 10px;
-	width: 200px;
-	height: 40px;
-}
-
 #modifyForm span {
 	font-weight: bold;
 }
 
+#modifyForm input{
+	width: 210px;
+	height: 40px;
+}
+
 #modifyForm .select {
-	margin-bottom: 10px;
-	width: 200px;
+	width: 210px;
 	height: 40px;
 }
 
@@ -250,6 +249,10 @@
 }
 
 /******************** 단골가게리스트 폼 ********************/
+#likeShopList {
+	text-align: center;
+}
+
 #likeShopList img {
 	float: left;
 	height: 70px;
@@ -257,13 +260,13 @@
 	margin-right: 10px;
 }
 
-#likeShopList div{
-	width: 33%;
+#likeShopList div {
+	width: 32%;
 	display: inline-block;
 }
 
 #likeShopList .shop {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	text-align: left;
 }
 
@@ -290,4 +293,8 @@
 
 #review .paging {
 	text-align: center;
+}
+
+#review .margin-bottom{
+	margin-bottom: 10px;
 }
