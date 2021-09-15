@@ -67,19 +67,20 @@
 		</div>
 		<!-- //컨텐츠 -->
 
-	</div>
-	<!-- //container -->
+		<!-- //container -->
 
 
-	<!-- footer -->
-	<div id="footer">
+		<!-- footer -->
+		<div id="footer">
 
-		<!-- 푸터내용 -->
-		<div id="footer-content-wrap">푸터내용</div>
-		<!-- //푸터내용 -->
+			<!-- 푸터내용 -->
+			<div id="footer-content-wrap">
+				<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+			</div>
+			<!-- //푸터내용 -->
 
-	</div>
-	<!-- //footer -->
+		</div>
+		<!-- //footer -->
 
 
 	</div>

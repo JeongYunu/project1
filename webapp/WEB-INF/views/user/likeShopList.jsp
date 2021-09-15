@@ -43,72 +43,59 @@
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
+					
 					<div class="shop">
 						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
 					</div>
-
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
-
-					<div class="shop">
-						<img src="C:\Users\Main\Desktop\　　　\1231.png"> 샐러디 ♥<br> 서울특별시 강남구 <br> ★★★★☆ <br>
-					</div>
+						
 				</div>
 			</div>
+			<!-- //컨텐츠 -->
+
 		</div>
-		<!-- //컨텐츠 -->
+		<!-- //container -->
+
+
+		<!-- footer -->
+		<div id="footer">
+
+			<!-- 푸터내용 -->
+			<div id="footer-content-wrap">
+				<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+			</div>
+			<!-- //푸터내용 -->
+
+		</div>
+		<!-- //footer -->
 
 	</div>
-	<!-- //container -->
-
-
-	<!-- footer -->
-	<div id="footer">
-
-		<!-- 푸터내용 -->
-		<div id="footer-content-wrap">푸터내용</div>
-		<!-- //푸터내용 -->
-
-	</div>
-	<!-- //footer -->
-
-
-	</div>
-
-
 </body>
 </html>

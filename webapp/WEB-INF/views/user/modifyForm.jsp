@@ -89,7 +89,7 @@
 			
 			<!-- 푸터내용 -->
 			<div id="footer-content-wrap">
-			 	푸터내용
+			 	<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 			</div>
 			<!-- //푸터내용 -->
 			

@@ -39,18 +39,19 @@
 			<!-- 컨텐츠 -->
 			<div id="content-wrap">
 			 	<div id="checkTerm">
-			<div class="up">
-				<input type="checkbox">
-				<p>이용약관에 모두 동의합니다.</p>
-			</div>
+			 	
+			<label><input type="checkbox" name="" value="">
+			<span class="up">이용약관에 모두 동의합니다.</span></label>
 
 			<div class="outer">
 				<div class="inner">
 					<div class="left">
 						<div class="in">
-							<input type="checkbox">
-							<p>이용약관 동의</p>
-							<span>(필수)</span> <br>
+							<label>
+								<input type="checkbox">
+								<p>이용약관 동의</p>
+								<span class="orange">(필수)</span>
+							</label> <br>
 						</div>
 						<textarea readonly>제1조(목적) 이 약관은 업체 회사(전자상거래 사업자)가 운영하는 업체 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
 
@@ -292,9 +293,11 @@
 						<br>
 
 						<div class="in">
-							<input type="checkbox">
-							<p>개인정보 수집 및 이용 동의</p>
-							<span>(필수)</span> <br>
+							<label>
+								<input type="checkbox">
+								<p>개인정보 수집 및 이용 동의</p>
+								<span class="orange">(필수)</span> <br>
+							</label>
 						</div>
 						<textarea readonly>    개인정보처리방침
 
@@ -456,7 +459,7 @@
 			
 			<!-- 푸터내용 -->
 			<div id="footer-content-wrap">
-			 	푸터내용
+			 	<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 			</div>
 			<!-- //푸터내용 -->
 			
