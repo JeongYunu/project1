@@ -7,38 +7,38 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping(value="/owners")
 public class OwnersController {
-	@RequestMapping(value="/ownerPage", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/NownerPage", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerPage() {
 		System.out.println("[OwnersController.ownerPage]");
 		
-		return "owners/ownerPage";
+		return "owners/NownerPage";
 	}
 	
-	@RequestMapping(value="/ownerMinsert", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/NownerMinsert", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerMinsert() {
 		System.out.println("[OwnersController.ownerMinsert]");
 		
-		return "owners/ownerMinsert";
+		return "owners/NownerMinsert";
 	}
 	
-	@RequestMapping(value="/ownerMlist", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/NownerMlist", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerMlist() {
 		System.out.println("[OwnersController.ownerMlist]");
 		
-		return "owners/ownerMlist";
+		return "owners/NownerMlist";
 	}
 	
-	@RequestMapping(value="/ownerLivew", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/NownerLivew", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerLivew() {
 		System.out.println("[OwnersController.ownerLivew]");
 		
-		return "owners/ownerLivew";
+		return "owners/NownerLivew";
 	}
 	
-	@RequestMapping(value="/ownerStar", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value="/NownerStar", method = { RequestMethod.GET, RequestMethod.POST })
 	public String ownerStar() {
 		System.out.println("[OwnersController.ownerStar]");
 		
-		return "owners/ownerStar";
+		return "owners/NownerStar";
 	}
 }

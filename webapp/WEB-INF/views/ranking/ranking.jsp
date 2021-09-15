@@ -29,7 +29,7 @@
 				<h2 id="page-title">랭킹</h2>
 
 				<ul class="clearfix text-center">
-					<li><a href="">홈</a></li>
+					<li><a href="${ pageContext.request.contextPath }/main">홈</a></li>
 					<li class="last"><a href="">랭킹</a></li>
 				</ul>
 			</div>
@@ -179,3 +179,6 @@
 
 </body>
 </html>
+
+
+
