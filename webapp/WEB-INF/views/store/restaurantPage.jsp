@@ -119,7 +119,7 @@
 				</div>
 			</div><!-- //restaurantInfo -->
 			<div id="restaurantPage-btn">
-				<button>리뷰남기기</button>
+				<button id="reviewBtn">리뷰남기기</button>
 				<button>신고하기</button>
 			</div>
 			<!-- //////////////////////////////////////////////////////////// -->
@@ -255,7 +255,7 @@
 	
 	<!-- ************모달창************** -->
 				<!-- Modal 메뉴더보기 -->
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -266,93 +266,88 @@
 						</div>
 						<div class="modal-body clearfix">
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
 							
 							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
+								
+								<img class="menuImg" src="menuList" alt="">
+								<div class="menuText" >
+									<p>연어샐러드</p>
+									<p>8000원</p>
+									<p>페스코</p>
+									<br>
+									<p>연어로이루어진 샐러드인데 맛있음</p>
+								</div>	
 							</div>
-							
-							<div class="menuInfo">
-
-								<img class="menuImg" src="menuList" alt="음식사진">
-								<p>연어샐러드</p>
-								<p>8000원</p>
-								<p>페스코</p>
-								<br>
-								<p>연어로이루어진 샐러드인데 맛있음</p>
-
-							</div>
-							
 							
 						</div>
 						<div class="modal-footer">
@@ -362,7 +357,66 @@
 				</div>
 			</div>
 			
-	<!-- 모달창(메뉴더보기) end -->		
+	<!-- 모달창(메뉴더보기) end -->	
+	
+	<!-- Modal 리뷰남기기 -->
+			<div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div id="modal-review" class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel">샐러디 역삼점</h4>
+						</div>
+						<div class="modal-body clearfix">
+						
+							<div id="content_main">
+								
+								<div id="modi">
+									<form action="" method="">
+										<textarea >맛있어요맛있어요맛있어요맛있어요</textarea>
+
+									</form>
+								</div>
+								<div id="reviewFile">
+									<form action="" method="">
+										<input type="file" name="reviewFile" id="imgFile" accept="image/*">
+										<ul class="clearfix">
+											<li class="reviewImg"><img src="img경로"></li>
+											<li class="reviewImg"><img src="img경로"></li>
+											<li class="reviewImg"><img src="img경로"></li>
+										</ul>
+									</form>
+								</div>
+								<div id="star_Btn">
+									<form action="" method="">
+										<ul>
+
+											<li>★★★★★</li>
+
+										</ul>
+										<button class="reviewModiBtn" type="submit">저장</button>
+										
+									</form>
+
+
+								</div>
+
+							</div>
+
+
+						</div>
+						<div class="modal-footer">
+							
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>	
+
+
 
 </body>
  <!-- 메뉴더보기 제이쿼리 -->
@@ -371,12 +425,24 @@
 	$("#menuList").on("click", function() {
 		console.log("모달창 클릭")
 
-		$("#myModal").modal();
+		$("#menuModal").modal();
 		
 	});
  
  
  </script>
+ 
+ <!-- 리뷰남기기 -->
+<script type="text/javascript">
+	//이미지 등록
+	$("#reviewBtn").on("click", function() {
+		console.log("모달창 클릭")
+
+		$("#reviewModal").modal();
+		
+	});
+
+</script>
 
 
 </html>
