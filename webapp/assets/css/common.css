@@ -26,6 +26,27 @@ a:hover {text-decoration: none; color: #000000; }
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
 
+/* 폼 관련 */
+input {padding: 0 10px; height: 40px;}
+textarea{padding: 0 10px;}
+
+
+/* font *(기본값 12px) */
+.bold {font-weight: bold; }
+.text-xlarge {font-size: 18px; }
+.text-large {font-size: 15px; }
+.text-small {font-size: 10px; }
+
+.text-right {text-align: right !important;}
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+
+
+/* 위치 */
+.float-r {float: right; }
+.float-l {float: left; }
+.clear{clear: both; }
+
 
 
 
