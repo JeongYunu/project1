@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/****************************************************************/
+/* 초기화 관련 ***************************************************/
+/****************************************************************/
+
+/* 여백 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr,
+textarea, button, form, border {margin: 0; padding: 0;}
+
+h1, h2, h3, h4, h5, h6 {line-height: 1.4;}
+
+
+
+body {font-size:15px; font-family: "맑은 고딕", 돋움, 굴림; color: #333333; background-color: #ffffff;}
+
+ul, ol	{list-style-type: none; }
+a:link {text-decoration: none; color: #000000; }
+a:visited {text-decoration: none; color: #000000; }
+a:active {text-decoration: none; color: #000000; }
+a:hover {text-decoration: none; color: #000000; }
+
+/****************** 공통 ************************/
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+
+
+
+/****************************************************************/
+/* 레이아웃 관련 ***************************************************/
+/****************************************************************/
+#header {border-bottom: 1px solid #A6A6A6;}
+#container {border-bottom: 1px solid #A6A6A6;}
+#footer {border-bottom: 1px solid #A6A6A6;}
+
+
+/* header > 상단 */
+#header #top-box {width: 1200px; margin: 0px auto; text-align: center;}
+#header #top-box #logo {float: left; font-size: 32px; font-weight: bold; margin: 15px 0px 18px 0px;}
+#header #top-box form {float: left; margin: 19px 0px 0px 260px;}
+#header #top-box #searchBox {float: left; border: 3px solid #ff6001; font-size:16px; width: 350px; height:38px; padding: 0px 10px 0px 10px;}
+#header #top-box #searchBox:focus {border: 3px solid #ff6001; outline: 0 none;}
+#header #top-box #searchBox-btn {width: 55px; height: 38px; background-color: #ff6001; border: 0px solid #ff6001; color: #ffffff; font-weight: bold;}
+#header #top-box ul {float: right; font-size: 14px; margin: 35px 0px 0px 0px;}
+#header #top-box ul>li {float: left; margin: 0px 0px 0px 20px; }
+
+/* header > 하단 네비 */
+/* 네비(nav: 메인메뉴) */
+#header #nav {width: 1200px; margin: 0px auto; font-size: 18px;}
+#header #nav ul {width: 900px; float: left; margin: 18px 0px 20px 0px; }
+#header #nav ul>li {float: left; width: 220px; text-align: left;}
+#header #nav > a{float: right;   margin: 18px 0px 20px 0px; }
+
+
+
+/* container > 상단 타이틀 */
+#container #page-title-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; border-bottom: 2px solid #000000;}
+#container #page-title-wrap #page-title {float: left; font-size: 30px; font-weight: 400;}
+#container #page-title-wrap ul {float: right; font-size: 14px; margin: 25px 0px 0px 0px;}
+#container #page-title-wrap ul > li {float: left; font-size: 14px;}
+#container #page-title-wrap ul > li:after {content: ">"; margin: 0px 5px 0px 5px;}
+#container #page-title-wrap ul > li.last:after {content: ""; margin: 0px 0px 0px 5px;}
+
+
+/* container > 컨텐츠 */
+#container #content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; height: 600px; background-color: #ff0000;}
+
+
+/* footer > 푸터내용 */
+#footer #footer-content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; height: 60px; background-color: #ff00ff;}
+
