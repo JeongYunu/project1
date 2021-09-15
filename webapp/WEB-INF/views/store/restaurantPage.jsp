@@ -137,66 +137,101 @@
 					</div>
 					<!-- //////////////////////////////////////////////////////////// -->
 					<div id="reviewArea">
-						<div class="review">
-							<div id="userProfile">
-								<img class="userProfile-img float-l clearfix" src="">
-								<div>
-									<p>닉네임(비건)</p>
-									<p id="starPoint">★★★★☆</p>
-									<p>2021-09-21</p>
+						
+						<div class="review-wrap">
+							<div class="review clearfix">
+								<div id="userProfile" class="float-l">
+									<img class="userProfile-img float-l" src="">
+									<div>
+										<p>닉네임(비건)</p>
+										<p id="starPoint">★★★★☆</p>
+										<p>2021-09-21</p>
+									</div>
+								</div>
+								<div id="modify-deleft-btn" class=" float-r">
+									<p>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+									</p>
+								</div>
+								<div id="reviewImg-text" class="float-l">
+									<div id="review-img-area">
+										<img class="review-img" src="">  <img class="review-img" src="">
+										<img class="review-img" src="">  <img class="review-img" src="">
+										<img class="review-img" src="">  <img class="review-img" src="">
+									</div>
+									<p class="review-text">후기 자체는 주관적인 견해의 평가 활동에 불과하기에 절대로 객관적일 수 없다. 그럼에도 후기를 평가함에서 객관적이고 신뢰성있는 후기가 존재하기는 하는데, 이는 신뢰할 수 있는 객관적인 지표나 증거를 토대로
+										후기가 작성된 것을 뜻하는 것이지, 후기 자체가 객관적임을 뜻하지는 않는다. 예를 들어, 후기의 신뢰도는 객관적인 지표나 증거가 없이 소문을 통한 주장만 있다거나 거짓된 정보를 토대로 작성될 경우에 객관적이지 않고 신뢰도가 떨어진다고 할 수가 있다.
+										심지어 리뷰어의 제품에 관해 중립적이지 않다는 문제를 악용해서 리뷰 내용을 평가절하시키는 경우도 많다. 특히 한국의 경우에는 리뷰가 제품에 객관적이지 않다며, 법적으로까지 다가가여 명예훼손으로 고소까지하는 경우도 있으나 대부분의 리뷰 및 후기들이 사실에
+										입각하여 공공의 이익을 위해 작성된 것으로서 명예훼손에서 부터 면책 사항에 속한다. 리뷰에 거짓이 있었다면, 명예훼손죄에 해당되나, 사실을 기반으로했다면, 공공의 이익을 위한 리뷰로서 고소에 안전하다. 그럼에도 불구하고 제품사가 고소를 말로만 언급하는
+										것은 리뷰어에게 법을 거론함으로서 협박하여 입막음시키려고 한 수작으로 보면 된다. [3] 표현의 자유 참고. 결론적으로 "이 제품은 어떠한 지표를 참고로 이러한 점이 치명적인 문제로서 산업폐기물급 쓰레기다."라는 비난만하는 후기조차 공공의 이익을 위한
+										사실에 근거로 뒀다면, 제품에 관한 중립적인 입장과는 상관없이 객관적이고 신뢰성 있는 후기라 할 수 있다. 물론 반대로 온갖 미사여구 붙여가며 추천만하는 후기도 사실에 근거하며, 논리적이고 객관적인 자료를 통했다면 이도 마찬가지로 객관적이고 신뢰성 있는
+										후기이다. 즉, 후기의 객관성과 신뢰성은 리뷰어의 제품에 대한 입장이 아니라, 리뷰에 사용된 자료의 객관성과 신뢰성을 말한다.</p>
 								</div>
 							</div>
-							<div id="modify-deleft-btn" class=" float-r clearfix">
-								<p>
-									<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
-								</p>
-							</div>
-							<div id="reviewImg-text">
-								<div id="review-img-area">
-									<img class="review-img" src=""> <img class="review-img" src=""> <img class="review-img" src=""> <img class="review-img"
-										src=""> <img class="review-img" src=""> <img class="review-img" src="">
-								</div>
-								<p class="review-text">후기 자체는 주관적인 견해의 평가 활동에 불과하기에 절대로 객관적일 수 없다. 그럼에도 후기를 평가함에서 객관적이고 신뢰성있는 후기가 존재하기는 하는데, 이는 신뢰할 수 있는 객관적인 지표나 증거를 토대로
-									후기가 작성된 것을 뜻하는 것이지, 후기 자체가 객관적임을 뜻하지는 않는다. 예를 들어, 후기의 신뢰도는 객관적인 지표나 증거가 없이 소문을 통한 주장만 있다거나 거짓된 정보를 토대로 작성될 경우에 객관적이지 않고 신뢰도가 떨어진다고 할 수가 있다.
-									심지어 리뷰어의 제품에 관해 중립적이지 않다는 문제를 악용해서 리뷰 내용을 평가절하시키는 경우도 많다. 특히 한국의 경우에는 리뷰가 제품에 객관적이지 않다며, 법적으로까지 다가가여 명예훼손으로 고소까지하는 경우도 있으나 대부분의 리뷰 및 후기들이 사실에
-									입각하여 공공의 이익을 위해 작성된 것으로서 명예훼손에서 부터 면책 사항에 속한다. 리뷰에 거짓이 있었다면, 명예훼손죄에 해당되나, 사실을 기반으로했다면, 공공의 이익을 위한 리뷰로서 고소에 안전하다. 그럼에도 불구하고 제품사가 고소를 말로만 언급하는
-									것은 리뷰어에게 법을 거론함으로서 협박하여 입막음시키려고 한 수작으로 보면 된다. [3] 표현의 자유 참고. 결론적으로 "이 제품은 어떠한 지표를 참고로 이러한 점이 치명적인 문제로서 산업폐기물급 쓰레기다."라는 비난만하는 후기조차 공공의 이익을 위한
-									사실에 근거로 뒀다면, 제품에 관한 중립적인 입장과는 상관없이 객관적이고 신뢰성 있는 후기라 할 수 있다. 물론 반대로 온갖 미사여구 붙여가며 추천만하는 후기도 사실에 근거하며, 논리적이고 객관적인 자료를 통했다면 이도 마찬가지로 객관적이고 신뢰성 있는
-									후기이다. 즉, 후기의 객관성과 신뢰성은 리뷰어의 제품에 대한 입장이 아니라, 리뷰에 사용된 자료의 객관성과 신뢰성을 말한다.</p>
-							</div>
-							<p class="text-right">
+							<p class="text-right singo">
 								<a href="">신고하기</a>
+							</p>
 						</div>
-						<!-- //review -->
-
-						<div class="review">
-							<div id="userProfile">
-								<img class="userProfile-img float-l clearfix" src="">
-								<div>
-									<p>닉네임(비건)</p>
-									<p id="starPoint">★★★★☆</p>
-									<p>2021-09-21</p>
+						<!-- //review-wrap -->
+						
+						<div class="review-wrap">
+							<div class="review clearfix">
+								<div id="userProfile" class="float-l">
+									<img class="userProfile-img float-l" src="">
+									<div>
+										<p>닉네임(비건)</p>
+										<p id="starPoint">★★★★☆</p>
+										<p>2021-09-21</p>
+									</div>
+								</div>
+								<div id="modify-deleft-btn" class=" float-r">
+									<p>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+									</p>
+								</div>
+								<div id="reviewImg-text" class="float-l">
+									<div id="review-img-area">
+									
+									</div>
+									<p class="review-text">후기 자체는 주관적인 견해의 평가 활동에 불과하기에 절대로 객관적일 수 없다.</p>
 								</div>
 							</div>
-							<div id="modify-deleft-btn" class=" float-r clearfix">
-								<p>
-									<span id="modify"><a href="">수정</a></span> <span id="delete"><a href="">삭제</a></span>
-								</p>
-							</div>
-							<div id="reviewImg-text">
-								<!-- 데이터 여부에 따라 hide(마진이 있어서 hide시켜야함 -->
-								<!-- <div id="review-img-area">
-							<img  class="review-img" src="">
-							<img  class="review-img" src="">
-							<img  class="review-img" src="">
-						</div> -->
-								<p class="review-text">후기 자체는 주관적인 견해의 평가 활동에 불과하기에 절대로 객관적일 수 없다. 그럼에도 후기를 평가함에서 객관적이고 신뢰성있는 후기가 존재하기는 하는데, 이는 신뢰할 수 있는 객관적인 지표나 증거를 토대로
-									후기가 작성된 것을 뜻하는 것이지, 후기 자체가 객관적임을 뜻하지는 않는다. 예를 들어, 후기의 신뢰도는 객관적인 지표나 증거가 없이 소문을 통한 주장만 있다거나 거짓된 정보를 토대로 작성될 경우에 객관적이지 않고 신뢰도가 떨어진다고 할 수가 있다.</p>
-							</div>
-							<p class="text-right">
+							<p class="text-right singo">
 								<a href="">신고하기</a>
+							</p>
 						</div>
-						<!-- //review -->
+						<!-- //review-wrap -->
+						
+						<div class="review-wrap">
+							<div class="review clearfix">
+								<div id="userProfile" class="float-l">
+									<img class="userProfile-img float-l" src="">
+									<div>
+										<p>닉네임(비건)</p>
+										<p id="starPoint">★★★★☆</p>
+										<p>2021-09-21</p>
+									</div>
+								</div>
+								<div id="modify-deleft-btn" class=" float-r">
+									<p>
+										<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span> <span id="delete"><a href="">삭제</a></span>
+									</p>
+								</div>
+								<div id="reviewImg-text" class="float-l">
+									<div id="review-img-area">
+										<img class="review-img" src="">  <img class="review-img" src="">
+										<img class="review-img" src="">
+									</div>
+									<p class="review-text">후기 자체는 주관적인 견해의 평가 활동에 불과하기에 절대로 객관적일 수 없다. 그럼에도 후기를 평가함에서 객관적이고 신뢰성있는 후기가 존재하기는 하는데, 이는 신뢰할 수 있는 객관적인 지표나 증거를 토대로
+										후기가 작성된 것을 뜻하는 것이지, 후기 자체가 객관적임을 뜻하지는 않는다. 예를 들어, 후기의 신뢰도는 객관적인 지표나 증거가 없이 소문을 통한 주장만 있다거나 거짓된 정보를 토대로 작성될 경우에 객관적이지 않고 신뢰도가 떨어진다고 할 수가 있다.
+										심지어 리뷰어의 제품에 관해 중립적이지 않다는 문제를 악용해서 리뷰 내용을 평가절하시키는 경우도 많다.</p>
+								</div>
+							</div>
+							<p class="text-right singo">
+								<a href="">신고하기</a>
+							</p>
+						</div>
+						<!-- //review-wrap -->
 
 						
 					</div>
@@ -207,16 +242,14 @@
 				</div>
 				<!-- //content -->
 			</div>
-
+			<!-- //content-wrap -->
 		</div>
 		<!-- //container -->
-
-
 		<!-- footer -->
 		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
-
-
 	</div>
+	<!-- //wrap -->
+
 
 	<!-- ************모달창************** -->
 	<!-- Modal 메뉴더보기 -->
