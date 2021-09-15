@@ -25,7 +25,7 @@
 				<h1 class="text-left">낙성대 1호점</h1>
 					<div id="modi">
 					  <form action="" method=""> 
-						<textarea rows="14" cols="91">ddddd</textarea>
+						<textarea rows="14" cols="91">dddddㅁ</textarea>
 						   
 					  </form>
 					</div>

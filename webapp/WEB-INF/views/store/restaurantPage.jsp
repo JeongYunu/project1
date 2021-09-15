@@ -135,7 +135,7 @@
 					</div>
 					<div id="modify-deleft-btn" class=" float-r clearfix">
 						<p>
-							<span id="modify"><a href="">수정</a></span>
+							<span id="modify"><a href="${ pageContext.request.contextPath }/reviewModi">수정</a></span>
 							<span id="delete"><a href="">삭제</a></span>
 						</p>
 					</div>
@@ -415,6 +415,9 @@
 					</div>
 				</div>
 			</div>	
+			
+			
+			
 
 
 

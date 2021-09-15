@@ -14,11 +14,6 @@ public class StoreController {
 		return "store/storePage";
 	}
 	
-	@RequestMapping(value="/reviewModi", method = { RequestMethod.GET, RequestMethod.POST })
-	public String reviewModi() {
-		System.out.println("[StoreController.reviewModi]");
-		
-		return "store/reviewModi";
-	}
+
 	
 }
