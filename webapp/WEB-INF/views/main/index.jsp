@@ -47,16 +47,7 @@
 		
 		
 		<!-- footer -->
-		<div id="footer" >
-			
-			<!-- 푸터내용 -->
-			<div id="footer-content-wrap">
-			 	푸터내용
-			</div>
-			<!-- //푸터내용 -->
-			
-		</div>
-		<!-- //footer -->
+		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 
 	
 	</div>
