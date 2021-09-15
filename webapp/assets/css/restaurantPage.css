@@ -44,12 +44,32 @@ img[class="review-img"] {margin-bottom: 10px;}
 img{border: 1px solid #000;}
 
 
+/*페이징*/
+#paging {
+	align-items: center;
+	width : 1200px;
+}
+
+.paging {
+	display : inline-block;
+	margin: 20px 0px 10px 0px;
+}
+
+.paging>li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+
 
 /* 리뷰남기기 모달 */
+
+
 #content_main > div > form > textarea {
 	width: 570px;
 	height: 250px;
 	float: left;
+	resize: none;
 }
 
 #reviewFile img {
@@ -59,12 +79,8 @@ img{border: 1px solid #000;}
 	margin-right: 5px;
 }
 
-.reviewModiBtn{
-	background-color: #ff6001;
-	border:none;
-	border-radius: 3px;
-	height: 30px;
-	width: 50px;
+#star_Btn_div{
+text-align: center;
 }
 
 #modal-review {
@@ -78,3 +94,46 @@ img{border: 1px solid #000;}
 #star_Btn > form > ul > li{
 	font-size: 50px;
 }
+
+
+/* 리뷰삭제모달 */
+
+div > #reviewDeleteModal{
+	text-align: center;
+	padding: 15px 0px;
+}
+
+#reviewDeleteModalBtn{
+	text-align: center;
+}
+
+
+
+.deleteCansleBtn{
+	margin-left: 15px;
+	padding: 0px 5px 0px 5px;
+}
+
+/* 신고하기클릭 */
+#singoModal > form >label{
+	margin-top: 10px;
+}
+
+#singoText{
+	width: 570px;
+	height: 250px;
+	resize: none;
+}
+
+btn{
+	width: 100px;
+	
+}
+
+#singoModalBtn{
+	text-align : center;
+}
+
+
+
+
