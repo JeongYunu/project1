@@ -281,7 +281,7 @@
 											<b>가게 소개글</b>
 										</td>
 										<td>
-											<textarea rows="" cols=""></textarea>
+											<textarea class="textarea-size" rows="" cols=""></textarea>
 										</td>
 
 									</tr>
@@ -319,10 +319,12 @@
 										</td>
 									</tr>
 								</table>
-								<button>취소</button>
-								<span class="orange">
-									<button>저장</button>
-								</span>
+								<div class="button-area s-listpo">
+									<button>취소</button>
+									<span class="orange">
+										<button>저장</button>
+									</span>
+								</div>
 
 
 

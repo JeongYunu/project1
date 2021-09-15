@@ -74,6 +74,7 @@
 							<div class="s-listpo">
 								<h3>샐러디 낙성대점</h3>
 							</div>
+							<div class="table-c">
 							<table class="type01">
 								<caption>
 									<b>메뉴 리스트</b>
@@ -144,6 +145,7 @@
 
 								</tbody>
 							</table>
+							</div>
 							<div class="button-area m-listpo">
 
 								<span class="orange">

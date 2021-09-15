@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 #wrap2 {
-	width: 700px;
+	width: 1000px;
 	padding: 0px 0px 0px 28px;
+	
 }
 
 #wrap2 .head2 {
@@ -18,9 +19,8 @@
 	height: 12px;
 }
 
-#wrap2 .button-area{
-	
-	text-align:center;
+#wrap2 .button-area {
+	text-align: center;
 }
 
 #wrap2  .button-area button {
@@ -73,10 +73,7 @@
 	margin: 10px, 15px, 10px, 15px;
 }
 
-/*메뉴 추가 버튼 오른쪽*/
-#wrap2  .s-listpo input {
-	margin: 10px, 15px, 10px, 15px;
-}
+
 
 /*****************테이블 정리******************/
 #wrap2 table.type01 {
@@ -86,6 +83,8 @@
 	margin: 20px 10px;
 	width: 600px;
 	table-layout: fixed;
+	display: inline-block;
+
 }
 
 #wrap2 table.type01 th {
@@ -95,6 +94,7 @@
 	font-weight: bold;
 	vertical-align: middle;
 	border: 1px solid #ccc;
+	text-align: center;
 }
 
 #wrap2 table.type01 td {
@@ -107,4 +107,9 @@
 	overflow: hidden;
 	white-space: nowrap;
 	word-break: keep-all
+}
+
+.table-c{
+	
+	text-align: center;
 }
