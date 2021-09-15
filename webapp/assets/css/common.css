@@ -28,7 +28,8 @@ a:hover {text-decoration: none; color: #000000; }
 
 
 /* 폼 관련 */
-input {padding: 0 10px; height: 40px;}
+input[type="text"] {padding: 0 10px; height: 40px;}
+input[type="password"] {padding: 0 10px; height: 40px;}
 textarea{padding: 0 10px;}
 
 
@@ -42,6 +43,11 @@ textarea{padding: 0 10px;}
 .text-left {text-align: left !important;}
 .text-center {text-align: center !important;}
 
+.btn { border: none; outline: 0; background-color: #ff6001; color: #fff; height: 40px;}
+.btn:hover { border: none; color: #fff;}
+.btn:active { border: none; background-color: #ff6001;  outline: 0;}
+.btn:focus { border: none; background-color: #ff6001;  outline: 0 none;} 
+/*누르고있을때 라인생기는거 어캐없앰 */
 
 /* 위치 */
 .float-r {float: right; }
@@ -56,8 +62,8 @@ textarea{padding: 0 10px;}
 
 /************* 레이아웃 **************/
 #header {border-bottom: 1px solid #A6A6A6;}
-#container {border-bottom: 1px solid #A6A6A6;}    /* 왼쪽메뉴 없을때 */
-#container2 {border-bottom: 1px solid #A6A6A6;}   /* 왼쪽메뉴 있을때 */
+#container {border-bottom: 1px solid #A6A6A6; padding: 0 0 30px 0;}    /* 왼쪽메뉴 없을때 */
+#container2 {border-bottom: 1px solid #A6A6A6; padding: 0 0 30px 0;}   /* 왼쪽메뉴 있을때 */
 #footer {border-bottom: 1px solid #A6A6A6;}
 
 
