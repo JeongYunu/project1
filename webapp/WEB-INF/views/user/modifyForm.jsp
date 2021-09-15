@@ -3,41 +3,47 @@
 
 <!DOCTYPE html>
 <html lang="ko">
-<meta charset="UTF-8">
-
-<link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/aside.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/user.css" rel="stylesheet" type="text/css">
-
 <head>
-<title>회원정보수정</title>
-</head>
+<meta charset="UTF-8">
+<title>메인페이지</title>
 
+<link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
+
+
+</head>
 <body>
 
 	<div id="wrap">
-		<!-- 헤더/네비 -->
+		
+		<!-- 해더 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-		<c:import url="/WEB-INF/views/includes/mypageAside.jsp"></c:import>
-
-		<div id="modifyForm">
-			<div class="wrap2">
-				<div id="content-head" class="clearfix">
-					<h3>회원정보수정</h3>
-					<div id="location">
-						<ul>
-							<li>홈</li>
-							<li>마이페이지</li>
-							<li class="last">회원정보수정</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="out">
+		
+	
+		
+		<!-- container -->
+		<div id="container" >
+		
+			<!-- 페이지타이틀 -->
+			<div id="page-title-wrap" class="clearfix" >
+				<h2 id="page-title">회원정보수정</h2>
+			
+				<ul class="clearfix text-center">
+					<li><a href="">홈</a></li>
+					<li><a href="">마이페이지</a></li>
+					<li class="last"><a href="">회원정보수정</a></li>
+				</ul>
+			</div>
+			<!-- //페이지타이틀 -->
+			
+			<!-- 컨텐츠 -->
+			<div id="content-wrap">
+			<div id="modifyForm">
+			 	<div class="out">
 					<div class="wrap3">
 						<div class="center">
-						<span class="a">이메일 </span>
+						<span class="d">이메일 </span>
 						<input class="margin-bottom" type="text" readonly value="UserEmail">
 						<br>
 						<span class="b">비밀번호 </span>
@@ -71,9 +77,28 @@
 					</div>
 				</div>
 			</div>
+			</div>
+			<!-- //컨텐츠 -->
+			
 		</div>
+		<!-- //container -->
+		
+		
+		<!-- footer -->
+		<div id="footer" >
+			
+			<!-- 푸터내용 -->
+			<div id="footer-content-wrap">
+			 	푸터내용
+			</div>
+			<!-- //푸터내용 -->
+			
+		</div>
+		<!-- //footer -->
+
+	
 	</div>
 
-</body>
 
+</body>
 </html>
