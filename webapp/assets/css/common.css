@@ -88,9 +88,22 @@ textarea{padding: 0 10px;}
 
 
 /* container > 컨텐츠 */
-#container #content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; height: 600px; background-color: #ff0000;}
+#container #content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; }
 
 
 /* footer > 푸터내용 */
-#footer #footer-content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px; height: 60px; background-color: #ff00ff;}
+#footer #footer-content-wrap {width: 1200px; margin: 0px auto; }
+#footer #footer-content-wrap #footer-top {color: #000; padding: 30px 0;}
+#footer #footer-content-wrap #footer-top .footer-main-title {font-size: 20px; font-weight: bold;}
+#footer #footer-content-wrap #footer-top .footer-notice {font-weight: bold; padding: 0 5px 0 15px;}
+#footer #footer-content-wrap #footer-top .footer-notice::after {padding: 0 5px 0 10px; content: ">";}
+#footer #footer-content-wrap .footer-middle .footer-top-text {color: #7e7e7e;}
+#footer #footer-content-wrap .footer-middle .footer-top-text::after {padding: 0 0 0 5px; content: "∙";}
+#footer #footer-content-wrap .footer-middle .footer-top-text-last::after {content: "";}
+#footer #footer-content-wrap .footer-low {font-size: 12px; color:#7e7e7e; padding: 15px 0;}
+
+
+#footer #footer-content-wrap #footer-top .footer-service-all {font-weight: bold; color: #7e7e7e;}
+/* #footer #footer-content-wrap #footer-top .footer-service-all::after {padding-left: 5px; content: ">";} */
+
 
