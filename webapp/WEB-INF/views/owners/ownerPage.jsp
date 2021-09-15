@@ -12,12 +12,11 @@
 	rel="stylesheet" type="text/css"
 >
 <link
-	href="${ pageContext.request.contextPath }/assets/css/project1.css"
+	href="${ pageContext.request.contextPath }/assets/css/common.css"
 	rel="stylesheet" type="text/css"
 >
-<link href="${ pageContext.request.contextPath }/assets/css/aside.css"
-	rel="stylesheet" type="text/css"
->
+
+
 <link
 	href="${ pageContext.request.contextPath }/assets/css/ownerMain.css"
 	rel="stylesheet" type="text/css"

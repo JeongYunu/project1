@@ -2,24 +2,80 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>1단 레이아웃 샢플</title>
 
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/project1.css" rel="stylesheet" type="text/css">
-<link href="${ pageContext.request.contextPath }/assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
 
 	<div id="wrap">
-		<!-- 헤더/네비 -->
+		
+		<!-- 해더 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
+		
+	
+		
+		<!-- container -->
+		<div id="container2" >
+		
+			<div id="main-wrap" class="clearfix">
+				<c:import url="/WEB-INF/views/includes/ownerPageAside.jsp"></c:import>
+				<!-- //aside -->
+				
+				
+				<!-- //메인 -->
+				<div id="main">
+					<!-- 페이지타이틀 -->
+					<div id="page-title-wrap" class="clearfix" >
+						<h3 id="page-title">랭킹</h3>
+					
+						<ul class="clearfix text-center">
+							<li><a href="">홈</a></li>
+							<li><a href="">마이페이지</a></li>
+							<li class="last"><a href="">랭킹</a></li>
+						</ul>
+					</div>
+					<!-- //페이지타이틀 -->
+					
+					<!-- 컨텐츠 -->
+					<div id="content-wrap">
+					 	여기에 컨텐츠 작성할것
+					</div>
+					<!-- //컨텐츠 -->
+				</div>
+				<!-- //메인 -->
+			
+			</div>
+		
+		
+			
+		
+		
+			
+			
+			
+		</div>
+		<!-- //container -->
+		
+		
+		<!-- footer -->
+		<div id="footer" >
+			
+			<!-- 푸터내용 -->
+			<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+			
+		</div>
+		<!-- //footer -->
 
-
+	
 	</div>
+
 
 </body>
 </html>
