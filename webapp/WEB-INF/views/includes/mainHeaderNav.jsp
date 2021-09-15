@@ -34,7 +34,7 @@
 			<li><a href="${ pageContext.request.contextPath }/user/checkPassword">마이페이지</a></li>
 		</ul>
 
-		<a href="#" class="snb-more"> <span class="glyphicon glyphicon glyphicon-ok"></span> <span>가계등록</span>
+		<a href="#" class="snb-more"> <span class="glyphicon glyphicon glyphicon-ok"></span> <span>가게관리</span>
 		</a>
 
 	</div>
