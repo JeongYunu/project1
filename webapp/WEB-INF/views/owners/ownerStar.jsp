@@ -51,23 +51,25 @@
 			<div class="s-listpo">
 				<h3>샐러디 낙성대점</h3>
 			</div>
-			<table class="type01">
-				<tr>
-					<td>별점</td>
-					<td>댓글수</td>
-					<td>찜하기수</td>
-				</tr>
+			<div class="table-c">
+				<table class="type02">
+					<tr>
+						<td>별점</td>
+						<td>댓글수</td>
+						<td>찜하기수</td>
+					</tr>
 
-				<tr>
-					<td>★★★★★</td>
-					<td>150개</td>
-					<td>♥+300</td>
-				</tr>
-			</table>
+					<tr>
+						<td>★★★★★</td>
+						<td>150개</td>
+						<td>♥+300</td>
+					</tr>
+				</table>
 
-			<div>
-				<p>별점평균 기반 꺾은선그래프(x: 별점평균, y: 기간(월별))
-				<p>
+				<div>
+					<p>별점평균 기반 꺾은선그래프(x: 별점평균, y: 기간(월별))
+					<p>
+				</div>
 			</div>
 		</div>
 	</div>

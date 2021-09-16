@@ -75,7 +75,7 @@
 
 							<div class="table-c">
 								
-									<table class="type01">
+									<table class="type02">
 										<tr>
 											<td>별점</td>
 											<td>댓글수</td>

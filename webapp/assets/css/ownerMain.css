@@ -109,6 +109,46 @@
 	word-break: keep-all
 }
 
+
+
+/******************************************/
+
+
+
+
+#wrap2 table.type02 {
+	border-collapse: collapse;
+	text-align: center;
+	line-height: 1.5;
+	margin: 20px 10px;
+	
+	table-layout: fixed;
+	display: inline-block;
+
+}
+
+#wrap2 table.type02 th {
+	width: 100px;
+	height: 80px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+#wrap2 table.type02 td {
+	width: 100px;
+	height: 60px;
+	padding: 10px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-break: keep-all
+}
+
 .table-c{
 	
 	text-align: center;
