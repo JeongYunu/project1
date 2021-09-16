@@ -12,14 +12,16 @@
 	href="${pageContext.request.contextPath }/assets/css/project1.css">
 	
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath }/assets/css/reviewModi.css">	
+	href="${pageContext.request.contextPath }/assets/css/reviewModi.css">
+	
+<link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">	
 </head>
 
 <body>
 	<div id="wrap">
 		<!-- 헤더/네비 -->
 			<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-		
+			
 		<div id="content">
 			<div id="content_main">
 				<h1 class="text-left">낙성대 1호점</h1>
@@ -46,8 +48,8 @@
 								<li>★★★★★</li>
 								
 							</ul>
-							<button class="reviewModiBtn" type="submit">저장</button>
-							<button class="reviewModiBtn2">취소</button>
+							<button class="btn" type="submit">저장</button>
+							<button class="btn">취소</button>
 					      </form>
 					    
 					    
