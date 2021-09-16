@@ -124,6 +124,14 @@ td {
 }
 
 /******************** 약관동의 폼 ********************/
+#checked-all {zoom: 2; position: relative; top: 3px;}
+.terms-checkbox {zoom: 1.5; position: relative; top: 4px;}
+
+
+
+
+
+
 #checkTerm {
 	text-align: center;
 }
@@ -133,13 +141,10 @@ td {
 	display: inline-block;
 }
 
-#checkTerm input {
-	height: 12px !important;
-}
 
 #checkTerm textarea {
 	margin-top: 5px;
-	height: 100px;
+	height: 150px;
 	width: 500px;
 	resize: none;
 }
@@ -150,7 +155,6 @@ td {
 }
 
 #checkTerm .up {
-	text-align: center;
 	font-size: 25px;
 }
 
@@ -160,7 +164,7 @@ td {
 	padding: 10px;
 	display: inline-block;
 	text-align: center;
-	border: 1px solid gray;
+	border: 1px solid #a6a6a6;
 	border-radius: 5px;
 }
 

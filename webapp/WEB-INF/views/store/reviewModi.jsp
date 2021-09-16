@@ -1,79 +1,57 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-    
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
+<link href="${ pageContext.request.contextPath }/assets/css/restaurantPage.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath }/assets/css/project1.css">
-	
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath }/assets/css/reviewModi.css">
-	
-<link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">	
 </head>
 
 <body>
 	<div id="wrap">
-		<!-- 헤더/네비 -->
-			<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-			
-		<div id="content">
-			<div id="content_main">
-				<h1 class="text-left">낙성대 1호점</h1>
-					<div id="modi">
-					  <form action="" method=""> 
-						<textarea rows="14" cols="91">dddddㅁ</textarea>
-						   
-					  </form>
-					</div>
-					  <div id="reviewFile">
-					    <form action="" method=""> 
-							   <input type="file" name="reviewFile" id="imgFile" accept="image/*">
-							   <ul class="clearfix">
-							   		<li class="reviewImg"><img src="img경로"></li>
-							   		<li class="reviewImg"><img src="img경로"></li>
-							   		<li class="reviewImg"><img src="img경로"></li>
-							   </ul>
-						</form>
-					  </div>
-					    <div id="star_Btn">
-					      <form action="" method=""> 
-					    	<ul>
-								
-								<li>★★★★★</li>
-								
-							</ul>
+		<!-- 해더 -->
+		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
+		<!-- container -->
+		<div id="container">
+			<!-- 페이지타이틀 -->
+			<div id="page-title-wrap" class="clearfix">
+				<h2 id="page-title">리뷰수정</h2>
+
+				<ul class="clearfix text-center">
+					<li><a href="">홈</a></li>
+					<li><a href="">샐러디 역삼점</a></li>
+					<li class="last"><a href="">수정</a></li>
+				</ul>
+			</div>
+			<!-- //페이지타이틀 -->
+			<!-- 컨텐츠 -->
+			<div id="content-wrap">
+				<div id="modify-content">
+					<h3 class="text-left">낙성대 1호점</h3>
+					<form action="" method="get">
+						<textarea placeholder="">수정할려고 들어</textarea>
+						<input type="file">
+						<img class="modifyPage-review-img review-img" src="">
+						<img class="modifyPage-review-img review-img" src="">
+						<img class="modifyPage-review-img review-img" src="">
+						<p class="modifyPage-starPoint text-center">★★★★★</p>
+						<div class="text-center">
 							<button class="btn" type="submit">저장</button>
 							<button class="btn">취소</button>
-					      </form>
-					    
-					    
-					    </div>
-					  	
+						</div>
+					</form>
+				</div>
 			</div>
-		
+			<!-- //컨텐츠 -->
 		</div>
-	
-
-	
-	</div>
-
-
-
-
-
-
-
-
-
-		
-	
-
+		<!-- //container -->
+		<!-- footer -->
+		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
 	</div>
 </body>
 </html>

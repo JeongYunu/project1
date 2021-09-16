@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* 상세페이지 & 공통 */
 #content { box-sizing: border-box; width: 1200px; }
 #restaurantInfo {  border: 1px solid #a6a6a6; height: 370px;}
 .restaurantInfo { box-sizing: border-box; width: 399px; padding: 15px 30px;}
@@ -28,7 +30,8 @@
 #userProfile p { text-align: left;}
 #starPoint {font-size: 20px;}
 
-#modify-deleft-btn #modify {margin: 0 15px 0 0;}
+#modify-deleft-btn .modify {margin: 0 15px 0 0;}
+#modify-deleft-btn .delete { cursor: pointer;}
 
 #reviewImg-text { text-align: left; width: 700px;}
 img[class="review-img"] {margin-bottom: 10px;}
@@ -43,97 +46,29 @@ img[class="review-img"] {margin-bottom: 10px;}
 /*임시*/
 img{border: 1px solid #000;}
 
-
-/*페이징*/
-#paging {
-	align-items: center;
-	width : 1200px;
-}
-
-.paging {
-	display : inline-block;
-	margin: 20px 0px 10px 0px;
-}
-
-.paging>li{
-    float: left;
-    margin: 0 10px 0 0;
-}
+/* //상세페이지 & 공통 */
 
 
 
-/* 리뷰남기기 모달 */
-
-
-#content_main > div > form > textarea {
-	width: 570px;
-	height: 250px;
-	float: left;
-	resize: none;
-}
-
-#reviewFile img {
-	float:left;
-	width: 90px;
-	height: 90px;
-	margin-right: 5px;
-}
-
-#star_Btn_div{
-text-align: center;
-}
-
-#modal-review {
-	width: 650px;
-}
-
-#imgFile{
-	padding: 0px 0px 0px 0px
-}
-
-#star_Btn > form > ul > li{
-	font-size: 50px;
-}
-
-
-/* 리뷰삭제모달 */
-
-div > #reviewDeleteModal{
-	text-align: center;
-	padding: 15px 0px;
-}
-
-#reviewDeleteModalBtn{
-	text-align: center;
-}
+/* 메뉴더보기 */
+.modal-body {padding-left: 16px; padding-right: 16px;}
+.menu-modal-dialog {width: 1102px; margin: 0 auto;}
+#myModalLabel {padding: 5.93px;}
+.modal-body .menuInfo {width: 237px; margin: 15px 15px;}
+.modal-body .menuInfo .menuImg {width: 237px; height:150px; border: 1px solid #000;}
+.menuInfo .menuText {margin-top: 5px;}
+/* //메뉴더보기 */
 
 
 
-.deleteCansleBtn{
-	margin-left: 15px;
-	padding: 0px 5px 0px 5px;
-}
+/* 리뷰남기기(모달) 리뷰수정(페이지) 신고하기(모달) */
+.restaurantPage-modal-dialog { width: 734px; padding-left: 0; padding-right: 0; margin: 0 auto;}
+#modify-content {width: 700px; margin: 0 auto;}
+#modify-content textarea {width: 700px; height: 200px;}
+#modify-content .modifyPage-review-img {margin: 15px 0;}
 
-/* 신고하기클릭 */
-#singoModal > form >label{
-	margin-top: 10px;
-}
-
-#singoText{
-	width: 570px;
-	height: 250px;
-	resize: none;
-}
-
-btn{
-	width: 100px;
-	
-}
-
-#singoModalBtn{
-	text-align : center;
-}
-
-
-
+#modify-content .modifyPage-starPoint {font-size: 40px; margin-bottom: 10px;}
+#modify-content .text-center .btn {width: 100px;}
+#modify-content .text-center .btn[type="submit"] {margin-right: 15px;}
+/* //리뷰수정페이지 */
 
