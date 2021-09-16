@@ -51,9 +51,9 @@
 	text-align: center;
 }
 
-table {
+/* table {
 	margin-left: 28px;
-}
+} */
 
 td {
 	padding-top: 30px;
@@ -65,20 +65,25 @@ td {
 }
 
 /******************** 로그인 폼 ********************/
+.nomal-input-box {margin-bottom: 10px;}
+.epj {margin-top: 10px;}
+.btn {width: 100px;}
+
 #loginForm {
 	text-align: center;
 }
 
+/* 
 #loginForm button {
 	margin: 10px 0;
 	height: 40px;
 }
-
-#loginForm input {
+ */
+/* #loginForm input {
 	margin-top: 10px;
 	width: 250px;
 	height: 40px;
-}
+} */
 
 #loginForm ul {
 	margin-left: 474px;
@@ -104,16 +109,22 @@ td {
 	text-align: left;
 }
 
+.bold { padding-left: 40px;}
+
+table tr .btn { margin-left: 15px;}
+.text-center .btn[type="submit"] {margin-right: 10px;}
+
 #joinForm .select {
 	margin-bottom: 10px;
-	width: 210px;
+	padding: 0 10px;
+	width: 300px;
 	height: 40px;
 }
 
-#joinForm input{
+/* #joinForm input{
 	width: 210px;
 	height: 40px;
-}
+} */
 
 #joinForm .button {
 	height: 40px;
@@ -126,7 +137,8 @@ td {
 /******************** 약관동의 폼 ********************/
 #checked-all {zoom: 2; position: relative; top: 3px;}
 .terms-checkbox {zoom: 1.5; position: relative; top: 4px;}
-
+.btn {width: 100px;}
+.btn[type="submit"] {margin-right: 10px;}
 
 
 
@@ -149,10 +161,10 @@ td {
 	resize: none;
 }
 
-#checkTerm button {
+/* #checkTerm button {
 	width: 70px;
 	height: 40px;
-}
+} */
 
 #checkTerm .up {
 	font-size: 25px;

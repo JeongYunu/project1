@@ -39,9 +39,9 @@
 			<!-- 컨텐츠 -->
 			<div id="content-wrap">
 			 	<div id="loginForm">
-				<input id="userEmail" type="text" placeholder="이메일을 입력해주세요"> <br> 
-				<input type="password" placeholder="비밀번호를 입력해주세요"> <br>
-				<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/main'">로그인</button>
+				<input class="nomal-input-box" id="userEmail" type="text" placeholder="이메일을 입력해주세요"> <br> 
+				<input class="nomal-input-box" type="password" placeholder="비밀번호를 입력해주세요"> <br>
+				<button class="btn" type="submit" onclick="location.href='${pageContext.request.contextPath }/main'">로그인</button>
 				<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">메인으로</button>
 				<br>
 

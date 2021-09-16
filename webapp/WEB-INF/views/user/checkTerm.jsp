@@ -10,8 +10,56 @@
 <link href="${ pageContext.request.contextPath }/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/common.css" rel="stylesheet" type="text/css">
 <link href="${ pageContext.request.contextPath }/assets/css/user.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.12.4.js"></script>
 
-
+<script type="text/javascript">
+$(function(){
+	//약관전체 동의
+	$("#terms-top").on("click", function(){
+		console.log("클릭");
+		if( $("#checked-all").is(":checked") ){
+			$("#terms-checkbox-top").prop("checked", true)
+			$("#terms-checkbox-low").prop("checked", true)
+		}else {
+			$("#terms-checkbox-top").prop("checked", false)
+			$("#terms-checkbox-low").prop("checked", false)
+		};
+	});
+	
+	$("#terms-checkbox-top").on("click", function(){
+		console.log("클릭");
+		if( $("#terms-checkbox-top").is(":checked")==false){
+				console.log("여긴왔지?")
+				$("#checked-all").prop("checked", false)
+		}else {
+			console.log("여기오나?")
+			if( $("#terms-checkbox-low").is(":checked")==true )
+				$("#checked-all").prop("checked", true)
+		};
+	});
+	
+	$("#terms-checkbox-low").on("click", function(){
+		console.log("클릭");
+		if( $("#terms-checkbox-low").is(":checked")==false ){
+				$("#checked-all").prop("checked", false)
+		}else {
+			if( $("#terms-checkbox-top").is(":checked") )
+				$("#checked-all").prop("checked", true)
+		};
+	});
+	// --------------------------------약관
+	
+	//약관 확인버튼
+	$("button[type='submit']").on("click", function(){
+		console.log("전송");
+		if(  $("#terms-checkbox-top").is(":checked")==false | $("#terms-checkbox-low").is(":checked")==false){
+			event.preventDefault();
+			alert("약관에 동의해라마");
+		}
+	});
+	
+});
+</script>
 </head>
 <body>
 
@@ -19,9 +67,6 @@
 
 		<!-- 해더 -->
 		<c:import url="/WEB-INF/views/includes/mainHeaderNav.jsp"></c:import>
-
-
-
 		<!-- container -->
 		<div id="container">
 
@@ -39,18 +84,18 @@
 			<!-- 컨텐츠 -->
 			<div id="content-wrap">
 				<div id="checkTerm">
-
-					<input id="checked-all" type="checkbox" name="" value=""> 
-					<label for="checked-all" class="up text-center">이용약관에 모두 동의합니다.</label>
-
-					<div class="outer">
-						<div class="inner">
-							<div class="left">
-								<div class="in">
-									<input class="terms-checkbox" type="checkbox">
-									<label for="terms-checkbox">이용약관 동의<span class="orange">(필수)</span></label> <br>
-								</div>
-								<textarea readonly>제1조(목적) 이 약관은 업체 회사(전자상거래 사업자)가 운영하는 업체 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+					<form action="${ pageContext.request.contextPath }/user/joinForm" method="get">
+						<div id="terms-top">
+							<input id="checked-all" type="checkbox" name="" value=""> 
+							<label for="checked-all" class="up text-center">이용약관에 모두 동의합니다.</label>
+						</div>	
+						<div class="outer">
+							<div class="inner">
+								<div class="left">
+									<div class="in">
+										<input id="terms-checkbox-top" class="terms-checkbox" type="checkbox"> <label for="terms-checkbox-top">이용약관 동의<span class="orange">(필수)</span></label> <br>
+									</div>
+									<textarea readonly>제1조(목적) 이 약관은 업체 회사(전자상거래 사업자)가 운영하는 업체 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
 
                             ※「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다.」
                         
@@ -287,13 +332,12 @@
                         
                             ② “몰”과 이용자 간에 제기된 전자상거래 소송에는 한국법을 적용합니다.
                         </textarea>
-								<br>
+									<br>
 
-								<div class="in">
-									<input class="terms-checkbox" type="checkbox">
-									<label for="terms-checkbox">개인정보 수집 및 이용 동의<span class="orange">(필수)</span> <br></label>
-								</div>
-								<textarea readonly>    개인정보처리방침
+									<div class="in">
+										<input id="terms-checkbox-low" class="terms-checkbox" type="checkbox"> <label for="terms-checkbox-low">개인정보 수집 및 이용 동의<span class="orange">(필수)</span> <br></label>
+									</div>
+									<textarea readonly>    개인정보처리방침
 
         [차례]
         1. 총칙
@@ -430,15 +474,15 @@
         1) 공고일자 : 2018년 05월 01일
         2) 시행일자 : 2018년 05월 01일 
                         </textarea>
-								<br>
+									<br>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div>
-						<button class="btn blue" type="button" onclick="location.href='${pageContext.request.contextPath }/user/joinForm'">확인</button>
-						<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">취소</button>
-					</div>
-
+						<div>
+							<button class="btn" type="submit">확인</button>
+							<button class="btn" type="button" onclick="location.href='${pageContext.request.contextPath }/main'">취소</button>
+						</div>
+					</form>
 
 				</div>
 			</div>

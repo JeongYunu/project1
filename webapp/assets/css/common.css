@@ -32,6 +32,9 @@ input[type="text"] {padding: 0 10px; height: 40px;}
 input[type="password"] {padding: 0 10px; height: 40px;}
 textarea{padding: 0 10px;}
 
+/* 번외 */
+.nomal-input-box { height: 40px; width: 300px; padding: 0 10px;}
+
 
 /* font *(기본값 12px) */
 .bold {font-weight: bold; }
@@ -44,9 +47,11 @@ textarea{padding: 0 10px;}
 .text-center {text-align: center !important;}
 
 .btn { border: none; outline: 0; background-color: #ff6001; color: #fff; height: 40px;}
-.btn:hover { border: none; color: #fff;}
+.btn:hover { border: none; color: #fff; background-color: #319cf8;}
+/* 
 .btn:active { border: none; background-color: #ff6001;  outline: 0;}
 .btn:focus { border: none; background-color: #ff6001;  outline: 0 none;} 
+ */
 /*누르고있을때 라인생기는거 어캐없앰 */
 
 /* 위치 */
@@ -116,7 +121,7 @@ textarea{padding: 0 10px;}
 #container #page-title-wrap ul > li.last:after {content: ""; margin: 0px 0px 0px 5px;}
 
 /* container > 본문 하단 컨텐츠영역 */
-#container #content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 10px 0px;}
+#container #content-wrap {width: 1200px; margin: 0px auto; padding: 30px 0px 0px 0px;}
 
 /************* //본문(왼쪽 메뉴 없을때) **********************************************************************/
 
