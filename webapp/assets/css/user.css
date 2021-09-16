@@ -69,10 +69,6 @@ td {
 	text-align: center;
 }
 
-#loginForm h2 {
-	text-align: center;
-}
-
 #loginForm button {
 	margin: 10px 0;
 	height: 40px;
@@ -141,10 +137,6 @@ td {
 	height: 12px !important;
 }
 
-#checkTerm div {
-	text-align: center;
-}
-
 #checkTerm textarea {
 	margin-top: 5px;
 	height: 100px;
@@ -160,10 +152,6 @@ td {
 #checkTerm .up {
 	text-align: center;
 	font-size: 25px;
-}
-
-#checkTerm .outer {
-	text-align: center;
 }
 
 #checkTerm .inner {
@@ -213,10 +201,6 @@ td {
 }
 
 /******************** 수정 폼 ********************/
-#modifyForm .out {
-	text-align: center;
-}
-
 #modifyForm span {
 	font-weight: bold;
 }
@@ -232,10 +216,6 @@ td {
 }
 
 /******************** 가게등록 폼 ********************/
-#addshop wrap2 {
-	text-align: left;
-}
-
 #addShop button {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -243,7 +223,6 @@ td {
 }
 
 #addShop .button {
-	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -271,10 +250,6 @@ td {
 }
 
 /******************** 리뷰 폼 ********************/
-#review wrap2 {
-	text-align: left;
-}
-
 #review img {
 	height: 70px;
 	width: 70px;
@@ -285,10 +260,6 @@ td {
 #review span {
 	float: right;
 	position: relative;
-}
-
-#review a {
-	text-decoration: none;
 }
 
 #review .paging {
