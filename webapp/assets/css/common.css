@@ -46,7 +46,7 @@ textarea{padding: 0 10px;}
 .text-left {text-align: left !important;}
 .text-center {text-align: center !important;}
 
-.btn { border: none; outline: 0; background-color: #ff6001; color: #fff; height: 40px;}
+.btn { border: none; outline: 0; background-color: #ff6001; color: #fff; height: 40px; width: 100px;}
 .btn:hover { border: none; color: #fff; background-color: #319cf8;}
 /* 
 .btn:active { border: none; background-color: #ff6001;  outline: 0;}
