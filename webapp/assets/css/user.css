@@ -217,7 +217,14 @@ table tr .btn { margin-left: 15px;}
 }
 
 /******************** 수정 폼 ********************/
-#modifyForm span {
+#modify-form { position: relative; top: 0; left: -100px; margin: 20px 0 0 0;}
+#modify-form .btn { position: relative; top: 0; left: 100px; margin: 20px 0 0 0;}
+#modify-form div { padding: 10px 0;}
+#modify-form div label { width: 200px; text-align: left;}
+
+
+
+/* #modifyForm span {
 	font-weight: bold;
 }
 
@@ -229,7 +236,7 @@ table tr .btn { margin-left: 15px;}
 #modifyForm .select {
 	width: 210px;
 	height: 40px;
-}
+} */
 
 /******************** 가게등록 폼 ********************/
 #addShop button {
