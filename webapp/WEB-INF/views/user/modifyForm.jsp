@@ -13,9 +13,13 @@
 
 <script type="text/javascript" src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.12.4.js"></script>
 <script type="text/javascript">
+
 $(function(){
+$("#password-check-msg-red").hide();
+$("#password-check-msg-green").hide();
+
 	//비번수정시도
-	$("#modify-user-password").on("click" function(){
+	$("#modify-user-password").on("click", function(){
 		console.log("비번수정");
 		//비번확인을 숨기고픈데 어케짜지?
 	})
@@ -59,50 +63,55 @@ $(function(){
 					<!-- //페이지타이틀 -->
 
 					<!-- 컨텐츠 -->
-					<div id="content-wrap" class="padding_0px">
+					<div id="content-wrap">
 						<!-- <div id="modifyForm">
 							<div class="out">
 								<div class="wrap2"> -->
 						<form id="modify-form" class="text-center">
-							<div>
-								<label for="user-email">이메일</label>
-								<input id="user-email" class="nomal-input-box" type="text" name="" value="" disabled>
+							<div id="modify-form-wrap">
+								<div>
+									<label for="user-email">이메일</label>
+									<input id="user-email" class="nomal-input-box" type="text" name="" value="" disabled>
+								</div>
+								<div id="modify-user-password">	
+									<label for="user-password">비밀번호</label>
+									<input id="user-password" class="nomal-input-box" type="password" name="" value="12345">
+								</div>
+								<div id="modify-user-password-check">
+									<label for="user-password-check">비밀번호 확인</label>
+									<input id="user-password-check" class="nomal-input-box" type="password" name="" value="">
+									<p id="password-check-msg-red" class="text-left">비밀번호를 확인해주세요</p>
+									<p id="password-check-msg-green" class="text-left">사용가능한 비밀번호 입니다</p>
+								</div>
+								<div>
+									<label for="user-nickName">닉네임</label>
+									<input id="user-nickName" class="nomal-input-box" type="text" name="" value="">
+								</div>
+								<div>	
+									<label for="user-gender">성별</label>
+									<select id="user-gender"  class="nomal-input-box">
+										<option value="male">남자</option>
+										<option value="female">여자</option>
+									</select>
+								</div>
+								<div>	
+									<label for="user-phoneNumber">핸드폰</label>
+									<input id="user-phoneNumber" class="nomal-input-box" type="text" name="" value="">
+								</div>
+								<div>	
+									<label for="user-type">채식타입</label>
+									<select id="user-type" class="nomal-input-box">
+										<option value="">비건</option>
+										<option value="">락토</option>
+										<option value="">오보</option>
+										<option value="">락토오보</option>
+										<option value="">페스코</option>
+										<option value="">잘모르겠어요</option>
+									</select>
+								</div>	
+								<button class="btn" type="submit">수정</button>
 							</div>
-							<div id="modify-user-password">	
-								<label for="user-password">비밀번호</label>
-								<input id="user-password" class="nomal-input-box" type="password" name="" value="12345">
-							</div>
-							<div id="modify-user-password-check">
-								<label for="user-password-check">비밀번호 확인</label>
-								<input id="user-password-check" class="nomal-input-box" type="password" name="" value="">
-							</div>
-							<div>
-								<label for="user-nickName">닉네임</label>
-								<input id="user-nickName" class="nomal-input-box" type="text" name="" value="">
-							</div>
-							<div>	
-								<label for="user-gender">성별</label>
-								<select id="user-gender"  class="nomal-input-box">
-									<option value="male">남자</option>
-									<option value="female">여자</option>
-								</select>
-							</div>
-							<div>	
-								<label for="user-phoneNumber">핸드폰</label>
-								<input id="user-phoneNumber" class="nomal-input-box" type="text" name="" value="">
-							</div>
-							<div>	
-								<label for="user-type">채식타입</label>
-								<select id="user-type" class="nomal-input-box">
-									<option value="">비건</option>
-									<option value="">락토</option>
-									<option value="">오보</option>
-									<option value="">락토오보</option>
-									<option value="">페스코</option>
-									<option value="">잘모르겠어요</option>
-								</select>
-							</div>	
-							<button class="btn" type="submit">수정</button>
+							<!-- //modify-form-wrap -->
 							
 							<%-- 
 							<table>

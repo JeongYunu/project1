@@ -217,10 +217,13 @@ table tr .btn { margin-left: 15px;}
 }
 
 /******************** 수정 폼 ********************/
-#modify-form { position: relative; top: 0; left: -100px; margin: 20px 0 0 0;}
-#modify-form .btn { position: relative; top: 0; left: 100px; margin: 20px 0 0 0;}
-#modify-form div { padding: 10px 0;}
-#modify-form div label { width: 200px; text-align: left;}
+#modify-form-wrap { width: 507px; margin-left: 151px;}
+#modify-form #modify-form-wrap div { padding: 10px 0;}
+#modify-form #modify-form-wrap div label { width: 200px; text-align: left;}
+#modify-form #modify-form-wrap div p {padding-left: 206px;}
+#modify-form #modify-form-wrap div #password-check-msg-red {color: red;}
+#modify-form #modify-form-wrap div #password-check-msg-green {color: green;}
+#modify-form #modify-form-wrap .btn {margin-left: 206px;}
 
 
 
