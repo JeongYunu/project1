@@ -103,13 +103,9 @@
 												</p>
 											</td>
 										</tr>
+										
 										<tr>
-											<td>
-												<p>2019년 5월 10일 ~ 2021 8월 29일(145개)</p>
-											</td>
-										</tr>
-										<tr>
-											<td>
+											<td class="date-i">
 												<input type='date' name='userBirthday' />
 												<span> ~ </span>	
 												<input type='date' name='userBirthday' />
@@ -122,6 +118,14 @@
 												</div>
 											</td>
 										</tr>
+										
+										<tr>
+											<td class="se-re">
+											 	<p><b>2019년 5월 10일 ~ 2021 8월 29일 (145개)</b></p>
+											</td>
+										</tr>
+										
+										
 									</table>
 								</div>
 
