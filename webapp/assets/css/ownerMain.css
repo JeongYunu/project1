@@ -28,6 +28,23 @@
 	text-align: center;
 }
 
+
+
+#wrap2  .button-area{
+	width :100%;
+	
+}
+
+#wrap2 .button-center{
+	
+	margin: 0px 0px 0px 300px;
+}
+
+#wrap2 .button-center2{
+	
+	margin: 0px 0px 0px 440px;
+}
+
 #wrap2  .button-area button {
 	margin-top: 30px;
 	width: 100px;
@@ -52,7 +69,7 @@
 
 
 
-#wrap2 .s-listpo #shop {
+#wrap2  #shop {
 	width: 200px;
 	height: 30px;
 	text-align: left;
@@ -84,6 +101,7 @@
 
 #wrap2  input {
 	margin: 10px, 15px, 10px, 15px;
+	
 }
 
 /*****************테이블 정리******************/
