@@ -43,24 +43,21 @@
 				<div id="main">
 					<!-- 페이지타이틀 -->
 					<div id="page-title-wrap" class="clearfix">
-						<h3 id="page-title">랭킹</h3>
+						<h3 id="page-title">메뉴관리</h3>
 
 						<ul class="clearfix text-center">
 							<li><a href="">홈</a></li>
-							<li><a href="">마이페이지</a></li>
-							<li class="last"><a href="">랭킹</a></li>
+							<li><a href="${pageContext.request.contextPath}/owners/NownerPage">가게관리</a></li>
+							<li class="last"><a href="${pageContext.request.contextPath}/owners/NownerMlist">메뉴</a></li>
 						</ul>
 					</div>
 					<!-- //페이지타이틀 -->
 
 					<!-- 컨텐츠 -->
 					<div id="content-wrap">
-						여기에 컨텐츠 작성할것
+					
 						<div id="wrap2">
-							<div class="head2">
-								<h2>메뉴관리</h2>
-							</div>
-							<hr>
+							
 							<div class="head2">
 								<div class="s-listpo">
 									<select id="shop" name="shop">
