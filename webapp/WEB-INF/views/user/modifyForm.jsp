@@ -66,6 +66,51 @@ $("#password-check-msg-green").hide();
 					<div id="content-wrap">
 						<!-- <div id="modifyForm">
 							<div class="out">
+								<div class="wrap2">
+									<form  action="" method="get">
+										<table>
+											<tr>
+												<td class="bold">이메일</td>
+												<td><input type="text" value="UserEmail" readonly></td>
+											</tr>
+											<tr>
+												<td class="bold">비밀번호</td>
+												<td><input type="text" name="password" value="UserPassword" placeholder="비밀번호를 입력해주세요"></td>
+											</tr>
+											<tr>
+												<td class="bold">닉네임</td>
+												<td><input type="text" name="nickname" value="UserNickName" placeholder="닉네임을 입력해주세요"></td>
+											</tr>
+											<tr>
+												<td class="bold">성별</td>
+												<td><select class="select" name="gender">
+														<option value="" selected disabled>선택</option>
+														<option value="male">남자</option>
+														<option value="female">여자</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td class="bold">핸드폰</td>
+												<td><input type="text" name="ph" value="UserPhoneNumber" placeholder="핸드폰 번호를 입력해주세요"></td>
+											</tr>
+											<tr>
+												<td class="bold">채식타입</td>
+												<td><select class="select" name="type">
+														<option value="" selected disabled>선택</option>
+														<option value="vegan">비건</option>
+														<option value="lacto">락토</option>
+														<option value="ovo">오보</option>
+														<option value="lacto-ovo">락토-오보</option>
+														<option value="pesco">페스코</option>
+														<option value="idk">잘모르겠어요</option>
+												</select></td>
+											</tr>
+										</table>
+										<div id="button_center">
+											<button class="btn blue" type="submit">수정</button>
+										</div>
+									</form>
+								</div>
 								<div class="wrap2"> -->
 						<form id="modify-form" class="text-center">
 							<div id="modify-form-wrap">

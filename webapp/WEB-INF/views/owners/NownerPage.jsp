@@ -323,7 +323,7 @@
 										</td>
 									</tr>
 								</table>
-								<div class="button-area s-listpo">
+								<div class="button-area button-center ">
 									<button>취소</button>
 									<span class="orange">
 										<button>저장</button>

@@ -65,14 +65,14 @@
 
 
 							<div class="head2">
-								<div class="s-listpo">
-									<select id="shop" name="shop">
-										<option value="shop1">샐러디 낙성대점</option>
-										<option value="shop2">샐러디 신림점</option>
-										<option value="shop3">샐러디 봉천점</option>
-										<option value="shop-add">+매장추가+</option>
-									</select>
-								</div>
+
+								<select id="shop" name="shop">
+									<option value="shop1">샐러디 낙성대점</option>
+									<option value="shop2">샐러디 신림점</option>
+									<option value="shop3">샐러디 봉천점</option>
+									<option value="shop-add">+매장추가+</option>
+								</select>
+
 							</div>
 
 							<h3>샐러디 낙성대점</h3>
@@ -116,14 +116,33 @@
 
 
 									<tr>
-										<td>
+										<td class="bnone">
 											<label for="m-type"><b>채식 종류</b></label>
 										</td>
-										<td>
+										<td class="bnone">
 											<input type="text" id="menuType" name="m-type">
 											<span class="button-area orange">
 												<button type="button" id="vegan-select">잘모르겠어요</button>
 											</span>
+										</td>
+									</tr>
+									<tr>
+										<td class="bnone"></td>
+										<td class="bnone">
+											<div id="gray">
+												<p>*포함된 재료별로 메뉴의 채식종류를 설정합니다.</p>
+												<p>채식종류에 대해 잘 모른다면 우측 '잘 모르겠어요' 버튼을 클릭해주세요!</p>
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td>
+											<div id="gray">
+												<a href= "https://ko.wikipedia.org/wiki/%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98#%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98%EC%9E%90%EC%9D%98_%EB%B6%84%EB%A5%98">ⓘ채식을 더 알고싶다면?</a>
+												
+											</div>
 										</td>
 									</tr>
 
@@ -152,7 +171,7 @@
 
 
 								</table>
-								<div class="button-area s-listpo">
+								<div class="button-area button-center">
 									<button>취소</button>
 									<span class="orange">
 										<button>저장</button>

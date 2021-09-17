@@ -143,7 +143,7 @@
 								</tbody>
 							</table>
 							</div>
-							<div class="button-area m-listpo">
+							<div class="button-area button-center2">
 
 								<span class="orange">
 									<button>메뉴 추가</button>
