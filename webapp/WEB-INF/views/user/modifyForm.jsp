@@ -48,7 +48,7 @@
 						<div id="modifyForm">
 							<div class="out">
 								<div class="wrap2">
-									<form>
+									<form  action="" method="get">
 										<table>
 											<tr>
 												<td class="bold">이메일</td>
@@ -88,7 +88,7 @@
 											</tr>
 										</table>
 										<div id="button_center">
-											<button class="btn blue" type="submit" onclick="location.href='${pageContext.request.contextPath }/main'">수정</button>
+											<button class="btn blue" type="submit">수정</button>
 										</div>
 									</form>
 								</div>
