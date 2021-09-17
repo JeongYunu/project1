@@ -120,7 +120,13 @@
 											<label for="m-type"><b>채식 종류</b></label>
 										</td>
 										<td class="bnone">
-											<input type="text" id="menuType" name="m-type">
+											<select id="b-optin" name="b-optin">
+												<option value="pesco">페스코</option>
+												<option value="rak-ob">락토-오보</option>
+												<option value="rak">락토</option>
+												<option value="ob">오보</option>
+												<option value="baeg">비건</option>
+											</select>
 											<span class="button-area orange">
 												<button type="button" id="vegan-select">잘모르겠어요</button>
 											</span>

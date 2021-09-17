@@ -148,7 +148,7 @@
 										<td>
 											<b>영업시간</b>
 										</td>
-										<td>
+										<td class="time-S">
 											<select id="son-h-f" name="son-h-f">
 												<option value="00">00</option>
 												<option value="01">01</option>
@@ -294,7 +294,7 @@
  											<b>플랫폼 링크</b>
 										</td>
 
-										<td class="bnone">
+										<td class="bnone p-width">
 											<img alt="유튜브"
 												src="${ pageContext.request.contextPath }/assets/imges/유튜브아이콘.png"
 											>
