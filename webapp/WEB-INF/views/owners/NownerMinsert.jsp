@@ -48,18 +48,22 @@
 
 						<ul class="clearfix text-center">
 							<li><a href="">홈</a></li>
-							<li><a href="">마이페이지</a></li>
-							<li class="last"><a href="">랭킹</a></li>
+							<li><a
+								href="${pageContext.request.contextPath}/owners/NownerPage"
+							>가게관리</a></li>
+							<li class="last"><a
+								href="${pageContext.request.contextPath}/owners/NownerMlist"
+							>메뉴</a></li>
 						</ul>
 					</div>
 					<!-- //페이지타이틀 -->
 
 					<!-- 컨텐츠 -->
 					<div id="content-wrap">
-						
+
 						<div id="wrap2">
-							
-							
+
+
 							<div class="head2">
 								<div class="s-listpo">
 									<select id="shop" name="shop">
@@ -117,15 +121,17 @@
 										</td>
 										<td>
 											<input type="text" id="menuType" name="m-type">
-											<button type="button" id="vegan-select">잘모르겠어요</button>
+											<span class="button-area orange">
+												<button type="button" id="vegan-select">잘모르겠어요</button>
+											</span>
 										</td>
 									</tr>
 
 									<tr>
-										<td>
+										<td class="bnone">
 											<b>메뉴 소개</b>
 										</td>
-										<td>
+										<td class="bnone">
 											<textarea class="textarea-size" rows="" cols=""></textarea>
 										</td>
 
@@ -133,8 +139,8 @@
 
 									</tr>
 									<tr>
-										<td></td>
-										<td>
+										<td class="bnone"></td>
+										<td class="bnone">
 											<div id="gray">
 												<p>*재료에 민감한 채식 고객을 위해 상세 재료입력은 필수입니다. 포함재료를 상세히 입력
 													부탁드립니다!</p>
@@ -152,8 +158,6 @@
 										<button>저장</button>
 									</span>
 								</div>
-
-
 							</form>
 						</div>
 

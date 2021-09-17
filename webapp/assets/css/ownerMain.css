@@ -3,23 +3,28 @@
 #wrap2 {
 	width: 1000px;
 	padding: 0px 0px 0px 28px;
-	
 }
 
-#wrap2 .head2 {
-	margin-right: 400px;
+#wrap2 h3{
+	padding: 30px 0px 0px 0px;
 }
+
 
 .main-table td {
-	padding: 30px 0px 0px 0px;
-	width: 210px
+	padding: 30px 0px 15px 0px;
+	width: 370px;
+	border-bottom: 1px solid #ccc;
+}
+
+.main-table .bnone{
+	border: none;
 }
 
 .chkh {
 	height: 12px;
 }
 
-#wrap2 .button-area {
+#wrap2 .c {
 	text-align: center;
 }
 
@@ -33,11 +38,19 @@
 	outline: 0;
 }
 
+#wrap2   .orange button {
+	background-color: #ff6001;
+	color: white;
+	display: inline-block;
+}
+
 #wrap2  .button-area .orange button {
 	background-color: #ff6001;
 	color: white;
 	display: inline-block;
 }
+
+
 
 #wrap2 .s-listpo #shop {
 	width: 200px;
@@ -73,23 +86,20 @@
 	margin: 10px, 15px, 10px, 15px;
 }
 
-
-
 /*****************테이블 정리******************/
+/*****************메뉴 리스트******************/
 #wrap2 table.type01 {
 	border-collapse: collapse;
 	text-align: center;
 	line-height: 1.5;
 	margin: 20px 10px;
-	width: 600px;
 	table-layout: fixed;
 	display: inline-block;
-
 }
 
 #wrap2 table.type01 th {
-	width: 100px;
-	height: 80px;
+	width: 300px;
+	height: 50px;
 	padding: 10px;
 	font-weight: bold;
 	vertical-align: middle;
@@ -98,38 +108,35 @@
 }
 
 #wrap2 table.type01 td {
-	width: 100px;
-	height: 60px;
+	width: 300px;
+	height: 65px;
 	padding: 10px;
 	vertical-align: middle;
 	border: 1px solid #ccc;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-	word-break: keep-all
+	word-break: keep-all;
 }
 
+#wrap2 table.type01 caption {
+	text-align: center;
+	font-size: 20px;
+}
 
-
-/******************************************/
-
-
-
-
+/*******************별점 댓글수 하트수**********************/
 #wrap2 table.type02 {
 	border-collapse: collapse;
 	text-align: center;
 	line-height: 1.5;
 	margin: 20px 10px;
-	
 	table-layout: fixed;
 	display: inline-block;
-
 }
 
 #wrap2 table.type02 th {
-	width: 100px;
-	height: 80px;
+	width: 300px;
+	height: 30px;
 	padding: 10px;
 	font-weight: bold;
 	vertical-align: middle;
@@ -138,18 +145,63 @@
 }
 
 #wrap2 table.type02 td {
-	width: 100px;
-	height: 60px;
+	width: 300px;
+	height: 100px;
 	padding: 10px;
 	vertical-align: middle;
 	border: 1px solid #ccc;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+	word-break: keep-all;
+	font-size: 30px
+}
+
+#wrap2 table.type02 caption {
+	text-align: center;
+}
+
+#wrap2 table.type03 {
+	border-collapse: collapse;
+	text-align: center;
+	line-height: 1.5;
+	margin: 20px 10px;
+	table-layout: fixed;
+	display: inline-block;
+}
+
+#wrap2 table.type03 th {
+	width: 300px;
+	height: 70px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#wrap2 table.type03 td {
+	width: 100px;
+	height: 60px;
+	padding: 10px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 	word-break: keep-all
 }
 
-.table-c{
-	
+#wrap2 table.type03 caption {
 	text-align: center;
+	font-size: 20px;
+	font-size: 20px;
+}
+
+.table-c {
+	text-align: center;
+    
+}
+
+new-center
+{
+	margin-left: 400px; 
 }

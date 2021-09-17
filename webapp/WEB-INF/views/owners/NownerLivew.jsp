@@ -48,8 +48,8 @@
 
 						<ul class="clearfix text-center">
 							<li><a href="">홈</a></li>
-							<li><a href="">마이페이지</a></li>
-							<li class="last"><a href="">랭킹</a></li>
+							<li><a href="${pageContext.request.contextPath}/owners/NownerPage">가게관리</a></li>
+							<li class="last"><a href="${pageContext.request.contextPath}/owners/NownerLivew">리뷰</a></li>
 						</ul>
 					</div>
 					<!-- //페이지타이틀 -->
@@ -59,7 +59,7 @@
 
 						<div id="wrap2">
 
-							<div class="head2">
+
 								<div class="s-listpo">
 									<select id="shop" name="shop">
 										<option value="shop1">샐러디 낙성대점</option>
@@ -68,19 +68,19 @@
 										<option value="shop-add">+매장추가+</option>
 									</select>
 								</div>
-							</div>
+							
 							<div class="s-listpo">
 								<h3>샐러디 낙성대점</h3>
 							</div>
 
 							<div class="table-c">
-								
+								<div>
 									<table class="type02">
 										<tr>
-											<td>별점</td>
-											<td>댓글수</td>
-											<td>찜하기수</td>
-										
+											<th>별점</th>
+											<th>댓글수</th>
+											<th>찜하기수</th>
+
 										</tr>
 
 										<tr>
@@ -91,25 +91,43 @@
 										</tr>
 
 									</table>
-								
-
-								<div class="contetnt">
-
-									<div class="s-listpo">
-										<p>
-											<b>리뷰 기간 검색</b>
-										</p>
-										<p>2019년 5월 10일 ~ 2021 8월 29일(145개)</p>
-										<input type='date' name='userBirthday' />
-
-										<input type='date' name='userBirthday' />
-										<button>검색</button>
-									</div>
 
 								</div>
-								<div class="s-listpo">
+
+								<div>
+									<table class="type03">
+										<tr>
+											<td>
+												<p>
+													<b>리뷰 기간 검색</b>
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>2019년 5월 10일 ~ 2021 8월 29일(145개)</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type='date' name='userBirthday' />
+												<span> ~ </span>	
+												<input type='date' name='userBirthday' />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="button-area orange">
+													<button>검색</button>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+
+								<div>
 									<table class="type01">
-										<caption style="text-align: center">
+										<caption>
 											<b>댓글 리스트</b>
 										</caption>
 										<thead>

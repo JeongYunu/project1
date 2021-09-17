@@ -43,12 +43,12 @@
 				<div id="main">
 					<!-- 페이지타이틀 -->
 					<div id="page-title-wrap" class="clearfix">
-						<h3 id="page-title">랭킹</h3>
+						<h3 id="page-title">기본정보</h3>
 
 						<ul class="clearfix text-center">
 							<li><a href="">홈</a></li>
-							<li><a href="">마이페이지</a></li>
-							<li class="last"><a href="">랭킹</a></li>
+							<li><a href="${pageContext.request.contextPath}/owners/NownerPage">가게관리</a></li>
+							<li class="last"><a href="${pageContext.request.contextPath}/owners/NownerPage">가게</a></li>
 						</ul>
 					</div>
 					<!-- //페이지타이틀 -->
@@ -91,6 +91,7 @@
 											<input type="file">
 
 										</td>
+										
 
 									</tr>
 
@@ -122,14 +123,16 @@
 										</td>
 									<tr>
 									<tr>
-										<td>
+										<td class="bnone">
 											<label for="s-addres"><b>주소</b></label>
 										</td>
-										<td>
+										<td class="bnone">
 											<input type="text" id="shopAddres" name="s-addres">
-											<button type="submit">
+											<span class="button-area">
+											<button  type="submit">
 												<b>주소찾기</b>
 											</button>
+											</span>
 										</td>
 									</tr>
 
@@ -287,22 +290,23 @@
 									</tr>
 
 									<tr>
-										<td>
-											<b>플랫폼 링크</b>
+										<td class="bnone" >
+ 											<b>플랫폼 링크</b>
 										</td>
 
-										<td>
+										<td class="bnone">
 											<img alt="유튜브"
 												src="${ pageContext.request.contextPath }/assets/imges/유튜브아이콘.png"
 											>
 											<input type="text" id="youtube" name="l-youtube">
+										
 										</td>
 									</tr>
 
 									<tr>
 
-										<td></td>
-										<td>
+										<td class="bnone"></td>
+										<td class="bnone">
 											<img alt="트위치"
 												src="${ pageContext.request.contextPath }/assets/imges/트위터아이콘.png"
 											>
@@ -310,8 +314,8 @@
 										</td>
 									</tr>
 									<tr>
-										<td></td>
-										<td>
+										<td class="bnone"> </td>
+										<td class="bnone">
 											<img alt="인스타"
 												src="${ pageContext.request.contextPath }/assets/imges/인스타아이콘.png"
 											>
